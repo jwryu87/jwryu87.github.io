@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-준비중......?
+Fantasio 블로그.. 준비중
