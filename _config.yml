@@ -19,3 +19,10 @@ author:
 # Custom vars
 version:             1.1.0
 google_analytics_id: #UA-XXXX-Y
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
