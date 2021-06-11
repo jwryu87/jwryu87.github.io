@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Blog start with Jekyll
 categories: jekyll
 tags: jekyll
