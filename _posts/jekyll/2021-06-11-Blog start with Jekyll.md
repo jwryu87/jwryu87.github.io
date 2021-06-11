@@ -1,6 +1,7 @@
 ---
-layout: page
+layout: post
 title: Blog start with Jekyll
+date: 2021-06-11
 categories: jekyll
 tags: jekyll
 ---
