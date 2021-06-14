@@ -13,13 +13,12 @@ markdown: kramdown # 크렘다운 퀵 가이드 - https://kramdown.gettalong.org
 kramdown:
   input: GFM
 excerpt_separator: "<!-- more -->"
-#sass:
-#  style: compressed
-#  sass_dir: _scss
+sass:
+  style: compressed
+  sass_dir: _scss
 paginate: 5
-#paginate_path: '/blog/page:num'
-#permalink: pretty
-#permal
+paginate_path: '/blog/page:num'
+permalink: pretty
 ink: pretty
 version: 1.0.0
 
@@ -41,7 +40,7 @@ nav:
     - '/'
   Blog:
     - '/blog/'
-    # - { Categories: '/blog/categories/' }
+    - { Categories: '/blog/categories/' }
     - { Tags: '/blog/tags/' }
   About:
     - '/about/'
@@ -54,17 +53,13 @@ nav:
 tag_page: '/blog/tags/'
 category_page: '/blog/categories/'
 
-#hero:
-#  image: /public/img/we_will_be_giants_by_yalestewart.jpg
-#  caption: Original Artwork &copy; <a href="http://yalestewart.deviantart.com/art/We-Will-Be-Giants-370176475">Yale Stewart</a>
-
 # Puglins
 #mathjax: true # whether support mathjax
 #google_analytics_token: 'UA-00000000-1' # leave blank if you don't want google analytics
 #disqus_short_name: 'wkimdev-gitblog' # leave blank if you don't want disqus
 
 # Custom vars
-google_analytics_id: #UA-XXXX-Y
+#google_analytics_id: #UA-XXXX-Y
 
 category_archive:
   type: liquid
