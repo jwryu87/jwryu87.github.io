@@ -38,6 +38,7 @@ permalink: /bookmark/
 ###### [Gmail](https://mail.google.com/mail/u/0/){: target="_blank"}  |  [Calendar](https://calendar.naver.com){: target="_blank"}  |  [Youtube](https://www.youtube.com/){: target="_blank"} |  [은평도서](https://www.eplib.or.kr/){: target="_blank"}  |  [블라인드](https://www.teamblind.com/kr/){: target="_blank"}  |  [Study&Cafe](https://www.youtube.com/watch?v=C5bOu0OL6Ec){: target="_blank"}  |  [매일경제](https://www.mk.co.kr/news/){: target="_blank"}  |  [카카오페이지](https://page.kakao.com/main){: target="_blank"}  |  [투이컨설팅blog](http://www.2e.co.kr/){: target="_blank"}  |  [YoutubeMusic](https://music.youtube.com/){: target="_blank"}  |  [구글포토](https://photos.google.com/){: target="_blank"}
 
 
-... which is shown in the screenshot below:
+자주보는 화면이라.. 사진 보고 기분전환겸..    
+
 ![My helpful screenshot]({{ site.url }}/assets/singa.jpg)
 
