@@ -41,12 +41,14 @@ nav:
     - '/'
   Blog:
     - '/blog/'
-#    - { Categories: '/blog/categories/' }
+    # - { Categories: '/blog/categories/' }
     - { Tags: '/blog/tags/' }
   About:
     - '/about/'
     # Github Project:
     # - 'http://jwryu87.github.io/'
+  Search:
+    - '/search/'
 
 # Where are tags and categories displayed
 tag_page: '/blog/tags/'
