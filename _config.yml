@@ -55,7 +55,7 @@ category_page: '/categories/'
 # Puglins
 #mathjax: true # whether support mathjax
 #google_analytics_token: 'UA-00000000-1' # leave blank if you don't want google analytics
-disqus_short_name: 'jwryu87.github.io' # leave blank if you don't want disqus
+disqus_short_name: 'jwryu87-github-io' # leave blank if you don't want disqus
 
 # Custom vars
 #google_analytics_id: #UA-XXXX-Y
