@@ -38,10 +38,10 @@ author:
 nav:
   Home:
     - '/'
-  Categories:
-    - '/categories/'
   Tags:
     - '/tags/'
+  Project:
+    - '/project/'
   Archive:
     - '/archive/'
   About:
