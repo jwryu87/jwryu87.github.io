@@ -3,7 +3,7 @@ layout: post
 title: Blog start with Jekyll
 date: 2021-06-11
 tags: jekyll
-comment: true
+comments: true
 ---
 
 ### 1. Ruby 설치
