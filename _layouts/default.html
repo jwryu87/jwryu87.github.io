@@ -28,4 +28,7 @@
 
     <script src='{{ site.baseurl }}/public/js/script.js'></script>
   </body>
+  {% if site.disqus_short_name %}
+  <script id="dsq-count-scr" src="//{{ site.disqus_short_name }}.disqus.com/count.js" async></script>
+  {% endif %}
 </html>
