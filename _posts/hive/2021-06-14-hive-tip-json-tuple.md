@@ -1,7 +1,7 @@
 ---
 layout: post
 title: (hive) json_tuple 함수
-date: 2021-06-02
+date: 2021-06-14 17:00:00
 tags: hive
 comments: true
 ---

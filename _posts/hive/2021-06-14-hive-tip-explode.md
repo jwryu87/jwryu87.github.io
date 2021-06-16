@@ -1,7 +1,7 @@
 ---
 layout: post
 title: (hive) explode 함수
-date: 2021-06-02
+date: 2021-06-14 16:00:00
 tags: hive
 comments: true
 ---
