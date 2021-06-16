@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Blog start with Jekyll
-date: 2021-06-11
+date: 2021-06-11 16:00 +09:00
 tags: jekyll
 comments: true
 ---
