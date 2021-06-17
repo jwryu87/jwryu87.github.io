@@ -40,8 +40,10 @@ nav:
     - '/'
   Tags:
     - '/tags/'
-  Project:
-    - '/project/'
+#  Project:
+#    - '/project/'
+  Review:
+    - '/review/'
   Archive:
     - '/archive/'
   About:
