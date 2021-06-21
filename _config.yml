@@ -4,7 +4,7 @@ tagline: 'Fantasio'
 description: 'Thinking by doing'
 baseurl: ''
 url: http://jwryu87.github.io
-logo: '/public/facebook-logo.png'
+logo: '/public/fatnasio-logo.png'
 
 # Site configurations
 plugins:
@@ -42,8 +42,8 @@ nav:
     - '/tags/'
 #  Project:
 #    - '/project/'
-  Review:
-    - '/review/'
+#  Review:
+#    - '/review/'
   Archive:
     - '/archive/'
   Work:

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: (hive) 맵리듀스를 사용하지 않고 로컬에서 동작하도 설정
+title: (hive) 맵리듀스를 사용하지 않고 로컬에서 동작하도록 설정
 date: 2021-06-16 12:00:00 +09:00
 tags: hive
 comments: true
