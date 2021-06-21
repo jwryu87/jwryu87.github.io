@@ -46,13 +46,17 @@ nav:
     - '/review/'
   Archive:
     - '/archive/'
+  Work:
+    - '/work/'
+    - { MyData: '/work/mydata/' }
+    - { SODAR: '/work/sodar/' }
+    - { Bookmark: '/work/bookmark/' }
   About:
     - '/about/'
 
 
 # Where are tags and categories displayed
-tag_page: '//tags/'
-category_page: '/categories/'
+tag_page: '/tags/'
 
 # Puglins
 #mathjax: true # whether support mathjax

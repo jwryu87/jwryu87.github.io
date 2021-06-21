@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Bookmark
-permalink: /bookmark/
+permalink: /work/bookmark/
 ---
 
 ## Company
