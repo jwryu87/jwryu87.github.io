@@ -1,18 +1,15 @@
-# Setup
 title: Keep going..
-tagline: 'Fantasio'
-description: 'Thinking by doing'
-baseurl: ''
-url: http://jwryu87.github.io
-logo: '/public/fatnasio-logo.png'
-
-# Site configurations
+tagline: Fantasio
+description: Thinking by doing
+baseurl: 'http://jwryu87.github.io'
+url: 'http://jwryu87.github.io'
+logo: /public/fatnasio-logo.png
 plugins:
   - jekyll-paginate
-markdown: kramdown # 크렘다운 퀵 가이드 - https://kramdown.gettalong.org/quickref.html
+markdown: kramdown
 kramdown:
   input: GFM
-excerpt_separator: "<!-- more -->"
+excerpt_separator: <!-- more -->
 sass:
   style: compressed
   sass_dir: _scss
@@ -21,51 +18,30 @@ paginate_path: '/blog/page:num'
 permalink: pretty
 ink: pretty
 version: 1.0.0
-
-# About/contact
 author:
   name: Fantasio
-  description: A passionate <strong>developer and researcher</strong>, learning to be a giant.
+  description: >-
+    A passionate <strong>developer and researcher</strong>, learning to be a
+    giant.
   contact:
-    # linkedin:  https://www.linkedin.com/in/jwryu87
-    github: https://github.com/jwryu87
-    # facebook: <hide>
-    # twitter: https://twitter.com/fantasio
-    # weibo: http://weibo.com/41173xxx
+    github: 'https://github.com/jwryu87'
     email: jwryu87@gmail.com
-
-# Navigation (2nd level links supported)
 nav:
   Home:
-    - '/'
+    - /
   Tags:
-    - '/tags/'
-#  Project:
-#    - '/project/'
-#  Review:
-#    - '/review/'
+    - /tags/
   Archive:
-    - '/archive/'
+    - /archive/
   Work:
-    - '/work/'
-    - { MyData: '/work/mydata/' }
-    - { SODAR: '/work/sodar/' }
-    - { Bookmark: '/work/bookmark/' }
+    - /work/
+    - MyData: /work/mydata/
+    - SODAR: /work/sodar/
+    - Bookmark: /work/bookmark/
   About:
-    - '/about/'
-
-
-# Where are tags and categories displayed
-tag_page: '/tags/'
-
-# Puglins
-#mathjax: true # whether support mathjax
-#google_analytics_token: 'UA-00000000-1' # leave blank if you don't want google analytics
-disqus_short_name: 'jwryu87-github-io' # leave blank if you don't want disqus
-
-# Custom vars
-#google_analytics_id: #UA-XXXX-Y
-
+    - /about/
+tag_page: /tags/
+disqus_short_name: jwryu87-github-io
 category_archive:
   type: liquid
   path: /categories/

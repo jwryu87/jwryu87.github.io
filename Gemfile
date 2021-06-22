@@ -32,4 +32,9 @@ group :jekyll_plugins do
   gem "jekyll-paginate"
 end
 
+# jekyll admin 사용 gem
 gem 'jekyll-admin', group: :jekyll_plugins
+
+# RoR을 이용한 회원관리 devise
+gem 'devise'
+gem 'devise-bootstrap-views'
