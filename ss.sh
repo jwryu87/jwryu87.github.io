@@ -1,4 +1,4 @@
 #!/bin/sh
-
+source ~/.zshrc
 bundle install
-jekyll serve
+bundle exec jekyll serve
