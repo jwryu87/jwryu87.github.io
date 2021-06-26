@@ -13,4 +13,4 @@ comments: true
   ![error2]({{ site.url }}/assets/notfound_2.png)
 
 ##  Reference
-- <https://stackoverflow.com/questions/56100280/how-to-fix-error-not-found-error-about-jekyll-in-localhost4000>
+- <https://stackoverflow.com/questions/56100280/how-to-fix-error-not-found-error-about-jekyll-in-localhost4000>{: target="_blank"} 
