@@ -1,7 +1,7 @@
 title: Keep going..
 tagline: Fantasio
 description: Thinking by doing
-baseurl: 'http://jwryu87.github.io'
+#baseurl: 'http://jwryu87.github.io'
 url: 'http://jwryu87.github.io'
 logo: /public/fatnasio-logo.png
 plugins:
