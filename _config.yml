@@ -33,11 +33,11 @@ nav:
     - /tags/
   Archive:
     - /archive/
-  Work:
-    - /work/
-    - MyData: /work/mydata/
-    - SODAR: /work/sodar/
-    - Bookmark: /work/bookmark/
+#  Work:
+#    - /work/
+#    - MyData: /work/mydata/
+#    - SODAR: /work/sodar/
+#    - Bookmark: /work/bookmark/
   About:
     - /about/
 tag_page: /tags/
