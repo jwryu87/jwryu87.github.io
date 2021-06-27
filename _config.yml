@@ -6,6 +6,7 @@ url: 'http://jwryu87.github.io'
 logo: /public/fatnasio-logo.png
 plugins:
   - jekyll-paginate
+  - jekyll-algolia
 markdown: kramdown
 kramdown:
   input: GFM
@@ -48,3 +49,14 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+# algoria search
+search: true
+search_full_content: true
+search_provider: algolia
+algolia:
+  application_id: 6LIMTKXH6D
+  index_name: dev_fantasio
+  files_to_exclude: []
+  nodes_to_index: 'article'
+  search_only_api_key: ee6a9669001a8b38986ec6f51317acf3

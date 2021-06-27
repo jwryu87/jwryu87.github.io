@@ -30,6 +30,7 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
 group :jekyll_plugins do
   gem "jekyll-paginate"
+  gem 'jekyll-algolia', '~> 1.6'
 end
 
 # jekyll admin 사용 gem
@@ -37,3 +38,4 @@ gem 'jekyll-admin', group: :jekyll_plugins
 
 # RoR을 이용한 회원관리 devise
 gem 'devise'
+
