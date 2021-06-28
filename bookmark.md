@@ -4,9 +4,9 @@ title: Bookmark
 permalink: /work/bookmark/
 ---
 
-## Company
+### [Fantasio](https://docs.google.com/spreadsheets/d/1yDYln-okTCJijys8r4rK03Eq4eNVwjXy23WLv563KvU/edit#gid=821932368){: target="_blank"}  
 
-[Fantasio](https://docs.google.com/spreadsheets/d/1yDYln-okTCJijys8r4rK03Eq4eNVwjXy23WLv563KvU/edit#gid=821932368){: target="_blank"}
+## Company
 
 #### skp
 ###### [Pnet](http://pnet.skplanet.com/main/index.aspx){: target="_blank"}  |  [Outlook](https://owa.skplanet.com/owa/#path=/mail){: target="_blank"}  |  [사내지원OneClick](http://supportportal.skplanet.com/main/main.aspx){: target="_blank"}  |  [회의실예약](http://rbspace.skplanet.com/index){: target="_blank"}  |  [근무시간](http://workinghours.skplanet.com/main){: target="_blank"}  |  [팀 캘린더](http://wiki.skplanet.com/display/DE/calendar/a2fc534a-343e-4e6d-84ff-1fc4824d7119?calendarName=DE%20Calendar){: target="_blank"}  |  [근무순환](https://skpcorp-my.sharepoint.com/:x:/g/personal/sugap_rho_skplanet_com/EbHDuNI3UlZImEzqZhOoGHQBpwuTuQh4ADJfh_jdcPcMzw?e=aiQXEU){: target="_blank"}  |  [P-Library](http://p-library.skplanet.com/index.ax){: target="_blank"}  |  [주간회의](http://wiki.skplanet.com/display/DE/Team+Weekly){: target="_blank"}  |  [월간회의](http://wiki.skplanet.com/pages/viewpage.action?pageId=336387897){: target="_blank"}  |  [일일업무일지](http://wiki.skplanet.com/pages/viewpage.action?pageId=338385408){: target="_blank"}  |  [Office365](https://www.office.com/?auth=2&home=1){: target="_blank"}  |  [보안문서해제센터](http://secudoc.skplanet.com){: target="_blank"}  |  [Learning Wold](http://hrd.skplanet.co.kr/index.asp){: target="_blank"}  |  [하나카드](https://www.hanacard.co.kr/){: target="_blank"}
