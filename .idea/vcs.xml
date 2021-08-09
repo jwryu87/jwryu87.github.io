@@ -2,9 +2,9 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/db:migrate" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/g" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/generate" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/routes" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/db:migrate" vcs="" />
+    <mapping directory="$PROJECT_DIR$/g" vcs="" />
+    <mapping directory="$PROJECT_DIR$/generate" vcs="" />
+    <mapping directory="$PROJECT_DIR$/routes" vcs="" />
   </component>
 </project>
