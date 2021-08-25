@@ -26,6 +26,8 @@ permalink: /work/bookmark/
 ###### [Django 강좌](https://www.imagineer.io/courses/101240/lectures/1851490){: target="_blank"}  |  [Django Documents](https://docs.djangoproject.com){: target="_blank"}  |  [부트스트랩](http://bootstrapk.com/){: target="_blank"}  |  [imagineer](https://github.com/imagineer-io){: target="_blank"}
 ###### [Hadoop-Study](https://wikidocs.net/profile/info/book/6965){: target="_blank"}  |  [AWS](https://ap-northeast-2.console.aws.amazon.com/){: target="_blank"}
 
+## Data
+###### [Data On Air](https://dataonair.or.kr/){: target="_blank"}
 
 ## Goal
 #### stock
