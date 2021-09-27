@@ -30,7 +30,12 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
 group :jekyll_plugins do
   gem "jekyll-paginate"
-  gem 'jekyll-algolia', '~> 1.6'
+  gem "jekyll-sitemap"
+  gem "jekyll-gist"
+  gem "jekyll-feed"
+  gem "jemoji"
+  gem "jekyll-include-cache"
+  gem "jekyll-algolia"
 end
 
 # jekyll admin 사용 gem
