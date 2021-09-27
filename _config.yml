@@ -51,7 +51,7 @@ tag_archive:
   path: /tags/
 
 # algoria search
-search: true
+search: false
 search_full_content: true
 search_provider: algolia
 algolia:
