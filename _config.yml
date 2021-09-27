@@ -51,7 +51,7 @@ tag_archive:
   path: /tags/
 
 # algoria search
-search: false
+search: true
 search_full_content: true
 search_provider: algolia
 algolia:
@@ -59,4 +59,4 @@ algolia:
   index_name: dev_fantasio
   files_to_exclude: []
   nodes_to_index: 'article'
-  search_only_api_key: ee6a9669001a8b38986ec6f51317acf3
+  search_only_api_key: cce83ef6dcf675479706d33c06be3ced # ee6a9669001a8b38986ec6f51317acf3
