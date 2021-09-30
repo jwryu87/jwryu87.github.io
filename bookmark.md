@@ -19,33 +19,23 @@ permalink: /work/bookmark/
 #### OCB
 ###### [Next OCB DW](http://wiki.skplanet.com/display/PDWIKIODR){: target="_blank"}
 
-## Study
-#### evernote
-###### [공부](evernote:///view/81714896/s455/09c62bd7-d91b-c03c-8d03-0507b83a9580/c7ae237e-12f2-4447-bc6c-d54ee3e78b4e){: target="_blank"}  |  [미니 프로젝트](evernote:///view/81714896/s455/8e979dee-441c-867a-a2b2-d17722e8f259/d7aee6f4-953c-42b0-b02a-957e97fef6be){: target="_blank"}  |  [Hive Tip](evernote:///view/81714896/s455/442144e6-4b79-9fc5-e270-f6e61268b474/592ee2cc-8e4d-e653-8af3-4ceab813e0a3){: target="_blank"}  |  [[외부강의] 빅데이터 Part2. 하둡 에코시스템 개요](evernote:///view/81714896/s455/818f5123-7644-6ab0-31a4-e2b1705a4255/188ba4e1-b68a-481c-a7f3-d96c42eeb87b){: target="_blank"}  |  [django](evernote:///view/81714896/s455/f935dc17-8ba6-d09f-e3f6-db7fbf93db6e/54715030-b406-4511-99e1-2cc36f87ad81){: target="_blank"}
-#### Django
-###### [Django 강좌](https://www.imagineer.io/courses/101240/lectures/1851490){: target="_blank"}  |  [Django Documents](https://docs.djangoproject.com){: target="_blank"}  |  [부트스트랩](http://bootstrapk.com/){: target="_blank"}  |  [imagineer](https://github.com/imagineer-io){: target="_blank"}
-###### [Hadoop-Study](https://wikidocs.net/profile/info/book/6965){: target="_blank"}  |  [AWS](https://ap-northeast-2.console.aws.amazon.com/){: target="_blank"}
+## Develop
 #### 코딩
 ###### [백준](https://www.acmicpc.net/){: target="_blank"} 
-
-
-## Data
-###### [Data On Air](https://dataonair.or.kr/){: target="_blank"}
-
-## Goal
-#### stock
-###### [Stock](evernote:///view/81714896/s455/e1eaa799-200e-44bd-8eff-c6c490ef0f24/925c4ffe-98b9-4951-9b64-b7e2db8496b6){: target="_blank"}  |  [Finance](https://finance.naver.com/){: target="_blank"}  |  [James Lee](https://blog.naver.com/ionia17){: target="_blank"}  |  [CompanyGuide](http://comp.fnguide.com/){: target="_blank"}
-#### realty
-###### [Realty](evernote:///view/81714896/s455/af44f6d5-eaec-413c-b4c3-a519b3cc3bd5/924a88f9-973e-42be-8951-40ccef3d1559){: target="_blank"}  |  [붇옹산](https://cafe.naver.com/jaegebal){: target="_blank"}  |  [아파트실거래순위](https://www.todayoung.com/area1.html?area_code=){: target="_blank"}  |  [직방](https://www.zigbang.com/home/apt/map){: target="_blank"}  |  [호갱노노](https://hogangnono.com/){: target="_blank"}  |  [네이버부동산](https://land.naver.com/){: target="_blank"}  |  [Gmap](https://www.google.co.kr/maps/){: target="_blank"}  |  [청약홈](https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancListView.do){: target="_blank"}
-
+#### Django
+###### [Django 강좌](https://www.imagineer.io/courses/101240/lectures/1851490){: target="_blank"}  |  [Django Documents](https://docs.djangoproject.com){: target="_blank"}  |  [부트스트랩](http://bootstrapk.com/){: target="_blank"}  |  [imagineer](https://github.com/imagineer-io){: target="_blank"}
+#### hadoop
+###### [Hadoop-Study](https://wikidocs.net/profile/info/book/6965){: target="_blank"}  |  [AWS](https://ap-northeast-2.console.aws.amazon.com/){: target="_blank"}
 
 ## etc
-#### LIFE
 ###### [Gmail](https://mail.google.com/mail/u/0/){: target="_blank"}  |  [Calendar](https://calendar.naver.com){: target="_blank"}  |  [Youtube](https://www.youtube.com/){: target="_blank"} |  [은평도서](https://www.eplib.or.kr/){: target="_blank"}  |  [블라인드](https://www.teamblind.com/kr/){: target="_blank"}  |  [Study&Cafe](https://www.youtube.com/watch?v=C5bOu0OL6Ec){: target="_blank"}  |  [매일경제](https://www.mk.co.kr/news/){: target="_blank"}  |  [카카오페이지](https://page.kakao.com/main){: target="_blank"}  |  [투이컨설팅blog](http://www.2e.co.kr/){: target="_blank"}  |  [YoutubeMusic](https://music.youtube.com/){: target="_blank"}  |  [구글포토](https://photos.google.com/){: target="_blank"}  |  [SPOTVnow](https://www.spotvnow.co.kr/){: target="_blank"}
+###### [Stock](evernote:///view/81714896/s455/e1eaa799-200e-44bd-8eff-c6c490ef0f24/925c4ffe-98b9-4951-9b64-b7e2db8496b6){: target="_blank"}  |  [Finance](https://finance.naver.com/){: target="_blank"}  |  [James Lee](https://blog.naver.com/ionia17){: target="_blank"}  |  [CompanyGuide](http://comp.fnguide.com/){: target="_blank"}
+###### [Realty](evernote:///view/81714896/s455/af44f6d5-eaec-413c-b4c3-a519b3cc3bd5/924a88f9-973e-42be-8951-40ccef3d1559){: target="_blank"}  |  [붇옹산](https://cafe.naver.com/jaegebal){: target="_blank"}  |  [아파트실거래순위](https://www.todayoung.com/area1.html?area_code=){: target="_blank"}  |  [직방](https://www.zigbang.com/home/apt/map){: target="_blank"}  |  [호갱노노](https://hogangnono.com/){: target="_blank"}  |  [네이버부동산](https://land.naver.com/){: target="_blank"}  |  [Gmap](https://www.google.co.kr/maps/){: target="_blank"}  |  [청약홈](https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancListView.do){: target="_blank"}
+###### [Data On Air](https://dataonair.or.kr/){: target="_blank"}
 
-
-
-
+ 
+ 
+ 
 
 ![My helpful screenshot]({{ site.url }}/assets/singa.jpg)
 
