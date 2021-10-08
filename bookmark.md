@@ -18,6 +18,8 @@ permalink: /work/bookmark/
 ###### [MyData WIKI](http://wiki.skplanet.com/display/DE/MyData){: target="_blank"}  |  [MyData JIRA](http://jira.skplanet.com/browse/DTPCS-4560){: target="_blank"}  |  [MyData 지원센터](https://www.mydatacenter.or.kr:3441/main.do){: target="_blank"}  |  [MyData 테스트베드](https://developers.mydatakorea.org/mdtb/){: target="_blank"}  |  [MyData OCB기획](http://wiki.skplanet.com/pages/viewpage.action?pageId=354864257){: target="_blank"}  |  [MyData 개발일정 및 담당](http://wiki.skplanet.com/pages/viewpage.action?pageId=351361653){: target="_blank"}  |  [매핑정의서](https://skpcorp-my.sharepoint.com/:x:/r/personal/jaewoo_ryu_skplanet_com/_layouts/15/Doc.aspx?sourcedoc=%7Baf0cc91a-451e-4ae4-b4bc-ea95890902ce%7D&action=editnew&wdPreviousSession=f791fd50-654c-41dd-853b-497fc0fc2fb2&wdNewAndOpenCt=1619431082199&wdo=4&wdOrigin=wacFileNew&wdTpl=blank&wdLcid=1042&wdPreviousCorrelation=4e02b0e5-f91c-4bef-898f-d5fe1e851622&cid=ae750843-8689-465a-a2ff-71f1977f6e98){: target="_blank"}  |  [MyData 구독서비스](http://wiki.skplanet.com/pages/viewpage.action?pageId=364511733){: target="_blank"}  |  [MyData CEO Monthly](http://wiki.skplanet.com/pages/viewpage.action?pageId=374329538){: target="_blank"}  |  [Mydata 승인 TR 구조하에서 MBR_ID 변경 프로그램](http://wiki.skplanet.com/pages/viewpage.action?pageId=377161190){: target="_blank"}  |  [과거TR 신규 테이블 생성 및 EF04 뷰 재생성 자동화](http://wiki.skplanet.com/pages/viewpage.action?pageId=377176167){: target="_blank"}
 #### OCB
 ###### [Next OCB DW](http://wiki.skplanet.com/display/PDWIKIODR){: target="_blank"}
+#### SKE SMP 구축 프로젝트
+###### [SKE SMP 고도화](http://wiki.skplanet.com/pages/viewpage.action?pageId=354869845){: target="_blank"}
 
 ## Develop
 #### 코딩
