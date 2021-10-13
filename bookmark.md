@@ -19,7 +19,7 @@ permalink: /work/bookmark/
 #### OCB
 ###### [Next OCB DW](http://wiki.skplanet.com/display/PDWIKIODR){: target="_blank"}
 #### SKE SMP 구축 프로젝트
-###### [SKE SMP 고도화](http://wiki.skplanet.com/pages/viewpage.action?pageId=354869845){: target="_blank"}  |  [공용](https://skpcorp-my.sharepoint.com/personal/sugap_rho_skplanet_com/_layouts/15/onedrive.aspx?originalPath=aHR0cHM6Ly9za3Bjb3JwLW15LnNoYXJlcG9pbnQuY29tLzpmOi9nL3BlcnNvbmFsL3N1Z2FwX3Job19za3BsYW5ldF9jb20vRXN0RnV2OWpRbnRBaWlveERXUFdWVWNCdXo3RlQ2WHBKZFZ6Nk1mVXRNZEQydz9ydGltZT12b2syYjBPTjJVZw&id=%2Fpersonal%2Fsugap%5Frho%5Fskplanet%5Fcom%2FDocuments%2FSKE%20SMP%2F00%2E%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B4%80%EB%A6%AC){: target="_blank"}     
+###### [SKE SMP 고도화](http://wiki.skplanet.com/pages/viewpage.action?pageId=354869845){: target="_blank"}  |  [공용서버](https://skpcorp-my.sharepoint.com/personal/sugap_rho_skplanet_com/_layouts/15/onedrive.aspx?originalPath=aHR0cHM6Ly9za3Bjb3JwLW15LnNoYXJlcG9pbnQuY29tLzpmOi9nL3BlcnNvbmFsL3N1Z2FwX3Job19za3BsYW5ldF9jb20vRXN0RnV2OWpRbnRBaWlveERXUFdWVWNCdXo3RlQ2WHBKZFZ6Nk1mVXRNZEQydz9ydGltZT12b2syYjBPTjJVZw&id=%2Fpersonal%2Fsugap%5Frho%5Fskplanet%5Fcom%2FDocuments%2FSKE%20SMP%2F00%2E%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B4%80%EB%A6%AC){: target="_blank"}     
 
 ## Develop
 #### 코딩
