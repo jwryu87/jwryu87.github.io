@@ -4,7 +4,8 @@ title: Bookmark
 permalink: /work/bookmark/
 ---
 
-### [work](https://docs.google.com/spreadsheets/d/1SeCT5FQRt6YyaUJyYaGnP3gDvT4bxraZZ-4ErNIC_so/edit#gid=2139674149){: target="_blank"}  |  [Life](https://docs.google.com/spreadsheets/d/1htlsHEjF3kyStqdPx_tDRqgzLBSzyb8pseZfMu0IGuI/edit#gid=744904533){: target="_blank"}  |  [admin](https://docs.google.com/spreadsheets/d/1yDYln-okTCJijys8r4rK03Eq4eNVwjXy23WLv563KvU/edit#gid=711082442){: target="_blank"}
+### [work](https://docs.google.com/spreadsheets/d/1SeCT5FQRt6YyaUJyYaGnP3gDvT4bxraZZ-4ErNIC_so/edit#gid=2139674149){: target="_blank"}  |  [Life](https://docs.google.com/spreadsheets/d/1htlsHEjF3kyStqdPx_tDRqgzLBSzyb8pseZfMu0IGuI/edit#gid=744904533){: target="_blank"}  |  [admin](https://docs.google.com/spreadsheets/d/1yDYln-okTCJijys8r4rK03Eq4eNVwjXy23WLv563KvU/edit#gid=711082442){: target="_blank"}  |  [OneDrive](https://onedrive.live.com/){: target="_blank"} 
+
 
 ## Company
 
