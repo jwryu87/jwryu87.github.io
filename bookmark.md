@@ -20,14 +20,9 @@ permalink: /work/bookmark/
 ###### [DQM](https://dqm.skplanet.com){: target="_blank"}  |  [BitBucket](http://code.skplanet.com/dashboard){: target="_blank"}  |  [Medic](http://medic.skplanet.co.kr:7000/databases){: target="_blank"}  |  [Oozie](http://172.22.224.34:11200/oozie/){: target="_blank"}  |  [xtran](https://xtrans.skplanet.com/){: target="_blank"}  |  [Sentinel](https://sentinel.skplanet.com:9091/login){: target="_blank"}  |  [Governor](http://governor.skplanet.com:8088/main){: target="_blank"}  |  [Voyager](https://voyager.skplanet.com){: target="_blank"}  |  [그린고트](https://gringotts.skplanet.com/){: target="_blank"}
 ###### [DE팀 서버리스트](https://skpcorp-my.sharepoint.com/:x:/g/personal/cookatrice_skplanet_com/EdQQbgmFIA1DtQW4yv5RQa4B4ibmVLGt3OA0p0u1p2dJVg?e=4%3AzZt8by&at=9){: target="_blank"}  |  [계정정보-DB](http://wiki.skplanet.com/pages/viewpage.action?pageId=75002137){: target="_blank"}  |  [DB 스키마 계정정보](http://wiki.skplanet.com/pages/viewpage.action?pageId=320091775){: target="_blank"}  |  [DE_BI_BM별 workflow configuration](https://skpcorp-my.sharepoint.com/:x:/g/personal/minjun_bae_skplanet_com1/EZ22S12VqWFIo8UifpQQTY8B2cPd52OwDtTd-P21wtivJQ?e=4%3AYbfNlN&at=9){: target="_blank"}
 ###### [DI팀에요청](http://jira.skplanet.com/servicedesk/customer/portal/49){: target="_blank"}  |  [QC정보](http://wiki.skplanet.com/pages/viewpage.action?pageId=113640134){: target="_blank"}  |  [맞춤법검사기](http://speller.cs.pusan.ac.kr/){: target="_blank"}  |  [gliffy-diagrams](https://chrome.google.com/webstore/detail/gliffy-diagrams/bhmicilclplefnflapjmnngmkkkkpfad/related){: target="_blank"}  |  [md-table](https://www.tablesgenerator.com/markdown_tables){: target="_blank"}    
-#### 서비스
+#### 업무 & 서비스
 ###### [SODAR MA](https://sodar.syrup.co.kr/index.html){: target="_blank"}  |  [SODAR IA](https://sodaradmin.syrup.co.kr/index.html){: target="_blank"}  |  [뷰 정의서](http://wiki.skplanet.com/pages/viewpage.action?pageId=114731349){: target="_blank"}  |  [Hannah](https://hannahadmin.syrup.co.kr/#/pages/login){: target="_blank"}  |  [OkCashbag](https://www.okcashbag.com/life/event/eventHome.do){: target="_blank"}
-#### MyData
-###### [MyData WIKI](http://wiki.skplanet.com/pages/viewpage.action?pageId=341528702){: target="_blank"}
-#### OCB
-###### [Next OCB DW](http://wiki.skplanet.com/display/PDWIKIODR){: target="_blank"}
-#### 3자 제공 
-###### [제3자 제공 데이터 전송](http://wiki.skplanet.com/pages/viewpage.action?pageId=454145568){: target="_blank"}
+###### [MyData](http://wiki.skplanet.com/pages/viewpage.action?pageId=341528702){: target="_blank"} | [OCB DW](http://wiki.skplanet.com/display/PDWIKIODR){: target="_blank"}  |  [3자 제공](http://wiki.skplanet.com/pages/viewpage.action?pageId=454145568){: target="_blank"}
 
 
 ## Develop
