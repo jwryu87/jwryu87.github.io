@@ -24,8 +24,6 @@ permalink: /work/bookmark/
 ###### [SODAR MA](https://sodar.syrup.co.kr/index.html){: target="_blank"}  |  [SODAR IA](https://sodaradmin.syrup.co.kr/index.html){: target="_blank"}  |  [뷰 정의서](http://wiki.skplanet.com/pages/viewpage.action?pageId=114731349){: target="_blank"}  |  [Hannah](https://hannahadmin.syrup.co.kr/#/pages/login){: target="_blank"}  |  [OkCashbag](https://www.okcashbag.com/life/event/eventHome.do){: target="_blank"}
 ###### [MyData](http://wiki.skplanet.com/pages/viewpage.action?pageId=341528702){: target="_blank"} | [OCB DW](http://wiki.skplanet.com/display/PDWIKIODR){: target="_blank"}  |  [3자 제공](http://wiki.skplanet.com/pages/viewpage.action?pageId=454145568){: target="_blank"}
 
-# test
-
 ## Develop
 #### 코딩
 ###### [백준](https://www.acmicpc.net/){: target="_blank"} 
