@@ -12,10 +12,21 @@ gem "jekyll", "~> 4.2.0"
 gem "minima", "~> 2.5"
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
-gem "github-pages", group: :jekyll_plugins
+# gem "github-pages", group: :jekyll_plugins
 # If you have any plugins, put them here!
+
+# group :jekyll_plugins do
+#   gem "jekyll-feed", "~> 0.12"
+# end
+
 group :jekyll_plugins do
+  gem "jekyll-paginate"
+  gem "jekyll-sitemap"
+  gem "jekyll-gist"
   gem "jekyll-feed", "~> 0.12"
+  gem "jemoji"
+  gem "jekyll-include-cache"
+  gem "jekyll-algolia"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -28,17 +39,7 @@ end
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
-group :jekyll_plugins do
-  gem "jekyll-paginate"
-  gem "jekyll-sitemap"
-  gem "jekyll-gist"
-  gem "jekyll-feed"
-  gem "jemoji"
-  gem "jekyll-include-cache"
-  gem "jekyll-algolia"
-end
-
-gem "webrick", "~> 1.7"
+# gem "webrick", "~> 1.7"
 
 # jekyll admin 사용 gem
 gem 'jekyll-admin', group: :jekyll_plugins
@@ -46,3 +47,5 @@ gem 'jekyll-admin', group: :jekyll_plugins
 # RoR을 이용한 회원관리 devise
 gem 'devise'
 
+
+gem "webrick", "~> 1.7"
