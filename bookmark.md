@@ -10,7 +10,7 @@ permalink: /work/bookmark/
 ## Company
 
 ### wwh gw
-###### [우아한 오피스](https://office.woowa.in/Website/Portal/Main.aspx){: target="_blank"}  |  [DH okta](https://deliveryhero.okta.com/login/login.htm?fromURI=%2Fapp%2FUserHome){: target="_blank"}  |  [우아한 스파트오피스](https://smartoffice.woowa.in/usc/mtg/selectUscMtgResveDayList.do){: target="_blank"}  |  [우아한 서비스맵](https://product.platform.baemin.in/graph){: target="_blank"}  |  [우아한 러닝](https://woowa.live/){: target="_blank"}  |  [백오피스](https://auth-admin.baemin.in/projects/54/authority-requests/93457){: target="_blank"}  |  [우아한 사전](https://wiki.woowa.in/pages/viewpage.action?pageId=161781109){: target="_blank"}
+###### [우아한 오피스](https://office.woowa.in/Website/Portal/Main.aspx){: target="_blank"}  |  [DH okta](https://deliveryhero.okta.com/login/login.htm?fromURI=%2Fapp%2FUserHome){: target="_blank"}  |  [우아한 스마트오피스](https://smartoffice.woowa.in/usc/mtg/selectUscMtgResveDayList.do){: target="_blank"}  |  [우아한 서비스맵](https://product.platform.baemin.in/graph){: target="_blank"}  |  [우아한 러닝](https://woowa.live/){: target="_blank"}  |  [백오피스](https://auth-admin.baemin.in/projects/54/authority-requests/93457){: target="_blank"}  |  [우아한 사전](https://wiki.woowa.in/pages/viewpage.action?pageId=161781109){: target="_blank"}
 ###### [Gmail](https://mail.google.com/mail/u/1/#inbox){: target="_blank"}  |  [Google Calendar](https://calendar.google.com/calendar/u/1/r){: target="_blank"}
 ###### [우아한 셔틀예약](https://docs.google.com/spreadsheets/d/1JjixZDM8PUl0ji2eLftGSizfx1NpQfuvqTIjAxIloJM/edit#gid=88456849){: target="_blank"}  |  [benchbee](http://beta.benchbee.co.kr/home.asp){: target="_blank"}  |  [DE 온보딩](https://wiki.woowa.in/pages/viewpage.action?pageId=384833969){: target="_blank"}
 
