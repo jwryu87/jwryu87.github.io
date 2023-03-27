@@ -5,27 +5,30 @@ permalink: /work/bookmark/
 ---
 
 ### [work](https://docs.google.com/spreadsheets/d/1SeCT5FQRt6YyaUJyYaGnP3gDvT4bxraZZ-4ErNIC_so/edit#gid=2139674149){: target="_blank"}  |  [Life](https://docs.google.com/spreadsheets/d/1htlsHEjF3kyStqdPx_tDRqgzLBSzyb8pseZfMu0IGuI/edit#gid=744904533){: target="_blank"}  |  [admin](https://docs.google.com/spreadsheets/d/1yDYln-okTCJijys8r4rK03Eq4eNVwjXy23WLv563KvU/edit#gid=711082442){: target="_blank"}  |  [OneDrive](https://onedrive.live.com/){: target="_blank"} 
-
+ 
+ 
 ## Company
 
-#### wwh gw
+### wwh gw
 ###### [우아한 오피스](https://office.woowa.in/Website/Portal/Main.aspx){: target="_blank"}  |  [DH okta](https://deliveryhero.okta.com/login/login.htm?fromURI=%2Fapp%2FUserHome){: target="_blank"}  |  [우아한 스파트오피스](https://smartoffice.woowa.in/usc/mtg/selectUscMtgResveDayList.do){: target="_blank"}  |  [우아한 서비스맵](https://product.platform.baemin.in/graph){: target="_blank"}  |  [우아한 러닝](https://woowa.live/){: target="_blank"}
 ###### [Gmail](https://mail.google.com/mail/u/1/#inbox){: target="_blank"}  |  [Google Calendar](https://calendar.google.com/calendar/u/1/r){: target="_blank"}
 ###### [우아한 셔틀예약](https://docs.google.com/spreadsheets/d/1JjixZDM8PUl0ji2eLftGSizfx1NpQfuvqTIjAxIloJM/edit#gid=88456849){: target="_blank"}  
-
-#### wwh dev
+ 
+ 
+### wwh dev
 ###### [JIRA](https://jira.woowa.in/browse/DATAENG-1915?jql=project%20%3D%20DATAENG%20AND%20resolution%20%3D%20Unresolved%20ORDER%20BY%20priority%20DESC%2C%20updated%20DESC){: target="_blank"}  |  [WIKI](https://wiki.woowa.in/display/DATAENGINEERING){: target="_blank"}
 ###### [WWH AWS](https://key.oneid.woowa.in/auth/realms/oneid/protocol/saml/clients/aws/){: target="_blank"}  |  [WWH 백오피스](https://auth-admin.baemin.in/projects/54/authority-requests/93457){: target="_blank"}  |  [데이터 카탈로그](https://datacatalog.woowa.in/main){: target="_blank"}
 ###### [Opsgenie](https://woowabros.app.opsgenie.com/auth/login?targetUri=%2Falert%2Flist){: target="_blank"}  |  [Trino](https://trino.emr.ds.woowa.in/ui/){: target="_blank"}
-##### Git [WWH Git](https://git.baemin.in/){: target="_blank"}
-##### Airflow [WWH Airflow](https://airflow.woowa.in/home){: target="_blank"}  |  [WWH Airflow(stage)](https://airflow.stage.ds.woowa.in/home){: target="_blank"}  |  [WWH Airflow(beta)](https://airflow.beta.woowa.in/home){: target="_blank"}  |  [Airflow wiki](https://wiki.woowa.in/pages/viewpage.action?pageId=125478396){: target="_blank"}
-##### Azkaban [WWH Azkaban](https://azkaban.stage.ds.woowa.in/index?all){: target="_blank"}
-##### Zepplin [WWH Zepplin](https://zeppelin.ds.woowa.in/emr-prod/main/#/?ref=%2F){: target="_blank"}  |  [데서실 Zepplin](https://zeppelin.ds.woowa.in/){: target="_blank"}  |  [Zepplin wiki](https://wiki.woowa.in/pages/viewpage.action?pageId=151013568){: target="_blank"}
-##### Jupyterlab [WWH Jupyterlab](https://jupyterlab.woowa.in/user/jaewoo.ryu/lab){: target="_blank"}  |  [Jupyterlab wiki](https://wiki.woowa.in/pages/viewpage.action?pageId=175525228){: target="_blank"}
-##### Redash [WWH Redash](https://redash.woowa.in/){: target="_blank"}  |  [Redash wiki](https://wiki.woowa.in/pages/viewpage.action?pageId=109937849){: target="_blank"}
-##### Jenkins [WWH Jenkins](https://jenkins.ds.woowa.in/){: target="_blank"}  |  [WWH Jenkins(beta)](https://jenkins.beta.ds.woowa.in/){: target="_blank"}
+##### Git [Git](https://git.baemin.in/){: target="_blank"}
+##### Airflow [Airflow](https://airflow.woowa.in/home){: target="_blank"}  |  [Airflow(stage)](https://airflow.stage.ds.woowa.in/home){: target="_blank"}  |  [Airflow(beta)](https://airflow.beta.woowa.in/home){: target="_blank"}  |  [Airflow wiki](https://wiki.woowa.in/pages/viewpage.action?pageId=125478396){: target="_blank"}
+##### Azkaban [Azkaban](https://azkaban.stage.ds.woowa.in/index?all){: target="_blank"}
+##### Zepplin [Zepplin](https://zeppelin.ds.woowa.in/emr-prod/main/#/?ref=%2F){: target="_blank"}  |  [데서실 Zepplin](https://zeppelin.ds.woowa.in/){: target="_blank"}  |  [Zepplin wiki](https://wiki.woowa.in/pages/viewpage.action?pageId=151013568){: target="_blank"}
+##### Jupyterlab [Jupyterlab](https://jupyterlab.woowa.in/user/jaewoo.ryu/lab){: target="_blank"}  |  [Jupyterlab wiki](https://wiki.woowa.in/pages/viewpage.action?pageId=175525228){: target="_blank"}
+##### Redash [Redash](https://redash.woowa.in/){: target="_blank"}  |  [Redash wiki](https://wiki.woowa.in/pages/viewpage.action?pageId=109937849){: target="_blank"}
+##### Jenkins [Jenkins](https://jenkins.ds.woowa.in/){: target="_blank"}  |  [Jenkins(beta)](https://jenkins.beta.ds.woowa.in/){: target="_blank"}
 ##### EMR 리소스 모니터링 [EMR1](https://ds-daily-1.yarn.emr.ds.woowa.in/cluster/scheduler?openQueues=Queue:%20default){: target="_blank"}  |  [EMR2](https://ds-realtime.yarn.emr.ds.woowa.in/cluster/scheduler?openQueues=Queue:%20default){: target="_blank"}  |  [EMR3](https://ds-stage.yarn.emr.ds.woowa.in/cluster/scheduler?openQueues=Queue:%20default){: target="_blank"}  |  [EMR4](https://ds-high.yarn.emr.ds.woowa.in/cluster/scheduler){: target="_blank"}
-
+ 
+ 
 
 ## Develop
 #### 코딩 [백준](https://www.acmicpc.net/){: target="_blank"} 
