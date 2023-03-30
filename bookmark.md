@@ -14,7 +14,6 @@ permalink: /work/bookmark/
 ###### [Gmail](https://mail.google.com/mail/u/1/#inbox){: target="_blank"}  |  [Google Calendar](https://calendar.google.com/calendar/u/1/r){: target="_blank"}
 ###### [우아한 셔틀예약](https://docs.google.com/spreadsheets/d/1JjixZDM8PUl0ji2eLftGSizfx1NpQfuvqTIjAxIloJM/edit#gid=88456849){: target="_blank"}  |  [benchbee](http://beta.benchbee.co.kr/home.asp){: target="_blank"}  |  [DE 온보딩](https://wiki.woowa.in/pages/viewpage.action?pageId=384833969){: target="_blank"}
 
-
 ### wwh dev
 ###### [JIRA](https://jira.woowa.in/browse/DATAENG-1915?jql=project%20%3D%20DATAENG%20AND%20resolution%20%3D%20Unresolved%20ORDER%20BY%20priority%20DESC%2C%20updated%20DESC){: target="_blank"}  |  [WIKI](https://wiki.woowa.in/display/DATAENGINEERING){: target="_blank"}  |  [장애일지](https://wiki.woowa.in/pages/viewpage.action?pageId=641173770){: target="_blank"}  |  [팀회의록](https://wiki.woowa.in/display/DATAENGINEERING){: target="_blank"}  |  [데서실 지원센터](https://wiki.woowa.in/spaces/viewspace.action?key=DATAHELP){: target="_blank"}  |  [데서실Home](https://wiki.woowa.in/display/DATASERVICE){: target="_blank"}
 ###### [데이터 카탈로그](https://datacatalog.woowa.in/main){: target="_blank"}  |  [데이터 카탈로그 가이드](https://wiki.woowa.in/pages/viewpage.action?pageId=556576366){: target="_blank"}  |  [Opsgenie](https://woowabros.app.opsgenie.com/auth/login?targetUri=%2Falert%2Flist){: target="_blank"}  |  [Trino](https://trino.emr.ds.woowa.in/ui/){: target="_blank"}  |  [Hue](https://hue.ds.woowa.in/hue/accounts/login?next=/){: target="_blank"}  |  [Logchecker](https://logchecker.woowa.in/dashboard/search/){: target="_blank"}  |  [Buds](https://buds.woowa.in/){: target="_blank"}  |
@@ -25,9 +24,10 @@ permalink: /work/bookmark/
 ##### 데이터시각화 [Redash](https://redash.woowa.in/){: target="_blank"}  |  [Redash wiki](https://wiki.woowa.in/pages/viewpage.action?pageId=109937849){: target="_blank"}  |  [Tableau](https://tableau.woowa.in/){: target="_blank"}
 ##### CI/CD [Jenkins](https://jenkins.ds.woowa.in/){: target="_blank"}  |  [Jenkins(beta)](https://jenkins.beta.ds.woowa.in/){: target="_blank"}
 ##### EMR 리소스 모니터링 [EMR1](https://ds-daily-1.yarn.emr.ds.woowa.in/cluster/scheduler?openQueues=Queue:%20default){: target="_blank"}  |  [EMR2](https://ds-realtime.yarn.emr.ds.woowa.in/cluster/scheduler?openQueues=Queue:%20default){: target="_blank"}  |  [EMR3](https://ds-stage.yarn.emr.ds.woowa.in/cluster/scheduler?openQueues=Queue:%20default){: target="_blank"}  |  [EMR4](https://ds-high.yarn.emr.ds.woowa.in/cluster/scheduler){: target="_blank"}
+###### [우아한형제들 기술블로그](https://techblog.woowahan.com/){: target="_blank"}
 
 ### 배민서비스(web)
-###### [배민외식업광장](https://ceo.baemin.com/){: target="_blank"}  |  [배민상회](https://mart.baemin.com/){: target="_blank"}  |  [배민장부](https://note.baemin.com/){: target="_blank"}  |  [배민문방구](https://brandstore.baemin.com/){: target="_blank"}  |
+###### [배민외식업광장](https://ceo.baemin.com/){: target="_blank"}  |  [배민상회](https://mart.baemin.com/){: target="_blank"}  |  [배민장부](https://note.baemin.com/){: target="_blank"}  |  [배민문방구](https://brandstore.baemin.com/){: target="_blank"}
 
 ## Develop
 #### 코딩 [백준](https://www.acmicpc.net/){: target="_blank"} 
