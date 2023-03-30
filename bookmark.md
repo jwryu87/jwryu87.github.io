@@ -25,8 +25,9 @@ permalink: /work/bookmark/
 ##### 데이터시각화 [Redash](https://redash.woowa.in/){: target="_blank"}  |  [Redash wiki](https://wiki.woowa.in/pages/viewpage.action?pageId=109937849){: target="_blank"}  |  [Tableau](https://tableau.woowa.in/){: target="_blank"}
 ##### CI/CD [Jenkins](https://jenkins.ds.woowa.in/){: target="_blank"}  |  [Jenkins(beta)](https://jenkins.beta.ds.woowa.in/){: target="_blank"}
 ##### EMR 리소스 모니터링 [EMR1](https://ds-daily-1.yarn.emr.ds.woowa.in/cluster/scheduler?openQueues=Queue:%20default){: target="_blank"}  |  [EMR2](https://ds-realtime.yarn.emr.ds.woowa.in/cluster/scheduler?openQueues=Queue:%20default){: target="_blank"}  |  [EMR3](https://ds-stage.yarn.emr.ds.woowa.in/cluster/scheduler?openQueues=Queue:%20default){: target="_blank"}  |  [EMR4](https://ds-high.yarn.emr.ds.woowa.in/cluster/scheduler){: target="_blank"}
- 
- 
+
+### 배민서비스(web)
+###### [배민외식업광장](https://ceo.baemin.com/){: target="_blank"}  |  [배민상회](https://mart.baemin.com/){: target="_blank"}  |  [배민장부](https://note.baemin.com/){: target="_blank"}  |  [배민문방구](https://brandstore.baemin.com/){: target="_blank"}  |
 
 ## Develop
 #### 코딩 [백준](https://www.acmicpc.net/){: target="_blank"} 
