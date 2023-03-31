@@ -28,6 +28,7 @@ permalink: /work/bookmark/
 
 ### 배민서비스(web)
 ###### [배민외식업광장](https://ceo.baemin.com/){: target="_blank"}  |  [배민상회](https://mart.baemin.com/){: target="_blank"}  |  [배민장부](https://note.baemin.com/){: target="_blank"}  |  [배민문방구](https://brandstore.baemin.com/){: target="_blank"}
+###### [배민 선물하기](https://gift-pc.baemin.com/){: target="_blank"}
 
 ## Develop
 #### 코딩 [백준](https://www.acmicpc.net/){: target="_blank"} 
