@@ -37,9 +37,13 @@ permalink: /work/bookmark/
 ###### [Finance](https://finance.naver.com/){: target="_blank"}  |  [James Lee](https://blog.naver.com/PostList.naver?blogId=james_lee_advisors&skinType=&skinId=&from=menu&userSelectMenu=true){: target="_blank"}  |  [CompanyGuide](http://comp.fnguide.com/){: target="_blank"}
 ###### [붇옹산](https://cafe.naver.com/jaegebal){: target="_blank"}  |  [아파트실거래순위](https://www.todayoung.com/area1.html?area_code=){: target="_blank"}  |  [직방](https://www.zigbang.com/home/apt/map){: target="_blank"}  |  [호갱노노](https://hogangnono.com/){: target="_blank"}  |  [네이버부동산](https://land.naver.com/){: target="_blank"}  |  [Gmap](https://www.google.co.kr/maps/){: target="_blank"}  |  [청약홈](https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancListView.do){: target="_blank"}
 
+## 기술사
+###### [온라인강의](https://itpe.co.kr/mypage/main.do){: target="_blank"}  |  [웹하드](http://naver.me/FUGEtYSa){: target="_blank"}  |  [기출문제 웹하드](http://naver.me/FBJsf72o){: target="_blank"}  |  [125기 기본필수반 구글 시트](https://docs.google.com/spreadsheets/d/149fnDsTzkwzGOJYdlcrP99B4rz8si8BBIGVQg-beRP0/edit?usp=sharing){: target="_blank"}  |  [125기 1조](https://docs.google.com/spreadsheets/d/1BVHhSvjzv5shjfSKgYKzkXnjEGl3aLnLw9kvw3iFP94/edit?gid=0#gid=0){: target="_blank"}
+###### [1주차 공부할 목록](https://cafe.naver.com/81th/222645){: target="_blank"}
+###### [매주 토욜 일정](https://cafe.naver.com/81th/174453){: target="_blank"}
+###### [류재우 정리 시트](https://docs.google.com/spreadsheets/d/1JOI_iJWZHMGW02z1qPtWEYYOpJ2cxa7aFkeBmzxysHU/edit?gid=1057158997#gid=1057158997){: target="_blank"} 
+ 
 
- 
- 
  
 
 ![My helpful screenshot]({{ site.url }}/assets/singa.jpg)
