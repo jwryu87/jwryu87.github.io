@@ -39,7 +39,7 @@ permalink: /work/bookmark/
 
 ## 기술사
 ###### [온라인강의](https://itpe.co.kr/mypage/main.do){: target="_blank"}  |  [웹하드](http://naver.me/FUGEtYSa){: target="_blank"}  |  [기출문제 웹하드](http://naver.me/FBJsf72o){: target="_blank"}  |  [125기 기본필수반 구글 시트](https://docs.google.com/spreadsheets/d/149fnDsTzkwzGOJYdlcrP99B4rz8si8BBIGVQg-beRP0/edit?usp=sharing){: target="_blank"}  |  [125기 1조](https://docs.google.com/spreadsheets/d/1BVHhSvjzv5shjfSKgYKzkXnjEGl3aLnLw9kvw3iFP94/edit?gid=0#gid=0){: target="_blank"}
-###### [1주차 공부할 목록](https://cafe.naver.com/81th/222645){: target="_blank"}
+###### [강평야](https://docs.google.com/spreadsheets/d/1vRrGCo5dsOc4tbjeZDN-hqwQpClP-9s1j3_vsUT3R2g/edit?gid=1208837120#gid=1208837120){: target="_blank"}
 ###### [매주 토욜 일정](https://cafe.naver.com/81th/174453){: target="_blank"}
 ###### [류재우 정리 시트](https://docs.google.com/spreadsheets/d/1JOI_iJWZHMGW02z1qPtWEYYOpJ2cxa7aFkeBmzxysHU/edit?gid=1057158997#gid=1057158997){: target="_blank"} 
  
