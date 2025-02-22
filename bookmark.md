@@ -41,6 +41,8 @@ permalink: /work/bookmark/
 ###### IPTE [온라인강의](https://itpe.co.kr/mypage/main.do){: target="_blank"} 
 ###### 기필 125기 [웹하드 - 81thxal](http://naver.me/FUGEtYSa){: target="_blank"}  |  [기출문제 웹하드 - itpexal](http://naver.me/FBJsf72o){: target="_blank"}  |  [125기 1조](https://docs.google.com/spreadsheets/d/1BVHhSvjzv5shjfSKgYKzkXnjEGl3aLnLw9kvw3iFP94/edit?gid=0#gid=0){: target="_blank"}
 ###### TOP 14기 [TOP 웹하드]([http://naver.me/FUGEtYSa](https://mybox.naver.com/#/share/url/detail?shareKey=Uf6gxHamEUFl1jGt1ww7qo7lPoRp1jR4nY_g4Y-mr2ED&resourceKey=cG9vaDg3ODl8MzQ3MjUyMjA5MzQ3MjIyODcwNHxEfDE1OTA5Nzgx&fromLanding=true)){: target="_blank"}  |  [TOP 카페]([http://naver.me/FBJsf72o](https://cafe.naver.com/strnd/9446)){: target="_blank"}
+![image](https://github.com/user-attachments/assets/7ab5f8df-af76-4bf9-86f2-7c197f1468de)
+
 ###### [류재우 기술사 정리 시트](https://docs.google.com/spreadsheets/d/1JOI_iJWZHMGW02z1qPtWEYYOpJ2cxa7aFkeBmzxysHU/edit?gid=1057158997#gid=1057158997){: target="_blank"} 
  
 
