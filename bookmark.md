@@ -38,7 +38,7 @@ permalink: /work/bookmark/
 ###### [붇옹산](https://cafe.naver.com/jaegebal){: target="_blank"}  |  [아파트실거래순위](https://www.todayoung.com/area1.html?area_code=){: target="_blank"}  |  [직방](https://www.zigbang.com/home/apt/map){: target="_blank"}  |  [호갱노노](https://hogangnono.com/){: target="_blank"}  |  [네이버부동산](https://land.naver.com/){: target="_blank"}  |  [Gmap](https://www.google.co.kr/maps/){: target="_blank"}  |  [청약홈](https://www.applyhome.co.kr/ai/aia/selectAPTLttotPblancListView.do){: target="_blank"}
 
 ## 기술사 
-###### ITPE [온라인강의](https://itpe.co.kr/mypage/main.do){: target="_blank"}  |  [ITPE 카페(https://cafe.naver.com/81th?iframe_url=/MyCafeIntro.nhn%3Fclubid=12409209){: target="_blank"}
+###### ITPE [온라인강의](https://itpe.co.kr/mypage/main.do){: target="_blank"}  |  [ITPE 카페](https://cafe.naver.com/81th?iframe_url=/MyCafeIntro.nhn%3Fclubid=12409209){: target="_blank"}
 ###### 기필 125기 [웹하드 - 81thxal](http://naver.me/FUGEtYSa){: target="_blank"}  |  [기출문제 웹하드 - itpexal](http://naver.me/FBJsf72o){: target="_blank"}  |  [125기 1조](https://docs.google.com/spreadsheets/d/1BVHhSvjzv5shjfSKgYKzkXnjEGl3aLnLw9kvw3iFP94/edit?gid=0#gid=0){: target="_blank"}
 ###### TOP 14기 [TOP 웹하드](https://mybox.naver.com/#/share/url/detail?shareKey=Uf6gxHamEUFl1jGt1ww7qo7lPoRp1jR4nY_g4Y-mr2ED&resourceKey=cG9vaDg3ODl8MzQ3MjUyMjA5MzQ3MjIyODcwNHxEfDE1OTA5Nzgx&fromLanding=true){: target="_blank"}  |  [TOP 카페](https://cafe.naver.com/strnd){: target="_blank"}
 ![image](https://github.com/user-attachments/assets/7ab5f8df-af76-4bf9-86f2-7c197f1468de)
