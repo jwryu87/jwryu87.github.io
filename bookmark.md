@@ -40,7 +40,8 @@ permalink: /work/bookmark/
 ## 기술사 
 ###### ITPE [온라인강의](https://itpe.co.kr/mypage/main.do){: target="_blank"}  |  [ITPE 카페](https://cafe.naver.com/81th?iframe_url=/MyCafeIntro.nhn%3Fclubid=12409209){: target="_blank"}
 ###### 기필 125기 [웹하드 - 81thxal](http://naver.me/FUGEtYSa){: target="_blank"}  |  [기출문제 웹하드 - itpexal](http://naver.me/FBJsf72o){: target="_blank"}  |  [125기 1조](https://docs.google.com/spreadsheets/d/1BVHhSvjzv5shjfSKgYKzkXnjEGl3aLnLw9kvw3iFP94/edit?gid=0#gid=0){: target="_blank"}
-###### TOP 14기 [TOP 웹하드](https://mybox.naver.com/#/share/url/detail?shareKey=Uf6gxHamEUFl1jGt1ww7qo7lPoRp1jR4nY_g4Y-mr2ED&resourceKey=cG9vaDg3ODl8MzQ3MjUyMjA5MzQ3MjIyODcwNHxEfDE1OTA5Nzgx&fromLanding=true){: target="_blank"}  |  [TOP 카페](https://cafe.naver.com/strnd){: target="_blank"}
+###### TOP 14기 [TOP 웹하드](https://mybox.naver.com/#/share/url/detail?shareKey=Uf6gxHamEUFl1jGt1ww7qo7lPoRp1jR4nY_g4Y-mr2ED&resourceKey=cG9vaDg3ODl8MzQ3MjUyMjA5MzQ3MjIyODcwNHxEfDE1OTA5Nzgx&fromLanding=true){: target="_blank"}  |  [TOP 카페](https://cafe.naver.com/strnd){: target="_blank"}  |  [TOP ezpdf](https://ezpdf.unidocs.co.kr/ezpdfeditor/drminfo){: target="_blank"}  |  [키노트](https://docs.google.com/spreadsheets/d/1ZkXemPS6J5Kmp_jbQVmAYQCDV3gGbvEqLYqyKAA3oVo/edit?gid=1048299688#gid=1048299688){: target="_blank"}  |  [캘린더](https://calendar.google.com/calendar/u/0/r?mode=day&date=20250223T040505){: target="_blank"}  |  [evernote](https://www.evernote.com/client/web#/notebook/7758f5d6-0366-8a52-6dc0-db786a8184bd/note/695a017e-a358-4b04-159d-265e185abac9){: target="_blank"}
+
 ![image](https://github.com/user-attachments/assets/7ab5f8df-af76-4bf9-86f2-7c197f1468de)
 
 ###### [류재우 기술사 정리 시트](https://docs.google.com/spreadsheets/d/1JOI_iJWZHMGW02z1qPtWEYYOpJ2cxa7aFkeBmzxysHU/edit?gid=1057158997#gid=1057158997){: target="_blank"} 
