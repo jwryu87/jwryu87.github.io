@@ -44,7 +44,7 @@ permalink: /work/bookmark/
 
 ![image](https://github.com/user-attachments/assets/7ab5f8df-af76-4bf9-86f2-7c197f1468de)
 
-###### [류재우 기술사 정리 시트](https://docs.google.com/spreadsheets/d/1JOI_iJWZHMGW02z1qPtWEYYOpJ2cxa7aFkeBmzxysHU/edit?gid=1057158997#gid=1057158997){: target="_blank"} 
+###### [류재우 기술사 정리 시트](https://docs.google.com/spreadsheets/d/1JOI_iJWZHMGW02z1qPtWEYYOpJ2cxa7aFkeBmzxysHU/edit?gid=1057158997#gid=1057158997){: target="_blank"}  |  [Gio 서브노트](https://docs.google.com/spreadsheets/d/1zVG3gtJVNiG65rVvsaVVgQcKCGp7ikCgwmB1Ky_0fP0/edit?gid=421669032#gid=421669032){: target="_blank"} 
  
 
  
