@@ -46,7 +46,7 @@ permalink: /work/bookmark/
 <img width="670" alt="image" src="https://github.com/user-attachments/assets/84e86882-a76f-4724-9fc1-41cf4ab7eb2a" />
 
 
-###### [류재우 기술사 정리 시트](https://docs.google.com/spreadsheets/d/1JOI_iJWZHMGW02z1qPtWEYYOpJ2cxa7aFkeBmzxysHU/edit?gid=1057158997#gid=1057158997){: target="_blank"}  |  [Gio 서브노트](https://docs.google.com/spreadsheets/d/1zVG3gtJVNiG65rVvsaVVgQcKCGp7ikCgwmB1Ky_0fP0/edit?gid=421669032#gid=421669032){: target="_blank"} 
+###### [류재우 기술사 정리 시트](https://docs.google.com/spreadsheets/d/1JOI_iJWZHMGW02z1qPtWEYYOpJ2cxa7aFkeBmzxysHU/edit?gid=1057158997#gid=1057158997){: target="_blank"}  |  [Gio 서브노트](https://docs.google.com/spreadsheets/d/1zVG3gtJVNiG65rVvsaVVgQcKCGp7ikCgwmB1Ky_0fP0/edit?gid=421669032#gid=421669032){: target="_blank"}  |  [quizlet](https://quizlet.com/latest){: target="_blank"} 
  
 
  
