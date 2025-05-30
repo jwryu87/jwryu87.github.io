@@ -9,11 +9,11 @@ permalink: /work/bookmark/
  
 ## Company
 
-### wwh gw
+### woowa gw
 ###### [우아한오피스](https://office.woowa.in/Website/Portal/Main.aspx){: target="_blank"}  |  [DH okta](https://deliveryhero.okta.com/login/login.htm?fromURI=%2Fapp%2FUserHome){: target="_blank"}  |  [우아한스마트오피스](https://smartoffice.woowa.in/usc/mtg/selectUscMtgResveDayList.do){: target="_blank"}  |  [우아한러닝](https://woowa.live/){: target="_blank"}  |  [백오피스](https://auth-admin.baemin.in/projects/54/authority-requests/93457){: target="_blank"}  |  [우아한사전](https://wiki.woowa.in/pages/viewpage.action?pageId=161781109){: target="_blank"}  |  [우아한복지몰](https://baemin.ezwel.com/cuser/main.ez){: target="_blank"}  |  [DE 온보딩](https://wiki.woowa.in/pages/viewpage.action?pageId=384833969){: target="_blank"}  |  [팀 zoom](https://woowahan.zoom.us/j/92056058685?pwd=OFIwZ1VMSFBNMU1YdnhMbFM5M1FQdz09#success){: target="_blank"}  |  [개인 zoom](https://woowahan.zoom.us/j/81999161218?pwd=dEw0U3ZieXoyWTBvNEJpOUpUTmtodz09#success){: target="_blank"}  |  [레몬베이스](https://lemonbase.com/app/home){: target="_blank"}  |  [조직도](https://office.woowa.in/WebSite/Extension/Search/Search.aspx?system=Board&alias=Board.KeywordSearch&SearchKeyword=%EB%A5%98%EC%9E%AC%EC%9A%B0){: target="_blank"}  |  [우아한형제들 기술블로그](https://techblog.woowahan.com/){: target="_blank"}
 ###### [Gmail](https://mail.google.com/mail/u/1/#inbox){: target="_blank"}  |  [Google Calendar](https://calendar.google.com/calendar/u/1/r){: target="_blank"}
 
-### wwh dev
+### woowa dev
 ###### [JIRA](https://cloud.jira.woowa.in/jira/your-work){: target="_blank"}  |  [JIRA Sprint](https://cloud.jira.woowa.in/jira/software/c/projects/DATAENG/boards/368?useStoredSettings=true){: target="_blank"}  |  [개인 WIKI](https://cloud.wiki.woowa.in/wiki/spaces/~jaewoo.ryu/pages/218432060){: target="_blank"}  |  [팀 WIKI](https://cloud.wiki.woowa.in/wiki/spaces/BITEAM/overview){: target="_blank"}  |  [dataeng-schama](https://docs.google.com/spreadsheets/d/1dkI222MImqF6GuewiUd251tJXmpuJ93ozSgAJfaVDqw/edit#gid=0){: target="_blank"}  |  [Tableau 모니터링](https://tableau.woowa.in/#/views/airflow_16681385632990/sheet0?:iid=1){: target="_blank"}  |  [배치 수행 현황]([https://superset.ds.woowa.in/superset/dashboard/1119/?native_filters_key=ixB6BuDH2SoUG-qSaxyb-cjQVIyy7ebrz1yt54ihWDwwRomAmxQpYSuPzo2OjGgi]){: target="_blank"}  |  [제플린 지원 서비스 안내](https://cloud.wiki.woowa.in/wiki/spaces/BITEAM/pages/503153723){: target="_blank"}  |  [관리용 테이블](https://cloud.wiki.woowa.in/wiki/x/cFixIQ){: target="_blank"}  |  [MR 리뷰어 체크리스트](https://cloud.wiki.woowa.in/wiki/x/iIz9HQ){: target="_blank"}
 
 ### 개발 플랫폼
