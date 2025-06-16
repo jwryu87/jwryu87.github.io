@@ -6,7 +6,7 @@ permalink: /work/bookmark/
 
 ### [work](https://docs.google.com/spreadsheets/d/1SeCT5FQRt6YyaUJyYaGnP3gDvT4bxraZZ-4ErNIC_so/edit#gid=2139674149){: target="_blank"}  |  [Life](https://docs.google.com/spreadsheets/d/1htlsHEjF3kyStqdPx_tDRqgzLBSzyb8pseZfMu0IGuI/edit#gid=744904533){: target="_blank"}  |  [admin](https://docs.google.com/spreadsheets/d/1yDYln-okTCJijys8r4rK03Eq4eNVwjXy23WLv563KvU/edit#gid=711082442){: target="_blank"}  |  [OneDrive](https://onedrive.live.com/){: target="_blank"} 
  
-###### [정리 노트](https://jwryu87.atlassian.net/wiki/spaces/~712020de18fb82dfa44dbe8dc88867c77c1c7c/pages/98580){: target="_blank"}  |  [Main 정리 시트](https://docs.google.com/spreadsheets/d/1JOI_iJWZHMGW02z1qPtWEYYOpJ2cxa7aFkeBmzxysHU/edit?gid=1057158997#gid=1057158997){: target="_blank"}  |  [Gio 서브노트](https://docs.google.com/spreadsheets/d/1zVG3gtJVNiG65rVvsaVVgQcKCGp7ikCgwmB1Ky_0fP0/edit?gid=421669032#gid=421669032){: target="_blank"}  |  [quizlet](https://quizlet.com/latest){: target="_blank"} 
+###### [old 정리 시트](https://docs.google.com/spreadsheets/d/1JOI_iJWZHMGW02z1qPtWEYYOpJ2cxa7aFkeBmzxysHU/edit?gid=1057158997#gid=1057158997){: target="_blank"}  |  [Main 서브노트 시트](https://docs.google.com/spreadsheets/d/1zVG3gtJVNiG65rVvsaVVgQcKCGp7ikCgwmB1Ky_0fP0/edit?gid=421669032#gid=421669032){: target="_blank"}  |  [서브노트 위키](https://jwryu87.atlassian.net/wiki/spaces/~712020de18fb82dfa44dbe8dc88867c77c1c7c/pages/98580){: target="_blank"}  |  [quizlet](https://quizlet.com/latest){: target="_blank"} 
  
 ## Company
 
