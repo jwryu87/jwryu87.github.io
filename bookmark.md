@@ -25,14 +25,10 @@ permalink: /work/bookmark/
 ##### 데이터분석 [Zeppelin ds](https://zeppelin.ds.woowa.in/){: target="_blank"}  |  [Zeppelin public-2023](https://zeppelin-2023.woowa.in/public/#/?ref=%2Fnotebook%2F2J126FD5J){: target="_blank"}  |  [Zeppelin k8s](https://zeppelin-k8s.ds.woowa.in/){: target="_blank"}  |  [Jupyterlab](https://jupyterlab.woowa.in/user/jaewoo.ryu/lab){: target="_blank"}  |  [Jupyterlab wiki](https://wiki.woowa.in/pages/viewpage.action?pageId=175525228){: target="_blank"}
 ##### 데이터시각화 [Redash](https://redash.woowa.in/){: target="_blank"}  |  [Redash wiki](https://wiki.woowa.in/pages/viewpage.action?pageId=109937849){: target="_blank"}  |  [Tableau](https://tableau.woowa.in/){: target="_blank"}
 ##### CI/CD [Jenkins](https://jenkins.ds.woowa.in/){: target="_blank"}  |  [Jenkins(beta)](https://jenkins.beta.ds.woowa.in/){: target="_blank"}
+##### 센트럴 전송 [센트럴 대시보드](https://cloud.wiki.woowa.in/wiki/spaces/BITEAM/pages/694170202/2.1+DH+-){: target="_blank"}
 
 ### 배민서비스(web)
 ###### [배민외식업광장](https://ceo.baemin.com/){: target="_blank"}  |  [배민상회](https://mart.baemin.com/){: target="_blank"}  |  [배민장부](https://note.baemin.com/){: target="_blank"}  |  [배민문방구](https://brandstore.baemin.com/){: target="_blank"}  |  [배민 선물하기](https://gift-pc.baemin.com/){: target="_blank"}
-
-## Develop
-#### 코딩 [백준](https://www.acmicpc.net/){: target="_blank"} 
-#### Django [Django 강좌](https://www.imagineer.io/courses/101240/lectures/1851490){: target="_blank"}  |  [Django Documents](https://docs.djangoproject.com){: target="_blank"}  |  [부트스트랩](http://bootstrapk.com/){: target="_blank"}  |  [imagineer](https://github.com/imagineer-io){: target="_blank"}
-#### hadoop [Hadoop-Study](https://wikidocs.net/profile/info/book/6965){: target="_blank"}  |  [AWS](https://ap-northeast-2.console.aws.amazon.com/){: target="_blank"}
 
 ## etc
 ###### [Gmail](https://mail.google.com/mail/u/0/){: target="_blank"}  |  [Calendar](https://calendar.naver.com){: target="_blank"}  |  [Youtube](https://www.youtube.com/){: target="_blank"}  |  [구글포토](https://photos.google.com/){: target="_blank"}  |  [SPOTVnow](https://www.spotvnow.co.kr/){: target="_blank"}
