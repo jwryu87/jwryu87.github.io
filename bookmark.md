@@ -24,8 +24,7 @@ permalink: /work/bookmark/
 ##### Workflow [Airflow](https://airflow.woowa.in/home){: target="_blank"}  |  [Airflow(operation)](https://airflow.operation.ds.woowa.in/){: target="_blank"}  |  [Airflow(stage)](https://airflow.stage.ds.woowa.in/home){: target="_blank"}  |  [Airflow(beta)](https://airflow.beta.woowa.in/home){: target="_blank"}  |  [Azkaban](https://azkaban.stage.ds.woowa.in/index?all){: target="_blank"}  
 ##### 데이터분석 [Zeppelin ds](https://zeppelin.ds.woowa.in/){: target="_blank"}  |  [Zeppelin public-2023](https://zeppelin-2023.woowa.in/public/#/?ref=%2Fnotebook%2F2J126FD5J){: target="_blank"}  |  [Zeppelin k8s](https://zeppelin-k8s.ds.woowa.in/){: target="_blank"}  |  [Jupyterlab](https://jupyterlab.woowa.in/user/jaewoo.ryu/lab){: target="_blank"}  |  [Jupyterlab wiki](https://wiki.woowa.in/pages/viewpage.action?pageId=175525228){: target="_blank"}
 ##### 데이터시각화 [Redash](https://redash.woowa.in/){: target="_blank"}  |  [Redash wiki](https://wiki.woowa.in/pages/viewpage.action?pageId=109937849){: target="_blank"}  |  [Tableau](https://tableau.woowa.in/){: target="_blank"}
-##### DW [DW 주제 영역별 가이드](https://cloud.wiki.woowa.in/wiki/spaces/BITEAM/pages/785372461/DW){: target="_blank"}  |
-##### CI/CD [Jenkins](https://jenkins.ds.woowa.in/){: target="_blank"}  |  [Jenkins(beta)](https://jenkins.beta.ds.woowa.in/){: target="_blank"}
+##### DW [DW 주제 영역별 가이드](https://cloud.wiki.woowa.in/wiki/spaces/BITEAM/pages/785372461/DW){: target="_blank"}
 ##### 센트럴 전송 [센트럴 대시보드](https://cloud.wiki.woowa.in/wiki/spaces/BITEAM/pages/694170202/2.1+DH+-){: target="_blank"}
 
 ### 배민서비스(web)
