@@ -1,74 +1,79 @@
-title: Keep going..
-tagline: Fantasio
-description: Thinking by doing
-#baseurl: 'http://jwryu87.github.io'
-url: 'http://jwryu87.github.io'
-logo: /public/fatnasio-logo.png
+# Just the Docs 테마 설정
+title: 정보관리기술사 학습 노트
+description: PE/DS 학습 자료 정리
+baseurl: ""
+url: "https://jwryu87.github.io"
+
+# 테마 설정
+remote_theme: just-the-docs/just-the-docs@v0.8.2
 plugins:
-  - jekyll-paginate
-  - jekyll-algolia
-markdown: kramdown
-kramdown:
-  input: GFM
-excerpt_separator: <!-- more -->
-sass:
-  style: compressed
-  sass_dir: _scss
-paginate: 5
-paginate_path: '/blog/page:num'
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+
+# 색상 테마 (dark, light)
+color_scheme: light
+
+# 검색 활성화
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 3
+  preview_words_before: 5
+  preview_words_after: 10
+  tokenizer_separator: /[\s/]+/
+  rel_url: true
+  button: false
+
+# 네비게이션
+nav_sort: case_insensitive
+
+# 목차 (Table of Contents)
+heading_anchors: true
+
+# 외부 링크 설정
+aux_links:
+  "GitHub":
+    - "https://github.com/jwryu87/jwryu87.github.io"
+
+aux_links_new_tab: true
+
+# 푸터
+footer_content: "정보관리기술사 학습 노트 by Jaewoo Ryu"
+
+# 뒤로가기 버튼
+back_to_top: true
+back_to_top_text: "맨 위로"
+
+# Callouts
+callouts_level: quiet
+callouts:
+  highlight:
+    color: yellow
+  important:
+    title: 중요
+    color: blue
+  new:
+    title: 신규
+    color: green
+  note:
+    title: 참고
+    color: purple
+  warning:
+    title: 주의
+    color: red
+
+# 기본 설정
 permalink: pretty
-ink: pretty
-version: 1.0.0
-author:
-  name: Fantasio
-  description: >-
-    A passionate <strong>developer and researcher</strong>, learning to be a
-    giant.
-  contact:
-    github: 'https://github.com/jwryu87'
-    email: jwryu87@gmail.com
-nav:
-  Home:
-    - /
-  PE:
-    - /pe/
-  DS:
-    - /ds/
-  Tags:
-    - /tags/
-  Archive:
-    - /archive/
-#  Work:
-#    - /work/
-#    - MyData: /work/mydata/
-#    - SODAR: /work/sodar/
-#    - Bookmark: /work/bookmark/
-  About:
-    - /about/
-tag_page: /tags/
-disqus_short_name: jwryu87-github-io
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
-
-# algoria search
-#search: true
-#search_full_content: true
-#search_provider: algolia
-#algolia:
-#  application_id: 6LIMTKXH6D
-#  index_name: dev_fantasio
-#  files_to_exclude: []
-#  nodes_to_index: 'article'
-#  search_only_api_key: ee6a9669001a8b38986ec6f51317acf3
-
-# Analytics
-analytics:
-  provider               : "google-gtag"
-                          # false (default), "google", "google-universal", "google-gtag", "custom"
-  google:
-    tracking_id          : "G-VYN0SC3Y6Q"
-    anonymize_ip         : # true, false (default)
+exclude:
+  - node_modules/
+  - vendor/
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - "*.gemspec"
+  - scripts/
+  - PE_README.md
+  - DS_README.md
+  - README.md
