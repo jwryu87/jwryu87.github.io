@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 19. 로봇/자동화
-parent: DS (Digital Strategy)
+parent: DS (Digital Service)
 nav_order: 19
 has_children: true
 permalink: /docs/ds/19-robot

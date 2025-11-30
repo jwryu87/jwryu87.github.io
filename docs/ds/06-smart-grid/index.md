@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 6. 스마트그리드/에너지
-parent: DS (Digital Strategy)
+parent: DS (Digital Service)
 nav_order: 6
 has_children: true
 permalink: /docs/ds/06-smart-grid

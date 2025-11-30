@@ -2,7 +2,7 @@
 layout: default
 title: u-Health
 parent: 10. 디지털 헬스케어
-grand_parent: DS (Digital Strategy)
+grand_parent: DS (Digital Service)
 nav_order: 1
 ---
 

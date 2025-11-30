@@ -2,7 +2,7 @@
 layout: default
 title: 공간 DB
 parent: 14. 공간정보
-grand_parent: DS (Digital Strategy)
+grand_parent: DS (Digital Service)
 nav_order: 1
 ---
 

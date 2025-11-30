@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 7. 가상화/컨테이너
-parent: DS (Digital Strategy)
+parent: DS (Digital Service)
 nav_order: 7
 has_children: true
 permalink: /docs/ds/07-virtualization

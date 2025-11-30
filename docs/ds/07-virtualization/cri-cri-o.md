@@ -2,7 +2,7 @@
 layout: default
 title: CRI/CRI-O
 parent: 7. 가상화/컨테이너
-grand_parent: DS (Digital Strategy)
+grand_parent: DS (Digital Service)
 nav_order: 7
 ---
 

@@ -1,12 +1,12 @@
 ---
 layout: default
-title: DS (Digital Strategy)
+title: DS (Digital Service)
 nav_order: 2
 has_children: true
 permalink: /docs/ds
 ---
 
-# DS (Digital Strategy)
+# DS (Digital Service)
 {: .fs-9 }
 
 디지털 전략 기술 관련 학습 자료입니다.

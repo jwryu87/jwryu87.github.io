@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 16. 전자정부
-parent: DS (Digital Strategy)
+parent: DS (Digital Service)
 nav_order: 16
 has_children: true
 permalink: /docs/ds/16-e-gov

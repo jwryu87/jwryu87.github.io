@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 23. 인프라스트럭처
-parent: DS (Digital Strategy)
+parent: DS (Digital Service)
 nav_order: 23
 has_children: true
 permalink: /docs/ds/23-infra

@@ -2,7 +2,7 @@
 layout: default
 title: 오픈 API
 parent: 13. API
-grand_parent: DS (Digital Strategy)
+grand_parent: DS (Digital Service)
 nav_order: 1
 ---
 

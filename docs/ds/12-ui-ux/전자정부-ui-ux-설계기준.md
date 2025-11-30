@@ -2,7 +2,7 @@
 layout: default
 title: 전자정부 UI/UX 설계기준
 parent: 12. UI/UX
-grand_parent: DS (Digital Strategy)
+grand_parent: DS (Digital Service)
 nav_order: 4
 ---
 

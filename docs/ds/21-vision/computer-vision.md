@@ -2,7 +2,7 @@
 layout: default
 title: Computer Vision
 parent: 21. 영상처리/영상보안
-grand_parent: DS (Digital Strategy)
+grand_parent: DS (Digital Service)
 nav_order: 1
 ---
 

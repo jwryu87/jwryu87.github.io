@@ -2,7 +2,7 @@
 layout: default
 title: AMI
 parent: 6. 스마트그리드/에너지
-grand_parent: DS (Digital Strategy)
+grand_parent: DS (Digital Service)
 nav_order: 2
 ---
 

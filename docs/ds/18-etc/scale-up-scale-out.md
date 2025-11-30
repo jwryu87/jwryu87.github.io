@@ -2,7 +2,7 @@
 layout: default
 title: Scale-up/Scale-out
 parent: 18. DS 기타
-grand_parent: DS (Digital Strategy)
+grand_parent: DS (Digital Service)
 nav_order: 6
 ---
 

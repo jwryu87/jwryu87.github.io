@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 8. IoT
-parent: DS (Digital Strategy)
+parent: DS (Digital Service)
 nav_order: 8
 has_children: true
 permalink: /docs/ds/08-iot

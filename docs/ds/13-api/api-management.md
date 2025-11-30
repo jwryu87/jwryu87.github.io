@@ -2,7 +2,7 @@
 layout: default
 title: API Management
 parent: 13. API
-grand_parent: DS (Digital Strategy)
+grand_parent: DS (Digital Service)
 nav_order: 3
 ---
 

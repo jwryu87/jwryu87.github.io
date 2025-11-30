@@ -2,7 +2,7 @@
 layout: default
 title: XaaS (IaaS/PaaS/SaaS/DaaS/SecaaS)
 parent: 1. 클라우드
-grand_parent: DS (Digital Strategy)
+grand_parent: DS (Digital Service)
 nav_order: 9
 ---
 

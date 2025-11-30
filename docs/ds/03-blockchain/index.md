@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 3. 블록체인
-parent: DS (Digital Strategy)
+parent: DS (Digital Service)
 nav_order: 3
 has_children: true
 permalink: /docs/ds/03-blockchain

@@ -2,7 +2,7 @@
 layout: default
 title: STO
 parent: 3. 블록체인
-grand_parent: DS (Digital Strategy)
+grand_parent: DS (Digital Service)
 nav_order: 18
 ---
 

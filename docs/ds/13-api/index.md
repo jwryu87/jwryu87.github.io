@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 13. API
-parent: DS (Digital Strategy)
+parent: DS (Digital Service)
 nav_order: 13
 has_children: true
 permalink: /docs/ds/13-api

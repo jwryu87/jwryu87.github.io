@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 5. 스마트공장
-parent: DS (Digital Strategy)
+parent: DS (Digital Service)
 nav_order: 5
 has_children: true
 permalink: /docs/ds/05-smart-factory

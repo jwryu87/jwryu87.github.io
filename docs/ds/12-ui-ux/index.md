@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 12. UI/UX
-parent: DS (Digital Strategy)
+parent: DS (Digital Service)
 nav_order: 12
 has_children: true
 permalink: /docs/ds/12-ui-ux

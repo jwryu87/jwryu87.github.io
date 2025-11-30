@@ -2,7 +2,7 @@
 layout: default
 title: HTML5
 parent: 24. 웹 기술/검색엔진
-grand_parent: DS (Digital Strategy)
+grand_parent: DS (Digital Service)
 nav_order: 6
 ---
 

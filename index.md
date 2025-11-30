@@ -19,7 +19,7 @@ PE(정보관리기술사) 시험 준비를 위한 체계적인 학습 자료입�
 
 ## 📚 학습 구조
 
-### DS (Digital Strategy) - 135개 항목
+### DS (Digital Service) - 135개 항목
 {: .text-purple-000 }
 
 디지털 전략 기술 관련 학습 자료

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 20. 추천 시스템
-parent: DS (Digital Strategy)
+parent: DS (Digital Service)
 nav_order: 20
 has_children: true
 permalink: /docs/ds/20-recommendation

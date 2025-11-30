@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 24. 웹 기술/검색엔진
-parent: DS (Digital Strategy)
+parent: DS (Digital Service)
 nav_order: 24
 has_children: true
 permalink: /docs/ds/24-web

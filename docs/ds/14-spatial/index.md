@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 14. 공간정보
-parent: DS (Digital Strategy)
+parent: DS (Digital Service)
 nav_order: 14
 has_children: true
 permalink: /docs/ds/14-spatial

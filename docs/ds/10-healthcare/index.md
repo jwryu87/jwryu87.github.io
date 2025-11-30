@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 10. 디지털 헬스케어
-parent: DS (Digital Strategy)
+parent: DS (Digital Service)
 nav_order: 10
 has_children: true
 permalink: /docs/ds/10-healthcare

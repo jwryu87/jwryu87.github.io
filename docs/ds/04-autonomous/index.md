@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 4. 스마트카/자율주행
-parent: DS (Digital Strategy)
+parent: DS (Digital Service)
 nav_order: 4
 has_children: true
 permalink: /docs/ds/04-autonomous

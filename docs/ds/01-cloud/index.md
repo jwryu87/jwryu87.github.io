@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 1. 클라우드
-parent: DS (Digital Strategy)
+parent: DS (Digital Service)
 nav_order: 1
 has_children: true
 permalink: /docs/ds/01-cloud

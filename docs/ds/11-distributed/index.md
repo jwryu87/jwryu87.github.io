@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 11. 분산 컴퓨팅
-parent: DS (Digital Strategy)
+parent: DS (Digital Service)
 nav_order: 11
 has_children: true
 permalink: /docs/ds/11-distributed

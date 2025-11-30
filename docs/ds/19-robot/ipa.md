@@ -2,7 +2,7 @@
 layout: default
 title: IPA
 parent: 19. 로봇/자동화
-grand_parent: DS (Digital Strategy)
+grand_parent: DS (Digital Service)
 nav_order: 3
 ---
 

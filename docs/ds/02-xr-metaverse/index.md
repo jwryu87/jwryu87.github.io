@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 2. 가상융합/XR/메타버스
-parent: DS (Digital Strategy)
+parent: DS (Digital Service)
 nav_order: 2
 has_children: true
 permalink: /docs/ds/02-xr-metaverse

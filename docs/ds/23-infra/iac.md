@@ -2,7 +2,7 @@
 layout: default
 title: IaC
 parent: 23. 인프라스트럭처
-grand_parent: DS (Digital Strategy)
+grand_parent: DS (Digital Service)
 nav_order: 1
 ---
 

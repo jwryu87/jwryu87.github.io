@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 22. 디지털 지갑/FinOps
-parent: DS (Digital Strategy)
+parent: DS (Digital Service)
 nav_order: 22
 has_children: true
 permalink: /docs/ds/22-finops

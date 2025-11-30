@@ -2,7 +2,7 @@
 layout: default
 title: Semantic Web
 parent: 24. 웹 기술/검색엔진
-grand_parent: DS (Digital Strategy)
+grand_parent: DS (Digital Service)
 nav_order: 1
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 17. 가트너 전략
-parent: DS (Digital Strategy)
+parent: DS (Digital Service)
 nav_order: 17
 has_children: true
 permalink: /docs/ds/17-gartner

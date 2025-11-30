@@ -2,7 +2,7 @@
 layout: default
 title: Smart City
 parent: 2. 가상융합/XR/메타버스
-grand_parent: DS (Digital Strategy)
+grand_parent: DS (Digital Service)
 nav_order: 5
 ---
 

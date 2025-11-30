@@ -2,7 +2,7 @@
 layout: default
 title: FinOps
 parent: 22. 디지털 지갑/FinOps
-grand_parent: DS (Digital Strategy)
+grand_parent: DS (Digital Service)
 nav_order: 2
 ---
 

@@ -2,7 +2,7 @@
 layout: default
 title: UAM
 parent: 9. 드론/UAM
-grand_parent: DS (Digital Strategy)
+grand_parent: DS (Digital Service)
 nav_order: 3
 ---
 

@@ -2,7 +2,7 @@
 layout: default
 title: NB-IoT
 parent: 8. IoT
-grand_parent: DS (Digital Strategy)
+grand_parent: DS (Digital Service)
 nav_order: 2
 ---
 

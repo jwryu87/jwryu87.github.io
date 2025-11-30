@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 18. DS 기타
-parent: DS (Digital Strategy)
+parent: DS (Digital Service)
 nav_order: 18
 has_children: true
 permalink: /docs/ds/18-etc

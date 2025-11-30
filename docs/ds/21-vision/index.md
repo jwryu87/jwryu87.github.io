@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 21. 영상처리/영상보안
-parent: DS (Digital Strategy)
+parent: DS (Digital Service)
 nav_order: 21
 has_children: true
 permalink: /docs/ds/21-vision

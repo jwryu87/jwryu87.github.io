@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 15. 디자인씽킹
-parent: DS (Digital Strategy)
+parent: DS (Digital Service)
 nav_order: 15
 has_children: true
 permalink: /docs/ds/15-design-thinking

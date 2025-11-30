@@ -2,7 +2,7 @@
 layout: default
 title: UX/UI
 parent: 12. UI/UX
-grand_parent: DS (Digital Strategy)
+grand_parent: DS (Digital Service)
 nav_order: 5
 ---
 

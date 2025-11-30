@@ -2,7 +2,7 @@
 layout: default
 title: ISO/SAE 21434
 parent: 4. 스마트카/자율주행
-grand_parent: DS (Digital Strategy)
+grand_parent: DS (Digital Service)
 nav_order: 8
 ---
 

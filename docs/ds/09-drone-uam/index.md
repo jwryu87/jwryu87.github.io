@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 9. 드론/UAM
-parent: DS (Digital Strategy)
+parent: DS (Digital Service)
 nav_order: 9
 has_children: true
 permalink: /docs/ds/09-drone-uam
