@@ -1,4 +1,6 @@
 source "https://rubygems.org"
 
-gem "github-pages", group: :jekyll_plugins
-gem "jekyll-include-cache", group: :jekyll_plugins
+gem "jekyll", "~> 4.3"
+gem "just-the-docs", "~> 0.10"
+gem "jekyll-seo-tag"
+gem "jekyll-include-cache"

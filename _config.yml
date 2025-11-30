@@ -4,10 +4,9 @@ description: PE/DS 학습 자료 정리
 baseurl: ""
 url: "https://jwryu87.github.io"
 
-# 테마 설정 (GitHub Pages 호환)
-remote_theme: just-the-docs/just-the-docs@v0.10.0
+# 테마 설정 (GitHub Actions + Jekyll 4.x)
+theme: just-the-docs
 plugins:
-  - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-include-cache
 
