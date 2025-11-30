@@ -8,17 +8,25 @@ permalink: /docs/ds/13-api
 ---
 
 # 13. API
-{: .fs-8 }
+{: .no_toc }
 
 총 4개 항목
 {: .fs-5 .fw-300 }
 
 ---
 
-## 13. API
+## 목차
+{: .no_toc .text-delta }
 
-- [ ] 오픈 API
-- [ ] API Gateway
-- [ ] API Management
-- [ ] 서비스 메시
+| 토픽 |
+|:-----|
+| [오픈 API](/docs/ds/13-api/오픈-api) \| [API Gateway](/docs/ds/13-api/api-gateway) \| [API Management](/docs/ds/13-api/api-management) \| [서비스 메시](/docs/ds/13-api/서비스-메시) |
 
+---
+
+| 토픽 | 학습 |
+|:-----|:----:|
+| [오픈 API](/docs/ds/13-api/오픈-api) | ☐ |
+| [API Gateway](/docs/ds/13-api/api-gateway) | ☐ |
+| [API Management](/docs/ds/13-api/api-management) | ☐ |
+| [서비스 메시](/docs/ds/13-api/서비스-메시) | ☐ |

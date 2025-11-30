@@ -8,18 +8,26 @@ permalink: /docs/ds/19-robot
 ---
 
 # 19. 로봇/자동화
-{: .fs-8 }
+{: .no_toc }
 
 총 5개 항목
 {: .fs-5 .fw-300 }
 
 ---
 
-## 19. 로봇/자동화
+## 목차
+{: .no_toc .text-delta }
 
-- [ ] 로봇
-- [ ] RPA
-- [ ] IPA
-- [ ] Hyperautomation
-- [ ] 멀티 에이전트 협업
+| 토픽 |
+|:-----|
+| [로봇](/docs/ds/19-robot/로봇) \| [RPA](/docs/ds/19-robot/rpa) \| [IPA](/docs/ds/19-robot/ipa) \| [Hyperautomation](/docs/ds/19-robot/hyperautomation) \| [멀티 에이전트 협업](/docs/ds/19-robot/멀티-에이전트-협업) |
 
+---
+
+| 토픽 | 학습 |
+|:-----|:----:|
+| [로봇](/docs/ds/19-robot/로봇) | ☐ |
+| [RPA](/docs/ds/19-robot/rpa) | ☐ |
+| [IPA](/docs/ds/19-robot/ipa) | ☐ |
+| [Hyperautomation](/docs/ds/19-robot/hyperautomation) | ☐ |
+| [멀티 에이전트 협업](/docs/ds/19-robot/멀티-에이전트-협업) | ☐ |

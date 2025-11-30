@@ -8,15 +8,23 @@ permalink: /docs/ds/22-finops
 ---
 
 # 22. 디지털 지갑/FinOps
-{: .fs-8 }
+{: .no_toc }
 
 총 2개 항목
 {: .fs-5 .fw-300 }
 
 ---
 
-## 22. 디지털 지갑/FinOps
+## 목차
+{: .no_toc .text-delta }
 
-- [ ] 디지털 지갑
-- [ ] FinOps
+| 토픽 |
+|:-----|
+| [디지털 지갑](/docs/ds/22-finops/디지털-지갑) \| [FinOps](/docs/ds/22-finops/finops) |
 
+---
+
+| 토픽 | 학습 |
+|:-----|:----:|
+| [디지털 지갑](/docs/ds/22-finops/디지털-지갑) | ☐ |
+| [FinOps](/docs/ds/22-finops/finops) | ☐ |

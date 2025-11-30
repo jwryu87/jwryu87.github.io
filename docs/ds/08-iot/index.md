@@ -8,15 +8,23 @@ permalink: /docs/ds/08-iot
 ---
 
 # 8. IoT
-{: .fs-8 }
+{: .no_toc }
 
 총 2개 항목
 {: .fs-5 .fw-300 }
 
 ---
 
-## 8. IoT
+## 목차
+{: .no_toc .text-delta }
 
-- [ ] IoT
-- [ ] NB-IoT
+| 토픽 |
+|:-----|
+| [IoT](/docs/ds/08-iot/iot) \| [NB-IoT](/docs/ds/08-iot/nb-iot) |
 
+---
+
+| 토픽 | 학습 |
+|:-----|:----:|
+| [IoT](/docs/ds/08-iot/iot) | ☐ |
+| [NB-IoT](/docs/ds/08-iot/nb-iot) | ☐ |

@@ -8,14 +8,22 @@ permalink: /docs/ds/23-infra
 ---
 
 # 23. 인프라스트럭처
-{: .fs-8 }
+{: .no_toc }
 
 총 1개 항목
 {: .fs-5 .fw-300 }
 
 ---
 
-## 23. 인프라스트럭처
+## 목차
+{: .no_toc .text-delta }
 
-- [ ] IaC
+| 토픽 |
+|:-----|
+| [IaC](/docs/ds/23-infra/iac) |
 
+---
+
+| 토픽 | 학습 |
+|:-----|:----:|
+| [IaC](/docs/ds/23-infra/iac) | ☐ |

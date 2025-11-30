@@ -8,15 +8,23 @@ permalink: /docs/ds/20-recommendation
 ---
 
 # 20. 추천 시스템
-{: .fs-8 }
+{: .no_toc }
 
 총 2개 항목
 {: .fs-5 .fw-300 }
 
 ---
 
-## 20. 추천 시스템
+## 목차
+{: .no_toc .text-delta }
 
-- [ ] 추천 시스템
-- [ ] 협업 필터링
+| 토픽 |
+|:-----|
+| [추천 시스템](/docs/ds/20-recommendation/추천-시스템) \| [협업 필터링](/docs/ds/20-recommendation/협업-필터링) |
 
+---
+
+| 토픽 | 학습 |
+|:-----|:----:|
+| [추천 시스템](/docs/ds/20-recommendation/추천-시스템) | ☐ |
+| [협업 필터링](/docs/ds/20-recommendation/협업-필터링) | ☐ |
