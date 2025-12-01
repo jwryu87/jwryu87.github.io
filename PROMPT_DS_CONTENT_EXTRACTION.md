@@ -219,3 +219,4 @@ read_file("assets/jpeg/DS/DS_052.jpg")  # UAM
 
 그리고 각각의 내용을 추출하여 해당 마크다운 파일에 작성하세요.
 
+
