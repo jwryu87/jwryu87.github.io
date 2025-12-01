@@ -9,19 +9,33 @@ permalink: /docs/nw/06-management
 
 # 네트워크 관리
 
-소프트웨어 정의 네트워크 및 관리 기술입니다.
+SDx 및 가상화·자동화 기술
+{: .fs-6 .fw-300 }
 
 ---
 
+## 6-1. SDx (6개)
+
 | 토픽 | 설명 |
 |:-----|:-----|
-| [네트워크 슬라이싱](/docs/nw/06-management/network-slicing) | Network Slicing |
-| [SDx](/docs/nw/06-management/sdx) | Software Defined Everything |
-| [SDDC](/docs/nw/06-management/sddc) | Software Defined Data Center |
-| [SDN](/docs/nw/06-management/sdn) | Software Defined Network |
-| [Openflow](/docs/nw/06-management/openflow) | SDN 프로토콜 |
-| [SD-WAN](/docs/nw/06-management/sd-wan) | Software Defined WAN |
-| [NFV](/docs/nw/06-management/nfv) | Network Function Virtualization |
-| [Supernetting·Subnetting](/docs/nw/06-management/subnetting) | IP 주소 관리 |
+| [SDx 개념](/docs/nw/06-management/sdx) | Software Defined Everything |
+| [SDDC](/docs/nw/06-management/sddc) | 소프트웨어 정의 데이터센터 |
+| [SDN](/docs/nw/06-management/sdn) | 소프트웨어 정의 네트워크 |
+| [OpenFlow](/docs/nw/06-management/openflow) | SDN 프로토콜 |
+| [SD-WAN](/docs/nw/06-management/sd-wan) | 소프트웨어 정의 WAN |
+| [NFV](/docs/nw/06-management/nfv) | 네트워크 기능 가상화 |
 
+---
 
+## 6-2. 가상화·자동화 (2개)
+
+| 토픽 | 설명 |
+|:-----|:-----|
+| [Network Function Virtualization](/docs/nw/06-management/nfv-detail) | NFV 상세 |
+| [Supernetting/Subnetting](/docs/nw/06-management/subnetting) | IP 주소 관리 |
+
+---
+
+## 참고자료
+
+- 정보관리기술사 네트워크 학습자료
