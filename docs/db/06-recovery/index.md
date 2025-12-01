@@ -21,4 +21,5 @@ permalink: /docs/db/06-recovery
 | [체크포인트](/docs/db/06-recovery/checkpoint) | 복구 시점 설정 및 활용 |
 | [그림자 페이지](/docs/db/06-recovery/shadow-paging) | 그림자 페이징 기법 |
 | [ARIES](/docs/db/06-recovery/aries) | 고급 복구 알고리즘 |
+| [버퍼 관리 정책](/docs/db/06-recovery/buffer-management) | STEAL/FORCE 버퍼 관리 정책 |
 

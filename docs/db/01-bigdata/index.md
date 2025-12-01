@@ -20,6 +20,7 @@ permalink: /docs/db/01-bigdata
 | [빅데이터 3V/6V](/docs/db/01-bigdata/bigdata-3v-6v) | 빅데이터의 특성을 정의하는 3V, 6V 개념 |
 | [빅데이터 시각화](/docs/db/01-bigdata/bigdata-visualization) | 빅데이터 시각화 기법 및 도구 |
 | [빅데이터 분석도구 선택 원칙](/docs/db/01-bigdata/bigdata-analysis-tool) | 분석 목적에 맞는 도구 선택 방법 |
+| [데이터 라벨링 & 어노테이션](/docs/db/01-bigdata/data-labeling-annotation) | AI 학습용 데이터 라벨링 및 어노테이션 기법 |
 
 ---
 

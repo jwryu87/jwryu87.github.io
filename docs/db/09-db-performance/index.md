@@ -18,6 +18,7 @@ permalink: /docs/db/09-db-performance
 | 토픽 | 설명 |
 |:-----|:-----|
 | [DB 튜닝](/docs/db/09-db-performance/db-tuning) | 데이터베이스 성능 최적화 기법 |
+| [데이터베이스 성능 개선](/docs/db/09-db-performance/performance-improvement) | 성능 개선 유형 및 기법 |
 | [Optimizer](/docs/db/09-db-performance/optimizer) | 쿼리 최적화기 동작 원리 |
 | [샤딩](/docs/db/09-db-performance/sharding) | 데이터 분산 저장 기법 |
 | [Partitioning](/docs/db/09-db-performance/partitioning) | 테이블 파티셔닝 전략 |

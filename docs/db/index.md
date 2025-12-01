@@ -8,15 +8,15 @@ permalink: /docs/db
 
 # DB (데이터베이스)
 
-데이터베이스 관련 학습 자료입니다. 총 **70개** 항목
+데이터베이스 관련 학습 자료입니다. 총 **73개** 항목
 
 ---
 
-## 1. 빅데이터 (15개)
+## 1. 빅데이터 (16개)
 
 | 구분 | 토픽 |
 |:-----|:-----|
-| 1.1 빅데이터 개념 | [빅데이터 3V/6V](/docs/db/01-bigdata/bigdata-3v-6v) \| [빅데이터 시각화](/docs/db/01-bigdata/bigdata-visualization) \| [빅데이터 분석도구 선택 원칙](/docs/db/01-bigdata/bigdata-analysis-tool) |
+| 1.1 빅데이터 개념 | [빅데이터 3V/6V](/docs/db/01-bigdata/bigdata-3v-6v) \| [빅데이터 시각화](/docs/db/01-bigdata/bigdata-visualization) \| [빅데이터 분석도구 선택 원칙](/docs/db/01-bigdata/bigdata-analysis-tool) \| [데이터 라벨링 & 어노테이션](/docs/db/01-bigdata/data-labeling-annotation) |
 | 1.2 처리·플랫폼 | [Hadoop 3.0](/docs/db/01-bigdata/hadoop-3) \| [Lambda/Kappa 아키텍처](/docs/db/01-bigdata/lambda-kappa) \| [Apache Kafka](/docs/db/01-bigdata/apache-kafka) \| [데이터 웨어하우스](/docs/db/01-bigdata/data-warehouse) \| [Data Lake](/docs/db/01-bigdata/data-lake) \| [Data Fabric](/docs/db/01-bigdata/data-fabric) |
 | 1.3 분석 기법 | [배깅·부스팅](/docs/db/01-bigdata/bagging-boosting) \| [랜덤 포레스트](/docs/db/01-bigdata/random-forest) \| [앙상블 학습](/docs/db/01-bigdata/ensemble-learning) \| [상관·인과 관계](/docs/db/01-bigdata/correlation-causation) \| [분석 모델 평가 방법](/docs/db/01-bigdata/analysis-model-evaluation) |
 | 1.4 빅데이터 보안 | [Big Data 보안](/docs/db/01-bigdata/bigdata-security) |
@@ -58,11 +58,11 @@ permalink: /docs/db
 
 ---
 
-## 6. 데이터 회복 (4개)
+## 6. 데이터 회복 (5개)
 
 | 토픽 |
 |:-----|
-| [로그 기반 회복](/docs/db/06-recovery/log-based-recovery) \| [체크포인트](/docs/db/06-recovery/checkpoint) \| [그림자 페이지](/docs/db/06-recovery/shadow-paging) \| [ARIES](/docs/db/06-recovery/aries) |
+| [로그 기반 회복](/docs/db/06-recovery/log-based-recovery) \| [체크포인트](/docs/db/06-recovery/checkpoint) \| [그림자 페이지](/docs/db/06-recovery/shadow-paging) \| [ARIES](/docs/db/06-recovery/aries) \| [버퍼 관리 정책](/docs/db/06-recovery/buffer-management) |
 
 ---
 
@@ -82,11 +82,11 @@ permalink: /docs/db
 
 ---
 
-## 9. DB 성능 (10개)
+## 9. DB 성능 (11개)
 
 | 토픽 |
 |:-----|
-| [DB 튜닝](/docs/db/09-db-performance/db-tuning) \| [Optimizer](/docs/db/09-db-performance/optimizer) \| [샤딩](/docs/db/09-db-performance/sharding) \| [Partitioning](/docs/db/09-db-performance/partitioning) \| [Query Offloading](/docs/db/09-db-performance/query-offloading) \| [조인](/docs/db/09-db-performance/join) \| [서브쿼리](/docs/db/09-db-performance/subquery) \| [리팩터링](/docs/db/09-db-performance/refactoring) \| [인덱스 종류](/docs/db/09-db-performance/index-types) \| [Scan 방식](/docs/db/09-db-performance/scan-methods) |
+| [DB 튜닝](/docs/db/09-db-performance/db-tuning) \| [데이터베이스 성능 개선](/docs/db/09-db-performance/performance-improvement) \| [Optimizer](/docs/db/09-db-performance/optimizer) \| [샤딩](/docs/db/09-db-performance/sharding) \| [Partitioning](/docs/db/09-db-performance/partitioning) \| [Query Offloading](/docs/db/09-db-performance/query-offloading) \| [조인](/docs/db/09-db-performance/join) \| [서브쿼리](/docs/db/09-db-performance/subquery) \| [리팩터링](/docs/db/09-db-performance/refactoring) \| [인덱스 종류](/docs/db/09-db-performance/index-types) \| [Scan 방식](/docs/db/09-db-performance/scan-methods) |
 
 ---
 
