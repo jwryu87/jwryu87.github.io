@@ -1,40 +1,81 @@
 ---
 layout: default
 title: 그로스해킹
-parent: 2. 경영전략 (Strategy)
+parent: 2. 경영전략
 grand_parent: BIZ (경영)
-nav_order: 20
+nav_order: 10
 ---
 
 # 그로스해킹 (Growth Hacking)
 {: .fs-8 }
 
-2.4 경영 혁신·마케팅 기법
-{: .label .label-blue }
+2.10 그로스해킹
+{: .label .label-green }
+
+> 암기: **AARRR**
 
 ---
 
 ## 핵심 키워드
 
-`AARRR` `Acquisition` `Activation` `Retention` `Revenue` `Referral`
+`Funnel Analysis` `A/B Test` `Cohort Analysis` `AARRR 프레임워크`
 
 ---
 
 ## 정의/개념
 
-*(학습 내용 추가 예정)*
+**스타트업을 중심**으로 빠르고 효율적인 성장을 이끌어내기 위해 사용되는 **마케팅 전략**
+
+---
+
+## 방법론 (AARRR 프레임워크)
+
+### IV. 그로스 해킹의 AARRR 프레임워크 상세설명
+
+| 구분 | 핵심 사항 | 설명 |
+|:-----|:---------|:-----|
+| **고객유치 (Acquisition)** | 고객 획득 비용 (Customer Acquisition Cost, CAC) | 고객 유치 과정의 핵심은 고객 유치에 기여한 채널의 성과를 판단 할 수 있는 모델을 만드는 것임. |
+| **활성화 (Activation)** | 퍼널(Funnel) 분석 | 고객 유치를 통해 데려온 사용자가 우리 서비스의 핵심 가치를 경험하게 만드는 것임.<br>사용자들이 서비스에 진입하고 나서 최종적인 핵심 기능을 사용하기까지의 여정을 도표로 나타낸 것. |
+| **리텐션 (Retention)** | 유지율 계산, 범위 리텐션, 롤링 리텐션 | 활성화 과정을 통해 경험한 핵심 가치를 꾸준히 경험하게 하고, 그 수준을 측정할 수 있는 지표를 정의하고 관리해야 함. |
+| **수익화 (Revenue)** | ARPU(인당 평균 매출), 고객 생애 가치 (Lifetime Value, LTV), 고객 생애 매출 (Lifetime Revenue, LTR) | 서비스가 어떤 비즈니스 모델을 가지고 있는지를 명확히 이해하고, 그 비즈니스 모델이 잘 동작하는지, 비용 대비 수익이 안정적인지를 데이터로 확인 할 수 있어야 함. |
+| **추천 (Referral)** | 친구 초대 플로 설계, 바이럴 계수 | 오가닉 유입의 하나로, 기존 사용자의 추천이나 입소문을 통해 새로운 사용자를 데려오는 것. |
+
+> **그로스 해킹**은 결과적으로 목표 지표를 선정하고 그 지표를 개선하기 위해 일련의 활동을 수행하는 것을 의미함.
+
+---
+
+## 기법
+
+### 그로스해킹 분석 기법
+
+| 동향변화 | 아키텍처 | 상세설명 |
+|:--------|:---------|:---------|
+| **Funnel Analysis 기법** | 100% → Activation → 20% → AARRR | 유저의 행동을 단계별로 분석하는 데이터 분석방법<br>서비스 주요 단계별로 사용자들이 얼마나 남는지 측정 |
+| **A/B Test** | ▶ 23% ▶ 11% | 사용자가 처음 찾아오는 페이지에 A와 B 모두 시험 해보고 좋은 결과 나온 쪽을 선택하는 방법<br>옵티마이즐리, 언바운스 |
+| **Cohort analysis** | 3월 20/35/50<br>2월 23/32<br>1월 28 | 동일한 특성을 가진 고객 들을 그룹(cohort)으로 묶어 시간에 흐름에 따라 각 그룹의 성과를 비교하는 분석 기법 |
+
+> 스타트업 기업이 초기 회사를 급성장 시키기 위해 다양한 분석 기법을 활용 함.
+
+---
+
+## 연계 토픽
+
+- [기술수용주기](/docs/biz/02-strategy/chasm)
+- [데스밸리](/docs/biz/02-strategy/death-valley)
+- [캐즘이론](/docs/biz/02-strategy/chasm)
 
 ---
 
 ## 학습 체크리스트
 
-- [ ] 그로스해킹 개념 이해
-- [ ] AARRR 퍼널 파악
-- [ ] 실제 적용 사례 학습
+- [ ] AARRR 5단계 암기 (Acquisition, Activation, Retention, Revenue, Referral)
+- [ ] 분석 기법 3가지 이해 (Funnel, A/B Test, Cohort)
+- [ ] 각 단계별 핵심 지표 파악
 
 ---
 
 ## 참고자료
 
 - 정보관리기술사 경영 학습자료
+- Sean Ellis, "Hacking Growth"
 

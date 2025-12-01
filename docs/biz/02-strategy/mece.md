@@ -1,40 +1,58 @@
 ---
 layout: default
 title: MECE
-parent: 2. 경영전략 (Strategy)
+parent: 2. 경영전략
 grand_parent: BIZ (경영)
-nav_order: 1
+nav_order: 3
 ---
 
-# MECE
+# MECE (Mutually Exclusive Collectively Exhaustive)
 {: .fs-8 }
 
-2.1 전략수립 도구
-{: .label .label-purple }
+2.3 MECE
+{: .label .label-blue }
 
 ---
 
 ## 핵심 키워드
 
-`Mutually Exclusive` `Collectively Exhaustive` `논리적 구조화` `문제 분해`
+`상호 배제` `전체 포괄` `LISS`
 
 ---
 
 ## 정의/개념
 
-*(학습 내용 추가 예정)*
+서로 중복되는 것이 없으며 누락되는 것도 없이 **문제의 전체를 파악**하는 사고방식 또는 방법론
+
+---
+
+## MECE vs LISS 비교
+
+| 구분 | MECE | LISS |
+|:-----|:-----|:-----|
+| **개념도** | 직사각형을 겹치지 않게 빈틈없이 분할 | 타원들이 겹치지 않고 중요 영역만 선택 |
+| **개념** | 상호 중복 되지 않고 빠짐없이 각각의 합이 전체가 될 수 있는 집합을 의미하는 전략적 사고 방법 | 상호 중복 되지 않고 각각 합이 전체가 되지 않지만 각각의 부분 집합에 속한 중요한 의미를 명확히 하는 전략적 사고 방법 |
+| **특징** | 빠짐 없이 분석 | 중요 과제의 명확화<br>(과감히 버려라, 대폭 줄여라) |
+| **사례** | 인간의 출산에 관련된 계획을 분석하기 위해 남성과 여성으로 분류, 전 연령대 분석 | 인간의 출산에 관련된 계획을 분석하기 위해 남성과 여성으로 분류하고 30대 남성과 30대 여성을 분석 |
+
+---
+
+## 연계 토픽
+
+- [LISS](/docs/biz/02-strategy/liss)
 
 ---
 
 ## 학습 체크리스트
 
-- [ ] MECE 원칙 이해
-- [ ] 적용 방법 파악
-- [ ] 문제 분해 사례 학습
+- [ ] MECE의 정의 이해 (상호 배제, 전체 포괄)
+- [ ] MECE와 LISS의 차이점 구분
+- [ ] 적용 사례 이해
 
 ---
 
 ## 참고자료
 
 - 정보관리기술사 경영 학습자료
+- McKinsey & Company, "The MECE Principle"
 
