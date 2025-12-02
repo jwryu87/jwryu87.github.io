@@ -1,18 +1,19 @@
 ---
 layout: default
-title: 멀티미디어 스트리밍 프로토콜
-parent: 7. OSI 7 Layer
-grand_parent: NW (네트워크)
-nav_order: 32
+title: 137회-1교시-1번 멀티미디어 스트리밍 프로토콜
+parent: 📝 기출문제
+grand_parent: DS (Digital Service)
+nav_order: 1
+permalink: /docs/ds/exam/137-1-1-streaming-protocol
 ---
 
 # 멀티미디어 스트리밍 프로토콜의 종류
 {: .fs-8 }
 
-7-5. 응용계층 프로토콜
-{: .label .label-red }
+137회 정보관리기술사 1교시 1번
+{: .label .label-blue }
 
-기출: 디지털서비스 / 난이도: 상
+디지털서비스 / 난이도: 상
 {: .label .label-purple }
 
 ---
