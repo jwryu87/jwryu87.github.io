@@ -200,28 +200,28 @@ permalink: /docs/ds/exam/137-1-1-streaming-protocol
 ## 🧠 암기법 (Mnemonic)
 
 {: .note }
-> ### 그룹 1: **"전품제속"** (전송-품질-제어-속성)
+> ### 그룹 1: **"RT-P → RT-CP → RT-SP → S-DP"**
 > 
-> | 암기 | 프로토콜 | 역할 |
-> |:-----|:--------|:----|
-> | **전**송 | RTP | 실제 데이터 전송 |
-> | **품**질 | RTCP | 품질 모니터링 |
-> | **제**어 | RTSP | 재생/정지 제어 |
-> | **속**성 | SDP | 미디어 속성 기술 |
+> | 암기 | 프로토콜 | 풀네임 | 역할 |
+> |:-----|:--------|:------|:----|
+> | RT-**P** | RTP | Real-time Transport **P**rotocol | 전송 |
+> | RT-**CP** | RTCP | RTP **C**ontrol **P**rotocol | 품질 제어 |
+> | RT-**SP** | RTSP | Real-Time **S**treaming **P**rotocol | 세션 제어 |
+> | S-**DP** | SDP | Session **D**escription **P**rotocol | 속성 기술 |
 >
-> 💡 **"영상 전송할 때 품질 제어하며 속성 맞춘다"**
+> 💡 **"RT 3형제(P→CP→SP) + SDP"** — Real-Time 계열 3개가 먼저, Session Description이 마지막
 
 {: .note }
-> ### 그룹 2: **"애국통저"** (애플-국제-통합-저지연)
+> ### 그룹 2: **"H → D → C → LL"** (진화 순서)
 > 
-> | 암기 | 프로토콜 | 의미 |
-> |:-----|:--------|:----|
-> | **애**(플) | HLS | Apple이 만든 표준 |
-> | **국**(제) | MPEG-DASH | ISO 국제 표준 |
-> | **통**(합) | CMAF | HLS+DASH 통합 포맷 |
-> | **저**(지연) | LL-HLS/LL-DASH | Low Latency 확장 |
+> | 암기 | 프로토콜 | 풀네임 | 특징 |
+> |:-----|:--------|:------|:----|
+> | **H** | HLS | HTTP **L**ive **S**treaming | Apple 독자 |
+> | **D** | DASH | **D**ynamic **A**daptive **S**treaming over **H**TTP | ISO 국제표준 |
+> | **C** | CMAF | **C**ommon **M**edia **A**pplication **F**ormat | HLS+DASH 통합 |
+> | **LL** | LL-HLS/LL-DASH | **L**ow **L**atency | 저지연 확장 |
 >
-> 💡 **"애플이 시작해서 국제표준 되고, 통합되어 저지연까지 진화"**
+> 💡 **"H-D-C-LL"** — "에이치 대시 씨 엘엘" 순서대로 진화!
 
 ---
 
