@@ -64,6 +64,29 @@ IoT 디바이스 → IoT 네트워크 → IoT 플랫폼 → IoT 서비스
 
 ---
 
+## RFID (Radio Frequency IDentification)
+
+> 암기: **이리사오피** (Tag, Reader, Savant Server, ONS, PML)
+
+### RFID 구성요소
+
+| 구성요소 | 설명 |
+|:---------|:-----|
+| **Tag (EPC)** | 전자 제품 코드가 저장된 태그 |
+| **Reader** | 태그 정보를 읽는 장치 |
+| **Savant Server** | 대량의 EPC 데이터 필터링/처리 |
+| **ONS** | EPC → URL 변환 (Object Name Service) |
+| **PML** | 제품 정보 기술 언어 (Physical Markup Language) |
+| **PML Server** | PML 데이터 저장/관리 서버 |
+
+### RFID 동작 흐름
+
+```
+Tag(EPC) → Reader → Savant Server → ONS(EPC→URL) → PML Server
+```
+
+---
+
 ## 연계 토픽
 
 - [NB-IoT](/docs/ds/08-iot/nb-iot)
