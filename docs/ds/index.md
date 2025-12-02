@@ -69,3 +69,7 @@ permalink: /docs/ds
 [인프라]({{ site.baseurl }}/docs/ds/23-infra){: .btn .btn-outline-brown .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [웹기술]({{ site.baseurl }}/docs/ds/24-web){: .btn .btn-outline-gray .fs-5 .mb-4 .mb-md-0 }
 
+---
+
+[📝 기출문제 (43문제)]({{ site.baseurl }}/docs/ds/exam){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 }
+
