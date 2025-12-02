@@ -6,7 +6,7 @@ grand_parent: DS (Digital Service)
 nav_order: 5
 ---
 
-# IaaS, PaaS, SaaS
+# XaaS (Everything as a Service)
 {: .fs-8 }
 
 1.1 클라우드 개념
@@ -21,6 +21,23 @@ nav_order: 5
 | **IaaS** | `HW자원` `가상화` `On-Demand` `Pay-per-use` |
 | **PaaS** | `MSA` `미들웨어` `Buffer Overflow` `SDLC` |
 | **SaaS** | `Time to Market` `접근성` `확장성` `가용성` |
+| **DaaS** | `가상 데스크톱` `VDI` `원격 접속` |
+| **BaaS** | `모바일` `백엔드` `푸쉬` `인증` |
+| **SecaaS** | `보안 서비스` `IAM` `DLP` `SIEM` |
+
+---
+
+## XaaS 종류 및 특징 개요
+
+| 서비스 | 설명 |
+|:-------|:-----|
+| **IaaS** | 서버, 스토리지, 네트워크 등의 하드웨어 자원을 서비스로 제공 |
+| **PaaS** | 개발, 테스트, 배포, 호스팅 플랫폼과 서비스 제공 |
+| **SaaS** | 서버의 컴퓨터상에 소프트웨어를 설치 및 사용 |
+| **DaaS** | 고객 데이터를 관리할 수 있는 가상 데스크톱 제공 |
+| **BaaS** | 모바일 백엔드 저장, 푸쉬, 사용자, 접속제어 제공 |
+| **SecaaS** | 서비스로서의 보안, 보안 전문 서비스 |
+| **DraaS** | DRS를 클라우드 기반으로 구축한 재해복구 서비스 |
 
 ---
 
@@ -69,6 +86,76 @@ nav_order: 5
 | **도입시 고려사항** | 접근성<br>확장성<br>가용성 | - 인터넷 접속 환경, 다양한 단말 환경 지원 여부<br>- 수요 대응 탄력성 및 확장성이 높은 인터넷 환경 애플리케이션 제공 여부<br>- 안정성 및 자체 직접적 및 통제를 통한 높은 수준의 신뢰성 제공 여부 |
 
 > 모든 잠재적인 기술적 문제를 CSP 에서 관리하기 때문에 유지보수 및 자원을 간소화, 비즈니스에 집중가능. 최근 정부의 공공 클라우드 센터 건설에 따른 민관협력 PPP 모델에 대한 관심 확대
+
+---
+
+## DaaS (Desktop as a Service)
+
+| 구분 | 항목 | 설명 |
+|:-----|:-----|:-----|
+| **개념** | - | 고객의 데스크톱 환경을 클라우드에서 가상화하여 제공하는 서비스 |
+| **기술요소** | - | 데스크톱 클라이언트, 가상데스크톱 에이전트, 가상 머신 풀, 데스크톱 연결 브로커, 접근 게이트웨이, 인증서버 |
+
+### DaaS 구성요소 (프연생관)
+
+> 📌 암기팁: **프**레젠테이션 **연**결 **생**성 **관**리
+
+| 구성요소 | 세부 기술 | 설명 |
+|:---------|:----------|:-----|
+| **Virtual Desktop Presentation** | NW Protocol, I/O Event Manager, Protocol Interpreter, Video/Audio | 사용자 영역, 화면 전송 |
+| **Desktop 연결** | Delivery Protocol, Connection Broker | 클라우드와 사용자 연결 |
+| **Desktop 생성** | VM, Hypervisor, Hardware | 클라우드에서 가상머신 생성 |
+| **자원 관리** | Provisioning, Migration, Virtual Desktop, Dynamic Resource, Environment | 자원 할당 및 관리 |
+
+---
+
+## SecaaS (Security as a Service)
+
+| 구분 | 항목 | 설명 |
+|:-----|:-----|:-----|
+| **개념** | - | 보안 서비스를 클라우드 기반으로 제공하는 서비스 모델 |
+| **유형** | 클라우드를 위한 | 클라우드에 저장된 데이터의 보호 서비스 |
+|  | 클라우드를 통한 | 기존의 IT 환경에 대한 보호 서비스 |
+
+### CSP SECaaS (클라우드 서비스 제공자)
+
+| 서비스 | 설명 |
+|:-------|:-----|
+| **IAM** | 식별/접근관리 (Identity and Access Management) |
+| **DLP** | 데이터 손실방지 (Data Loss Prevention) |
+| **IM** | 침입관리 (Intrusion Management) |
+| **암호화** | 데이터 암호화 서비스 |
+| **네트워크 보안** | 방화벽, VPN 등 |
+| **BCDR** | 업무연속성/재난복구 |
+| **DRaaS** | 재해복구 서비스 |
+
+### SSP SECaaS (보안 서비스 전문 제공자)
+
+| 서비스 | 설명 |
+|:-------|:-----|
+| **취약성 탐지** | 보안 취약점 스캔 |
+| **웹 보안** | WAF, 웹 애플리케이션 보안 |
+| **이메일 보안** | 스팸 필터링, 악성코드 탐지 |
+| **SIEM** | 보안 정보 및 이벤트 관리 |
+| **지속적 감시** | 24/7 모니터링 |
+| **보안 접근** | 제로트러스트 접근 |
+
+### SecaaS 서비스 영역
+
+| 영역 | 서비스 |
+|:-----|:-------|
+| **내부** | IAM, DLP, Security Assessment(거버넌스, 리스크관리, Compliance), SIEM, 비즈니스 연속성 |
+| **외부** | Network 보안, Encryption, Intrusion(Sandbox, VM 모니터링), Email 보안 |
+
+---
+
+## BaaS (Backend as a Service)
+
+| 구분 | 설명 |
+|:-----|:-----|
+| **개념** | 모바일 앱 개발을 위한 백엔드 기능을 서비스로 제공 |
+| **주요 기능** | 푸쉬 알림, 사용자 인증, 데이터 저장, 접근 제어 |
+| **예시** | Firebase, AWS Amplify, Azure Mobile Apps |
 
 ---
 
