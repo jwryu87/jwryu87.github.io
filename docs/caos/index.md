@@ -1,159 +1,60 @@
 ---
 layout: default
 title: CAOS (컴퓨터구조/OS)
-nav_order: 8
+nav_order: 9
 has_children: true
 permalink: /docs/caos
 ---
 
 # CAOS (컴퓨터구조/OS)
+{: .fs-9 }
 
-컴퓨터 구조(Computer Architecture) 및 운영체제(Operating System) 관련 학습 자료입니다. 총 **40개** 항목
+컴퓨터 구조 및 운영체제 관련 학습 자료입니다. 총 **40개** 항목
+{: .fs-6 .fw-300 }
 
----
+<style>
+.btn-outline-purple { color: #7253ed; border: 1px solid #7253ed; background: transparent; }
+.btn-outline-purple:hover { color: white; background: #7253ed; }
+.btn-outline-blue { color: #2869e6; border: 1px solid #2869e6; background: transparent; }
+.btn-outline-blue:hover { color: white; background: #2869e6; }
+.btn-outline-green { color: #1db954; border: 1px solid #1db954; background: transparent; }
+.btn-outline-green:hover { color: white; background: #1db954; }
+.btn-outline-red { color: #e05d44; border: 1px solid #e05d44; background: transparent; }
+.btn-outline-red:hover { color: white; background: #e05d44; }
+.btn-outline-orange { color: #f5a623; border: 1px solid #f5a623; background: transparent; }
+.btn-outline-orange:hover { color: white; background: #f5a623; }
+.btn-outline-teal { color: #17a2b8; border: 1px solid #17a2b8; background: transparent; }
+.btn-outline-teal:hover { color: white; background: #17a2b8; }
+.btn-outline-pink { color: #e83e8c; border: 1px solid #e83e8c; background: transparent; }
+.btn-outline-pink:hover { color: white; background: #e83e8c; }
+.btn-outline-gray { color: #6c757d; border: 1px solid #6c757d; background: transparent; }
+.btn-outline-gray:hover { color: white; background: #6c757d; }
+.btn-outline-indigo { color: #6610f2; border: 1px solid #6610f2; background: transparent; }
+.btn-outline-indigo:hover { color: white; background: #6610f2; }
+.btn-outline-cyan { color: #00bcd4; border: 1px solid #00bcd4; background: transparent; }
+.btn-outline-cyan:hover { color: white; background: #00bcd4; }
+.btn-outline-lime { color: #7cb342; border: 1px solid #7cb342; background: transparent; }
+.btn-outline-lime:hover { color: white; background: #7cb342; }
+.btn-outline-brown { color: #795548; border: 1px solid #795548; background: transparent; }
+.btn-outline-brown:hover { color: white; background: #795548; }
+</style>
 
-## 0. Computer (2개)
+[Computer]({{ site.baseurl }}/docs/caos/00-computer){: .btn .btn-outline-purple .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[CPU스케줄링]({{ site.baseurl }}/docs/caos/01-cpu-scheduling){: .btn .btn-outline-blue .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[동기화]({{ site.baseurl }}/docs/caos/02-synchronization){: .btn .btn-outline-green .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[교착상태]({{ site.baseurl }}/docs/caos/03-deadlock){: .btn .btn-outline-red .fs-5 .mb-4 .mb-md-0 }
 
-| 구분 | 토픽 |
-|:-----|:-----|
-| 0. 기본 개념 | [Computer](/docs/caos/00-computer/computer) \| [Computer Architecture](/docs/caos/00-computer/computer-architecture) |
+[가상메모리]({{ site.baseurl }}/docs/caos/04-virtual-memory){: .btn .btn-outline-orange .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[캐시메모리]({{ site.baseurl }}/docs/caos/05-cache-memory){: .btn .btn-outline-teal .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[RAID]({{ site.baseurl }}/docs/caos/06-raid){: .btn .btn-outline-pink .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[프로세스]({{ site.baseurl }}/docs/caos/07-process){: .btn .btn-outline-indigo .fs-5 .mb-4 .mb-md-0 }
 
----
+[파이프라인]({{ site.baseurl }}/docs/caos/08-pipeline){: .btn .btn-outline-cyan .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[메모리]({{ site.baseurl }}/docs/caos/09-memory){: .btn .btn-outline-lime .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[인터럽트]({{ site.baseurl }}/docs/caos/10-interrupt){: .btn .btn-outline-brown .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[OS]({{ site.baseurl }}/docs/caos/11-os){: .btn .btn-outline-gray .fs-5 .mb-4 .mb-md-0 }
 
-## 1. CPU 스케줄링 (3개)
-
-| 구분 | 토픽 |
-|:-----|:-----|
-| 1.1 스케줄링 | [CPU 스케줄링](/docs/caos/01-cpu-scheduling/cpu-scheduling) |
-| 1.2 효과/문제 | [호위효과/노화](/docs/caos/01-cpu-scheduling/convoy-effect-aging) \| [우선순위 역전](/docs/caos/01-cpu-scheduling/priority-inversion) |
-
----
-
-## 2. 동기화 (6개)
-
-| 구분 | 토픽 |
-|:-----|:-----|
-| 2.1 문제 | [경쟁조건](/docs/caos/02-synchronization/race-condition) \| [Mutual Exclusion](/docs/caos/02-synchronization/mutual-exclusion) |
-| 2.2 도구 | [세마포어](/docs/caos/02-synchronization/semaphore) \| [뮤텍스](/docs/caos/02-synchronization/mutex) \| [모니터](/docs/caos/02-synchronization/monitor) \| [스핀락](/docs/caos/02-synchronization/spinlock) |
-
----
-
-## 3. 교착상태 (3개)
-
-| 구분 | 토픽 |
-|:-----|:-----|
-| 3.1 개념/해결 | [교착상태](/docs/caos/03-deadlock/deadlock) \| [은행가 알고리즘](/docs/caos/03-deadlock/bankers-algorithm) \| [Wait-die, Wound-wait](/docs/caos/03-deadlock/wait-die-wound-wait) |
-
----
-
-## 4. 가상메모리 (8개)
-
-| 구분 | 토픽 |
-|:-----|:-----|
-| 4.1 개념 | [가상메모리 개념](/docs/caos/04-virtual-memory/virtual-memory-concept) \| [가상메모리 관리기법](/docs/caos/04-virtual-memory/virtual-memory-management) |
-| 4.2 기법 | [페이징 기법](/docs/caos/04-virtual-memory/paging) \| [세그멘테이션 기법](/docs/caos/04-virtual-memory/segmentation) |
-| 4.3 문제/최적화 | [가상메모리 단편화](/docs/caos/04-virtual-memory/fragmentation) \| [지역성](/docs/caos/04-virtual-memory/locality) \| [페이지 교체 알고리즘](/docs/caos/04-virtual-memory/page-replacement) \| [스레싱](/docs/caos/04-virtual-memory/thrashing) |
-
----
-
-## 5. 캐시메모리 (4개)
-
-| 구분 | 토픽 |
-|:-----|:-----|
-| 5.1 개념 | [캐시 메모리 개념](/docs/caos/05-cache-memory/cache-memory-concept) |
-| 5.2 일관성 | [캐시 일관성](/docs/caos/05-cache-memory/cache-coherence) \| [MESI 프로토콜](/docs/caos/05-cache-memory/mesi-protocol) |
-| 5.3 쓰기 정책 | [Cache Memory Write](/docs/caos/05-cache-memory/cache-memory-write) |
-
----
-
-## 6. RAID (1개)
-
-| 구분 | 토픽 |
-|:-----|:-----|
-| 6.1 저장장치 | [RAID](/docs/caos/06-raid/raid) |
-
----
-
-## 7. 프로세스 (2개)
-
-| 구분 | 토픽 |
-|:-----|:-----|
-| 7.1 프로세스 | [문맥교환](/docs/caos/07-process/context-switching) \| [스레드](/docs/caos/07-process/thread) |
-
----
-
-## 8. 파이프라인 (2개)
-
-| 구분 | 토픽 |
-|:-----|:-----|
-| 8.1 파이프라인 | [파이프라인](/docs/caos/08-pipeline/pipeline) \| [파이프라인 해저드](/docs/caos/08-pipeline/pipeline-hazard) |
-
----
-
-## 9. 메모리 (2개)
-
-| 구분 | 토픽 |
-|:-----|:-----|
-| 9.1 신기술 | [CXL](/docs/caos/09-memory/cxl) \| [PNM](/docs/caos/09-memory/pnm) |
-
----
-
-## 10. 인터럽트 (1개)
-
-| 구분 | 토픽 |
-|:-----|:-----|
-| 10.1 인터럽트 | [인터럽트](/docs/caos/10-interrupt/interrupt) |
-
----
-
-## 11. 운영체제 (1개)
-
-| 구분 | 토픽 |
-|:-----|:-----|
-| 11.1 운영체제 | [이중 모드](/docs/caos/11-os/dual-mode) |
-
----
-
-## 12. 반도체 (2개)
-
-| 구분 | 토픽 |
-|:-----|:-----|
-| 12.1 프로세서 | [NPU/DPU](/docs/caos/12-semiconductor/npu-dpu) |
-| 12.2 메모리 | [메모리 반도체와 비메모리 반도체](/docs/caos/12-semiconductor/memory-semiconductor) |
-
----
-
-## 13. CPU/GPU (2개)
-
-| 구분 | 토픽 |
-|:-----|:-----|
-| 13.1 프로세서 | [CPU, GPU, FPGA, ASIC](/docs/caos/13-cpu-gpu/cpu-gpu-fpga-asic) |
-| 13.2 아키텍처 | [하버드/폰노이만 아키텍처](/docs/caos/13-cpu-gpu/harvard-von-neumann) |
-
----
-
-## 14. CA 기타 (4개)
-
-| 구분 | 토픽 |
-|:-----|:-----|
-| 14.1 기타 | [워치독 타이머](/docs/caos/14-ca-etc/watchdog-timer) \| [DMA](/docs/caos/14-ca-etc/dma) \| [메모리 인터리빙](/docs/caos/14-ca-etc/memory-interleaving) |
-
----
-
-## 학습 체크리스트
-
-- [ ] CPU 스케줄링 알고리즘 이해
-- [ ] 동기화 기법 비교 (세마포어 vs 뮤텍스 vs 모니터)
-- [ ] 교착상태 조건 및 해결방법
-- [ ] 가상메모리 개념 및 페이지 교체 알고리즘
-- [ ] 캐시 일관성 프로토콜 (MESI)
-- [ ] 파이프라인 해저드 유형
-- [ ] 프로세스 vs 스레드 차이
-
----
-
-## 참고자료
-
-- 정보관리기술사 컴퓨터구조/OS 학습자료
-- TOP (Together Of PE) 베이스라인 기본필수토픽 720제
+[반도체]({{ site.baseurl }}/docs/caos/12-semiconductor){: .btn .btn-outline-purple .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[CPU/GPU]({{ site.baseurl }}/docs/caos/13-cpu-gpu){: .btn .btn-outline-blue .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[CA기타]({{ site.baseurl }}/docs/caos/14-ca-etc){: .btn .btn-outline-green .fs-5 .mb-4 .mb-md-0 }
 
