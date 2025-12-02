@@ -2,18 +2,27 @@
 layout: default
 title: Home
 nav_order: 1
-description: "정보관리기술사 학습 노트"
+description: "PE/DS 학습 노트"
 permalink: /
 ---
 
-# 정보관리기술사 학습 노트
+# PE-Study
 {: .fs-9 }
 
-PE(정보관리기술사) 시험 준비를 위한 체계적인 학습 자료입니다.
+PE & DS 시험 준비를 위한 체계적인 학습 자료입니다.
 {: .fs-6 .fw-300 }
 
 [DS 시작하기]({{ site.baseurl }}/docs/ds){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[PE 시작하기]({{ site.baseurl }}/docs/pe){: .btn .fs-5 .mb-4 .mb-md-0 }
+[SW 시작하기]({{ site.baseurl }}/docs/sw){: .btn .fs-5 .mb-4 .mb-md-0 }
+
+---
+
+## 🔗 바로가기
+
+| 링크 | 설명 |
+|:-----|:-----|
+| [TOP 웹하드](https://mybox.naver.com/main/web/share/shared) | 네이버 마이박스 공유 폴더 |
+| [TOP 카페](https://cafe.naver.com/strnd) | 스터디 카페 |
 
 ---
 
@@ -32,10 +41,10 @@ PE(정보관리기술사) 시험 준비를 위한 체계적인 학습 자료입�
 | 가상화/컨테이너 | 9개 |
 | 기타 20개 카테고리 | 68개 |
 
-### PE (Professional Engineer) - 학습 예정
+### SW (Software Engineering)
 {: .text-blue-000 }
 
-정보관리기술사 핵심 주제
+소프트웨어 공학 핵심 주제
 
 ---
 
@@ -50,7 +59,7 @@ PE(정보관리기술사) 시험 준비를 위한 체계적인 학습 자료입�
 ## 📊 진행 상황
 
 - ✅ DS 구조 완성 (135개 항목)
-- ✅ PE 구조 완성
+- ✅ SW 구조 완성
 - 🔄 내용 작성 진행 중
 
 ---
