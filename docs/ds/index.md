@@ -39,35 +39,46 @@ permalink: /docs/ds
 .btn-outline-brown:hover { color: white; background: #795548; }
 </style>
 
+---
+
+### 🔷 핵심 기술 (Infrastructure)
+
 [클라우드]({{ site.baseurl }}/docs/ds/01-cloud){: .btn .btn-outline-purple .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[XR/메타버스]({{ site.baseurl }}/docs/ds/02-xr-metaverse){: .btn .btn-outline-blue .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[블록체인]({{ site.baseurl }}/docs/ds/03-blockchain){: .btn .btn-outline-green .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[자율주행]({{ site.baseurl }}/docs/ds/04-autonomous){: .btn .btn-outline-red .fs-5 .mb-4 .mb-md-0 }
+[가상화/컨테이너]({{ site.baseurl }}/docs/ds/07-virtualization){: .btn .btn-outline-blue .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[분산컴퓨팅]({{ site.baseurl }}/docs/ds/11-distributed){: .btn .btn-outline-green .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[IoT]({{ site.baseurl }}/docs/ds/08-iot){: .btn .btn-outline-red .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[블록체인]({{ site.baseurl }}/docs/ds/03-blockchain){: .btn .btn-outline-orange .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[인프라]({{ site.baseurl }}/docs/ds/23-infra){: .btn .btn-outline-teal .fs-5 .mb-4 .mb-md-0 }
 
-[스마트공장]({{ site.baseurl }}/docs/ds/05-smart-factory){: .btn .btn-outline-orange .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[스마트그리드]({{ site.baseurl }}/docs/ds/06-smart-grid){: .btn .btn-outline-teal .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[가상화/컨테이너]({{ site.baseurl }}/docs/ds/07-virtualization){: .btn .btn-outline-pink .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[IoT]({{ site.baseurl }}/docs/ds/08-iot){: .btn .btn-outline-indigo .fs-5 .mb-4 .mb-md-0 }
+---
 
-[드론/UAM]({{ site.baseurl }}/docs/ds/09-drone-uam){: .btn .btn-outline-cyan .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[디지털헬스케어]({{ site.baseurl }}/docs/ds/10-healthcare){: .btn .btn-outline-lime .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[분산컴퓨팅]({{ site.baseurl }}/docs/ds/11-distributed){: .btn .btn-outline-brown .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[UI/UX]({{ site.baseurl }}/docs/ds/12-ui-ux){: .btn .btn-outline-gray .fs-5 .mb-4 .mb-md-0 }
+### 🔶 응용 서비스 (Application)
 
-[API]({{ site.baseurl }}/docs/ds/13-api){: .btn .btn-outline-purple .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[공간정보]({{ site.baseurl }}/docs/ds/14-spatial){: .btn .btn-outline-blue .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[디자인씽킹]({{ site.baseurl }}/docs/ds/15-design-thinking){: .btn .btn-outline-green .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[전자정부]({{ site.baseurl }}/docs/ds/16-e-gov){: .btn .btn-outline-red .fs-5 .mb-4 .mb-md-0 }
+[XR/메타버스]({{ site.baseurl }}/docs/ds/02-xr-metaverse){: .btn .btn-outline-purple .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[자율주행]({{ site.baseurl }}/docs/ds/04-autonomous){: .btn .btn-outline-blue .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[스마트공장]({{ site.baseurl }}/docs/ds/05-smart-factory){: .btn .btn-outline-green .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[스마트그리드]({{ site.baseurl }}/docs/ds/06-smart-grid){: .btn .btn-outline-red .fs-5 .mb-4 .mb-md-0 }
 
-[가트너전략]({{ site.baseurl }}/docs/ds/17-gartner){: .btn .btn-outline-orange .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[DS기타]({{ site.baseurl }}/docs/ds/18-etc){: .btn .btn-outline-teal .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[드론/UAM]({{ site.baseurl }}/docs/ds/09-drone-uam){: .btn .btn-outline-orange .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[디지털헬스케어]({{ site.baseurl }}/docs/ds/10-healthcare){: .btn .btn-outline-teal .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [로봇/자동화]({{ site.baseurl }}/docs/ds/19-robot){: .btn .btn-outline-pink .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[추천시스템]({{ site.baseurl }}/docs/ds/20-recommendation){: .btn .btn-outline-indigo .fs-5 .mb-4 .mb-md-0 }
+[추천시스템]({{ site.baseurl }}/docs/ds/20-recommendation){: .btn .btn-outline-indigo .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[영상처리]({{ site.baseurl }}/docs/ds/21-vision){: .btn .btn-outline-cyan .fs-5 .mb-4 .mb-md-0 }
 
-[영상처리]({{ site.baseurl }}/docs/ds/21-vision){: .btn .btn-outline-cyan .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[FinOps]({{ site.baseurl }}/docs/ds/22-finops){: .btn .btn-outline-lime .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[인프라]({{ site.baseurl }}/docs/ds/23-infra){: .btn .btn-outline-brown .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[웹기술]({{ site.baseurl }}/docs/ds/24-web){: .btn .btn-outline-gray .fs-5 .mb-4 .mb-md-0 }
+---
+
+### 🔹 설계/트렌드 (Design & Trends)
+
+[UI/UX]({{ site.baseurl }}/docs/ds/12-ui-ux){: .btn .btn-outline-purple .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[API]({{ site.baseurl }}/docs/ds/13-api){: .btn .btn-outline-blue .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[웹기술]({{ site.baseurl }}/docs/ds/24-web){: .btn .btn-outline-green .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[디자인씽킹]({{ site.baseurl }}/docs/ds/15-design-thinking){: .btn .btn-outline-red .fs-5 .mb-4 .mb-md-0 }
+
+[전자정부]({{ site.baseurl }}/docs/ds/16-e-gov){: .btn .btn-outline-orange .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[가트너전략]({{ site.baseurl }}/docs/ds/17-gartner){: .btn .btn-outline-teal .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[공간정보]({{ site.baseurl }}/docs/ds/14-spatial){: .btn .btn-outline-pink .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[FinOps]({{ site.baseurl }}/docs/ds/22-finops){: .btn .btn-outline-indigo .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[DS기타]({{ site.baseurl }}/docs/ds/18-etc){: .btn .btn-outline-gray .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
