@@ -9,11 +9,15 @@ permalink: /
 # PE-Study
 {: .fs-9 }
 
-PE & DS 시험 준비를 위한 체계적인 학습 자료입니다.
-{: .fs-6 .fw-300 }
+[DS]({{ site.baseurl }}/docs/ds){: .btn .btn-purple .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[SW]({{ site.baseurl }}/docs/sw){: .btn .btn-blue .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[AI]({{ site.baseurl }}/docs/ai){: .btn .btn-green .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[SEC]({{ site.baseurl }}/docs/sec){: .btn .btn-red .fs-5 .mb-4 .mb-md-0 }
 
-[DS 시작하기]({{ site.baseurl }}/docs/ds){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[SW 시작하기]({{ site.baseurl }}/docs/sw){: .btn .fs-5 .mb-4 .mb-md-0 }
+[NW]({{ site.baseurl }}/docs/nw){: .btn .btn-outline .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[DB]({{ site.baseurl }}/docs/db){: .btn .btn-outline .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[BIZ]({{ site.baseurl }}/docs/biz){: .btn .btn-outline .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[CAOS]({{ site.baseurl }}/docs/caos){: .btn .btn-outline .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
@@ -24,47 +28,4 @@ PE & DS 시험 준비를 위한 체계적인 학습 자료입니다.
 | [TOP 웹하드](https://mybox.naver.com/main/web/share/shared) | 네이버 마이박스 공유 폴더 |
 | [TOP 카페](https://cafe.naver.com/strnd) | 스터디 카페 |
 
----
-
-## 📚 학습 구조
-
-### DS (Digital Service) - 135개 항목
-{: .text-purple-000 }
-
-디지털 전략 기술 관련 학습 자료
-
-| 카테고리 | 항목 수 |
-|:---------|:--------|
-| 클라우드 | 21개 |
-| 블록체인 | 23개 |
-| 스마트카/자율주행 | 14개 |
-| 가상화/컨테이너 | 9개 |
-| 기타 20개 카테고리 | 68개 |
-
-### SW (Software Engineering)
-{: .text-blue-000 }
-
-소프트웨어 공학 핵심 주제
-
----
-
-## 🎯 학습 방법
-
-1. **왼쪽 사이드바**에서 카테고리 선택
-2. **검색 기능**으로 빠르게 찾기 (상단)
-3. **체크리스트**로 학습 진도 관리
-
----
-
-## 📊 진행 상황
-
-- ✅ DS 구조 완성 (135개 항목)
-- ✅ SW 구조 완성
-- 🔄 내용 작성 진행 중
-
----
-
-## 🔗 관련 링크
-
-- [GitHub 저장소](https://github.com/jwryu87/jwryu87.github.io)
 
