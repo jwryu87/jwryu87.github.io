@@ -175,9 +175,9 @@ permalink: /docs/ds/exam/137-1-1-streaming-protocol
 
 ---
 
-## 🏗️ 구성요소 (2그룹 × 4항목)
+## 🏗️ 구성요소 (2그룹 × 4항목) `RT-P/CP/SP` `H-D-C-LL`
 
-### 그룹 1: 실시간 전송 & 제어 프로토콜
+### 그룹 1: 실시간 전송 & 제어 프로토콜 `RT-P → RT-CP → RT-SP → S-DP`
 
 | 구성요소 | 계층 | 역할 | 특징 |
 |:--------|:----|:----|:-----|
@@ -186,7 +186,7 @@ permalink: /docs/ds/exam/137-1-1-streaming-protocol
 | **RTSP** | Application | 세션 제어 (PLAY/PAUSE/TEARDOWN) | TCP 기반, SDP 활용 |
 | **SDP** | Session | 미디어 속성 기술 | 코덱, 비트레이트, 포맷 정보 |
 
-### 그룹 2: HTTP 기반 적응형 스트리밍 프로토콜
+### 그룹 2: HTTP 기반 적응형 스트리밍 프로토콜 `H → D → C → LL`
 
 | 구성요소 | 개발사 | 특징 | 확장자 |
 |:--------|:------|:-----|:------|

@@ -17,16 +17,16 @@ DS(Digital Service) 관련 기출문제 모음입니다.
 
 ## 137회
 
-| 정/컴 | 교시 | 번호 | 문제 | 관련토픽 |
-|:------|:----:|:----:|:-----|:---------|
-| 관리 | 1 | 1 | [멀티미디어 스트리밍 프로토콜의 종류]({{ site.baseurl }}/docs/ds/exam/137-1-1-streaming-protocol) | 스트리밍기술 |
-| 관리 | 1 | 3 | [MODBUS 프로토콜을 설명하시오]({{ site.baseurl }}/docs/ds/exam/137-1-3-modbus) | 스마트 그리드 |
-| 관리 | 1 | 9 | [A/B 테스팅을 설명하시오]({{ site.baseurl }}/docs/ds/exam/137-1-9-ab-testing) | 모바일 마케팅 |
-| 관리 | 4 | 3 | [쿠버네티스(Kubernetes)에 대하여 다음을 설명하시오.]({{ site.baseurl }}/docs/ds/exam/137-4-3-kubernetes)<br>가. 쿠버네티스의 개념 및 특징<br>나. 쿠버네티스의 주요 컴포넌트<br>다. HPA(Horizontal Pod Autoscaler) | 도커 |
-| 컴시응 | 1 | 3 | 지능형 엣지 컴퓨팅 | 클라우드 컴퓨팅 |
-| 컴시응 | 3 | 1 | 클라우드 컴퓨팅 서비스 유형에 대하여 다음을 설명하시오.<br>가. IaaS(Infrastructure as a Service)<br>나. PaaS(Platform as a Service)<br>다. SaaS(Software as a Services)<br>라. FaaS(Functions as a Service) | XaaS |
-| 컴시응 | 4 | 1 | 영상압축기법에 대하여 다음을 설명하시오.<br>가. 무손실 압축기법의 특징과 종류<br>나. 손실 압축기법의 특징과 종류<br>다. 혼합 압축기법의 특징과 종류 | 압축기술 |
-| 컴시응 | 4 | 2 | AIaaS(AI as a Service)의 개념, 특징 및 도입 시 고려사항에 대하여 설명하시오 | XaaS |
+| 정/컴 | 교시 | 번호 | 문제 | 관련토픽 | 암기법 |
+|:------|:----:|:----:|:-----|:---------|:------|
+| 관리 | 1 | 1 | [멀티미디어 스트리밍 프로토콜의 종류]({{ site.baseurl }}/docs/ds/exam/137-1-1-streaming-protocol) | 스트리밍기술 | `RT-P/CP/SP` `H-D-C-LL` |
+| 관리 | 1 | 3 | [MODBUS 프로토콜을 설명하시오]({{ site.baseurl }}/docs/ds/exam/137-1-3-modbus) | 스마트 그리드 | `R-A-T-O` `C-D-I-H` |
+| 관리 | 1 | 9 | [A/B 테스팅을 설명하시오]({{ site.baseurl }}/docs/ds/exam/137-1-9-ab-testing) | 모바일 마케팅 | `C-V-R-S` `C-C-A-R` |
+| 관리 | 4 | 3 | [쿠버네티스(Kubernetes)]({{ site.baseurl }}/docs/ds/exam/137-4-3-kubernetes)<br>가. 개념 및 특징<br>나. 주요 컴포넌트<br>다. HPA | 도커 | `A-S-C-E` `P-K-K-C` `클상배서` |
+| 컴시응 | 1 | 3 | 지능형 엣지 컴퓨팅 | 클라우드 컴퓨팅 | - |
+| 컴시응 | 3 | 1 | 클라우드 컴퓨팅 서비스 유형<br>가. IaaS 나. PaaS 다. SaaS 라. FaaS | XaaS | - |
+| 컴시응 | 4 | 1 | 영상압축기법<br>가. 무손실 나. 손실 다. 혼합 | 압축기술 | - |
+| 컴시응 | 4 | 2 | AIaaS(AI as a Service) | XaaS | - |
 
 ---
 
