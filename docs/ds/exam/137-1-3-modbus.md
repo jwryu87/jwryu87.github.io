@@ -25,8 +25,8 @@ permalink: /docs/ds/exam/137-1-3-modbus
 
 ---
 
-# 🎓 고딩 수준 설명
-{: .fs-7 }
+<details markdown="1">
+<summary><h2 style="display:inline">🎓 고딩 수준 설명 (클릭해서 펼치기)</h2></summary>
 
 > 고등학생도 이해할 수 있게 설명합니다
 
@@ -146,6 +146,8 @@ permalink: /docs/ds/exam/137-1-3-modbus
 | **무엇을(What)** | PLC, RTU, 센서 간 데이터 통신 |
 | **왜(Why)** | 산업 자동화 기기 간 표준 통신 필요 |
 | **어떻게(How)** | Master-Slave 구조, 시리얼/이더넷 전송 |
+
+</details>
 
 ---
 

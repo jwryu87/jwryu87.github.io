@@ -25,8 +25,8 @@ permalink: /docs/ds/exam/137-1-1-streaming-protocol
 
 ---
 
-# 🎓 고딩 수준 설명
-{: .fs-7 }
+<details markdown="1">
+<summary><h2 style="display:inline">🎓 고딩 수준 설명 (클릭해서 펼치기)</h2></summary>
 
 > 고등학생도 이해할 수 있게 설명합니다
 
@@ -140,6 +140,8 @@ permalink: /docs/ds/exam/137-1-1-streaming-protocol
 | **무엇을(What)** | 비디오·오디오 멀티미디어 콘텐츠 |
 | **왜(Why)** | 대용량 미디어의 실시간 재생 및 QoE 향상 |
 | **어떻게(How)** | 데이터 분할 전송 + 적응형 비트레이트 |
+
+</details>
 
 ---
 

@@ -26,8 +26,8 @@ permalink: /docs/ds/exam/137-1-3-intelligent-edge-computing
 
 ---
 
-# 🎓 고딩 수준 설명
-{: .fs-8 }
+<details markdown="1">
+<summary><h2 style="display:inline">🎓 고딩 수준 설명 (클릭해서 펼치기)</h2></summary>
 
 > 엣지 컴퓨팅에 AI 두뇌를 심은 것!
 
@@ -148,6 +148,8 @@ permalink: /docs/ds/exam/137-1-3-intelligent-edge-computing
 | **어디서** | 네트워크 말단 (현장) |
 | **왜** | 지연 최소화, 보안 강화, 자율 동작 |
 | **어떻게** | 경량 AI 모델 + 엣지 디바이스 탑재 |
+
+</details>
 
 ---
 
