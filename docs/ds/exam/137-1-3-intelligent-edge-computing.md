@@ -83,7 +83,7 @@ permalink: /docs/ds/exam/137-1-3-intelligent-edge-computing
 
 ## 🏗️ 기술요소 (2그룹)
 
-### 그룹 1: 유형 (어디에 설치?) `D-G-S-N-C`
+### 그룹 1: 유형 (어디에 설치?) `디게서네클`
 
 | 유형 | 위치 | 예시 |
 |:----|:----|:-----|
@@ -93,7 +93,7 @@ permalink: /docs/ds/exam/137-1-3-intelligent-edge-computing
 | **네트워크 엣지** | 통신사 기지국 | 밀리초 단위 대규모 처리 |
 | **클라우드 연계형** | 클라우드+엣지 협업 | 학습↔추론 분리 |
 
-### 그룹 2: 장점 (왜 좋아?) `R-D-S-A`
+### 그룹 2: 장점 (왜 좋아?) `실분보자`
 
 | 장점 | 설명 |
 |:----|:-----|
@@ -189,9 +189,9 @@ permalink: /docs/ds/exam/137-1-3-intelligent-edge-computing
 
 ---
 
-## 🏗️ 구성요소 (2그룹 × 5항목) `D-G-S-N-C` `D-E-I-C-A`
+## 🏗️ 구성요소 (2그룹 × 5항목) `디게서네클` `디전지클앱`
 
-### 그룹 1: 유형 (Deployment Type) `D-G-S-N-C`
+### 그룹 1: 유형 (Deployment Type) `디게서네클`
 
 | 유형 | 위치 | 특징 |
 |:----|:----|:-----|
@@ -203,7 +203,7 @@ permalink: /docs/ds/exam/137-1-3-intelligent-edge-computing
 
 ---
 
-### 그룹 2: 계층 (Layer Architecture) `D-E-I-C-A`
+### 그룹 2: 계층 (Layer Architecture) `디전지클앱`
 
 | 계층 | 주요 구성요소 | 핵심 기능 |
 |:----|:------------|:---------|
@@ -216,36 +216,36 @@ permalink: /docs/ds/exam/137-1-3-intelligent-edge-computing
 ---
 
 {: .note }
-> ### 🧠 암기법: **"D-G-S-N-C"** (유형)
+> ### 🧠 암기법: **"디게서네클"** (유형)
 >
 > ```
-> D → G → S → N → C (점점 상위로)
+> 디 → 게 → 서 → 네 → 클 (점점 상위로)
 > ```
 >
-> | 암기 | 유형 | 풀네임 |
+> | 암기 | 유형 | 설명 |
 > |:-----|:----|:------|
-> | **D** | Device | Device Edge (디바이스) |
-> | **G** | Gateway | Gateway/Node (게이트웨이) |
-> | **S** | Server | Server Edge (서버) |
-> | **N** | Network | Network Edge (네트워크) |
-> | **C** | Cloud | Cloud-Integrated (클라우드 연계) |
+> | **디** | **디**바이스 엣지 | IoT 센서, 스마트폰 |
+> | **게** | **게**이트웨이 | 공장/빌딩 현장 |
+> | **서** | 엣지 **서**버 | 기업 내, 기지국 근처 |
+> | **네** | **네**트워크 엣지 | 통신사 기지국 |
+> | **클** | **클**라우드 연계형 | 클라우드+엣지 협업 |
 
 ---
 
 {: .note }
-> ### 🧠 암기법: **"D-E-I-C-A"** (계층)
+> ### 🧠 암기법: **"디전지클앱"** (계층)
 >
 > ```
-> D → E → I → C → A (데이터 흐름 순서)
+> 디 → 전 → 지 → 클 → 앱 (데이터 흐름 순서)
 > ```
 >
-> | 암기 | 계층 | 풀네임 |
+> | 암기 | 계층 | 설명 |
 > |:-----|:----|:------|
-> | **D** | Device | Device/Sensor (수집) |
-> | **E** | Edge | Edge Device (전처리) |
-> | **I** | Intelligence | Edge Intelligence (AI 분석) |
-> | **C** | Cloud | Cloud & Data Center (학습/관리) |
-> | **A** | Application | Application (서비스) |
+> | **디** | **디**바이스/센서 | 데이터 수집 |
+> | **전** | 엣지 디바이스 (**전**처리) | 필터링, 프로토콜 변환 |
+> | **지** | 엣지 **지**능 | AI 분석·의사결정 |
+> | **클** | **클**라우드 | 대규모 학습, 관제 |
+> | **앱** | **앱**플리케이션 | 서비스 제공 |
 
 ---
 
@@ -377,8 +377,8 @@ permalink: /docs/ds/exam/137-1-3-intelligent-edge-computing
 
 - [ ] 지능형 엣지 컴퓨팅 정의를 22자로 말할 수 있다
 - [ ] 클라우드 vs 엣지 vs 지능형 엣지 차이를 설명할 수 있다
-- [ ] 유형 5가지 암기: D-G-S-N-C
-- [ ] 계층 5가지 암기: D-E-I-C-A
+- [ ] 유형 5가지 암기: 디게서네클
+- [ ] 계층 5가지 암기: 디전지클앱
 - [ ] TinyML, Federated Learning 차별점 키워드 활용
 - [ ] "Train on Cloud, Infer on Edge" 전략 설명
 
