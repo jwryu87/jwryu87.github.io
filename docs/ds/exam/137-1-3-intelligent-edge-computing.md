@@ -19,10 +19,9 @@ permalink: /docs/ds/exam/137-1-3-intelligent-edge-computing
 ---
 
 ## 📚 목차
-{: .no_toc }
 
-1. TOC
-{:toc}
+- [🎓 고딩 수준 설명](#-고딩-수준-설명-클릭해서-펼치기)
+- [🎯 기술사 수준 설명](#-기술사-수준-설명)
 
 ---
 
