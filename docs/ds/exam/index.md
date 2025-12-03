@@ -24,7 +24,7 @@ DS(Digital Service) 관련 기출문제 모음입니다.
 | 관리 | 1 | 9 | [A/B 테스팅을 설명하시오]({{ site.baseurl }}/docs/ds/exam/137-1-9-ab-testing) | 모바일 마케팅 | `C-V-R-S` `C-C-A-R` |
 | 관리 | 4 | 3 | [쿠버네티스(Kubernetes)]({{ site.baseurl }}/docs/ds/exam/137-4-3-kubernetes)<br>가. 개념 및 특징<br>나. 주요 컴포넌트<br>다. HPA | 도커 | `A-S-C-E` `P-K-K-C` `클상배서` |
 | 컴시응 | 1 | 3 | [지능형 엣지 컴퓨팅]({{ site.baseurl }}/docs/ds/exam/137-1-3-intelligent-edge-computing) | 클라우드 컴퓨팅 | `디게서네클` `디전지클앱` |
-| 컴시응 | 3 | 1 | 클라우드 컴퓨팅 서비스 유형<br>가. IaaS 나. PaaS 다. SaaS 라. FaaS | XaaS | - |
+| 컴시응 | 3 | 1 | [클라우드 컴퓨팅 서비스 유형]({{ site.baseurl }}/docs/ds/exam/137-3-1-cloud-service-types)<br>가. IaaS 나. PaaS 다. SaaS 라. FaaS | XaaS | `물확비유` `개다소` `타유` `이서자` |
 | 컴시응 | 4 | 1 | 영상압축기법<br>가. 무손실 나. 손실 다. 혼합 | 압축기술 | - |
 | 컴시응 | 4 | 2 | AIaaS(AI as a Service) | XaaS | - |
 
