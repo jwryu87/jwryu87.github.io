@@ -119,7 +119,7 @@ DS(Digital Service) 관련 기출문제 모음입니다.
 | 관리 | 3 | 2 | 클라우드 관리 플랫폼의 정의 및 필요성, 필수 기능, 플랫폼 선정기준, 기대효과를 설명하시오 | 클라우드 컴퓨팅 | - |
 | 컴시응 | 1 | 8 | [디지털 리터러시(Digital Literacy)]({{ site.baseurl }}/docs/ds/exam/132-1-8-digital-literacy) | 디지털 리터러시 | `연비창디의기` `윤능적` |
 | 컴시응 | 1 | 12 | [영지식 증명(Zero Knowledge Proof)]({{ site.baseurl }}/docs/ds/exam/132-1-12-zero-knowledge-proof) | 블록체인 | `완건영` `SNARK-STARK` |
-| 컴시응 | 1 | 13 | 슈퍼앱(Super APP) | 모바일 콘텐츠 | - |
+| 컴시응 | 1 | 13 | [슈퍼앱(Super APP)]({{ site.baseurl }}/docs/ds/exam/132-1-13-super-app) | 모바일 콘텐츠 | `검금주OTT` `F-B-D-A-C` |
 | 컴시응 | 2 | 2 | 사물인터넷은 일상생활에서 AI와 융합되어 지능형 IoT로 진화하고 있다. 이와 관련하여 아래 사항을 설명하시오.<br>가. AIoT(Artificial Intelligence of Things) 개념<br>나. AIoT의 보안 취약점<br>다. AIoT 디바이스 보안기술 3가지 | IoT | - |
 | 컴시응 | 3 | 1 | 앰비언트 컴퓨팅(Ambient Computing)은 인간의 개입이 없어도 시스템이 스스로 동작하는 기술이다. 이와 관련하여 아래 사항을 설명하시오.<br>가. 앰비언트 컴퓨팅의 개념<br>나. 개념도 및 기술요소<br>다. 앰비언트 컴퓨팅과 IoT(Internet of Things) 비교 | 핀테크 | - |
 | 컴시응 | 3 | 2 | 가상머신(Virtual Machine)과 컨테이너(Container)에 대하여 구체적으로 설명하고, 공통점과 차이점을 상세히 설명하시오 | 가상화 | - |
