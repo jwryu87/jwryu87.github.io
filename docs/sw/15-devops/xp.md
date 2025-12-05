@@ -134,3 +134,4 @@ User Story, Spike, **1~2주 짧은 수행 애자일 방법론**
 - Kent Beck, "Extreme Programming Explained"
 
 
+

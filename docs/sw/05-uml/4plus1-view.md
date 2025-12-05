@@ -119,3 +119,4 @@ nav_order: 2
 - Philippe Kruchten, "The 4+1 View Model of Architecture"
 
 
+
