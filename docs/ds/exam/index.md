@@ -36,17 +36,38 @@ permalink: /docs/ds/exam
 #examTable td {
   vertical-align: middle;
 }
+/* 회차, 정/컴, 교시, 번호 컬럼 - 폭 최소화 */
+#examTable td:nth-child(1),
+#examTable td:nth-child(2),
+#examTable td:nth-child(3),
+#examTable td:nth-child(4),
+#examTable th:nth-child(1),
+#examTable th:nth-child(2),
+#examTable th:nth-child(3),
+#examTable th:nth-child(4) {
+  width: 1%;
+  white-space: nowrap;
+  text-align: center;
+  padding: 0.3rem 0.5rem;
+}
 /* 문제 컬럼 */
 #examTable td:nth-child(5) {
   white-space: normal;
   min-width: 300px;
-  max-width: 500px;
 }
-/* 암기법 컬럼 */
-#examTable td:nth-child(7) {
+/* 관련토픽 컬럼 */
+#examTable td:nth-child(6) {
+  white-space: nowrap;
+  width: 1%;
+}
+/* 암기법 컬럼 - 폭 넓게 */
+#examTable td:nth-child(7),
+#examTable th:nth-child(7) {
   font-family: 'Consolas', 'Monaco', monospace;
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   color: #d63384;
+  min-width: 180px;
+  white-space: nowrap;
 }
 
 /* 학습완료 행 스타일 */
@@ -79,35 +100,6 @@ permalink: /docs/ds/exam
   border-color: #0d6efd;
 }
 
-/* 통계 카드 */
-.stats-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  margin-bottom: 1.5rem;
-}
-.stat-card {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
-  padding: 1rem 1.5rem;
-  border-radius: 8px;
-  min-width: 120px;
-  text-align: center;
-}
-.stat-card.green {
-  background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
-}
-.stat-card.orange {
-  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
-}
-.stat-number {
-  font-size: 1.8rem;
-  font-weight: bold;
-}
-.stat-label {
-  font-size: 0.8rem;
-  opacity: 0.9;
-}
 
 /* DataTables 커스텀 */
 .dataTables_wrapper .dataTables_filter input {
@@ -146,25 +138,6 @@ tr.has-page td:first-child::before {
 
 DS(Digital Service) 관련 기출문제 모음입니다. **검색, 정렬, 필터링**이 가능합니다.
 {: .fs-6 .fw-300 }
-
----
-
-## 📊 통계
-
-<div class="stats-container">
-  <div class="stat-card">
-    <div class="stat-number" id="totalCount">43</div>
-    <div class="stat-label">전체 문제</div>
-  </div>
-  <div class="stat-card green">
-    <div class="stat-number" id="completedCount">0</div>
-    <div class="stat-label">학습 완료</div>
-  </div>
-  <div class="stat-card orange">
-    <div class="stat-number" id="filteredCount">43</div>
-    <div class="stat-label">필터된 문제</div>
-  </div>
-</div>
 
 ---
 
@@ -293,15 +266,7 @@ $(document).ready(function() {
             { orderable: true, targets: [0,1,2,3,5,6] },
             { orderable: false, targets: [4] } // 문제 컬럼은 정렬 제외
         ],
-        drawCallback: function() {
-            // 필터된 문제 수 업데이트
-            $('#filteredCount').text(this.api().rows({filter:'applied'}).count());
-        }
     });
-
-    // 학습 완료 페이지 수 계산
-    var completedCount = $('.has-page').length;
-    $('#completedCount').text(completedCount);
 
     // 빠른 필터 버튼 이벤트
     $('.filter-btn').click(function() {
