@@ -44,8 +44,13 @@ DS(Digital Service) 관련 기출문제 모음입니다.
 |:------|:----:|:----:|:-----|:---------|:------|
 | 관리 | 2 | 6 | AI디지털교과서에 대하여 다음을 설명하시오.<br>가. 개념 및 특징<br>나. 플랫폼 구조<br>다. 기능 및 핵심 서비스 | e-pub | - |
 | 관리 | 3 | 3 | [멀티클라우드(MultiCloud)]({{ site.baseurl }}/docs/ds/exam/135-3-3-multicloud)<br>가. 개념 및 필요성<br>나. 시스템 요구사항<br>다. 주요 기술 | 클라우드 컴퓨팅 | `단벤페서` `인서앱통개` |
+<<<<<<< Current (Your changes)
 | 컴시응 | 1 | 1 | 지식재산권의 종류 | 특허 | - |
 | 컴시응 | 1 | 2 | [SOAP vs REST 비교]({{ site.baseurl }}/docs/ds/exam/135-1-2-soap-rest) | Open API | `유기데보대캐페` `R-S-W-U-W` |
+=======
+| 컴시응 | 1 | 1 | [지식재산권의 종류]({{ site.baseurl }}/docs/ds/exam/135-1-1-intellectual-property-rights) | 지식재산권 | `특실디상` `반영데컴` |
+| 컴시응 | 1 | 2 | SOAP(Simple Object Access Protocol)와 REST(Representational State Transfer)를 비교 설명하시오 | Open API | - |
+>>>>>>> Incoming (Background Agent changes)
 | 컴시응 | 1 | 6 | [멀티클라우드(Multicloud)]({{ site.baseurl }}/docs/ds/exam/135-1-6-multicloud) | 클라우드 컴퓨팅 | `인서앱통` `개CLI웹` |
 | 컴시응 | 2 | 2 | [지속 가능한 스마트시티(Smart City)]({{ site.baseurl }}/docs/ds/exam/135-2-2-smart-city) | 스마트시티 | `주에교환인` `데컴센드` `재데표윤` |
 | 컴시응 | 3 | 1 | 데이터처리의 효율성과 속도를 높이기 위한 엣지 컴퓨팅(Edge Computing)에 대하여 아래 사항을 설명하시오.<br>가. 클라우드 환경에서의 엣지 컴퓨팅<br>나. 엣지 컴퓨팅을 활용한 자율 주행 차량 아키텍처<br>다. 해양 자율이동체에서의 엣지 컴퓨터 | 클라우드 컴퓨팅 | - |
@@ -58,16 +63,16 @@ DS(Digital Service) 관련 기출문제 모음입니다.
 
 ## 134회
 
-| 정/컴 | 교시 | 번호 | 문제 | 관련토픽 |
-|:------|:----:|:----:|:-----|:---------|
-| 관리 | 1 | 9 | 인터미턴트 컴퓨팅(Intermittent Computing) | IoT |
-| 관리 | 1 | 10 | 스토리지 가상화(Storage Virtualization) 유형별 특징 | 가상화 |
-| 관리 | 2 | 1 | 국가기관, 지방자치단체 및 공공기관이 안전하고 효율적으로 SaaS(Software as a Service)를 이용하기 위해 공공부문 SaaS 이용 가이드라인을 발표하였다. 다음에 대하여 설명하시오.<br>가. 클라우드 서비스 위험 관리원칙 및 기준<br>나. 보안대책 수립 및 보안성 검토<br>다. 서비스 수준 협약 | XaaS |
-| 관리 | 2 | 4 | 대규모 AI 서비스를 위한 데이터센터 구축 기술에 대하여 설명하시오.<br>가. 저지연 기술과 스케일링 확보 기술<br>나. DCI(Data Center Interconnect) 기술 | 컨버지드 인프라 |
-| 관리 | 3 | 6 | 일부 오픈소스 라이선스가 개방형(예: MIT, BSD 등)에서 폐쇄형(예: SSPL, BSL 등)으로 변화하고 있다. 이러한 오픈소스 라이선스 정책 변경의 배경 및 소프트웨어 산업에 미치는 영향에 대하여 설명하시오 | OSS |
-| 관리 | 4 | 4 | 개방형 API(Open API)에 대하여 설명하시오.<br>가. 정의 및 특징<br>나. SOAP 및 REST 구성요소<br>다. 취약점 및 대응 방안 | Open API |
-| 컴시응 | 1 | 4 | 촉각 인터넷(Tactile Internet) | IoT |
-| 컴시응 | 1 | 10 | 「행정기관 및 공공기관의 클라우드 컴퓨팅 서비스 이용 기준 및 안전성 확보 등에 관한 고시」의 서비스 운영 분야 안전성 검토 항목 | 클라우드 컴퓨팅 |
+| 정/컴 | 교시 | 번호 | 문제 | 관련토픽 | 암기법 |
+|:------|:----:|:----:|:-----|:---------|:------|
+| 관리 | 1 | 9 | [인터미턴트 컴퓨팅(Intermittent Computing)]({{ site.baseurl }}/docs/ds/exam/134-1-9-intermittent-computing) | IoT | `에메인프` `초에비비` |
+| 관리 | 1 | 10 | 스토리지 가상화(Storage Virtualization) 유형별 특징 | 가상화 | - |
+| 관리 | 2 | 1 | 국가기관, 지방자치단체 및 공공기관이 안전하고 효율적으로 SaaS(Software as a Service)를 이용하기 위해 공공부문 SaaS 이용 가이드라인을 발표하였다. 다음에 대하여 설명하시오.<br>가. 클라우드 서비스 위험 관리원칙 및 기준<br>나. 보안대책 수립 및 보안성 검토<br>다. 서비스 수준 협약 | XaaS | - |
+| 관리 | 2 | 4 | 대규모 AI 서비스를 위한 데이터센터 구축 기술에 대하여 설명하시오.<br>가. 저지연 기술과 스케일링 확보 기술<br>나. DCI(Data Center Interconnect) 기술 | 컨버지드 인프라 | - |
+| 관리 | 3 | 6 | 일부 오픈소스 라이선스가 개방형(예: MIT, BSD 등)에서 폐쇄형(예: SSPL, BSL 등)으로 변화하고 있다. 이러한 오픈소스 라이선스 정책 변경의 배경 및 소프트웨어 산업에 미치는 영향에 대하여 설명하시오 | OSS | - |
+| 관리 | 4 | 4 | 개방형 API(Open API)에 대하여 설명하시오.<br>가. 정의 및 특징<br>나. SOAP 및 REST 구성요소<br>다. 취약점 및 대응 방안 | Open API | - |
+| 컴시응 | 1 | 4 | 촉각 인터넷(Tactile Internet) | IoT | - |
+| 컴시응 | 1 | 10 | 「행정기관 및 공공기관의 클라우드 컴퓨팅 서비스 이용 기준 및 안전성 확보 등에 관한 고시」의 서비스 운영 분야 안전성 검토 항목 | 클라우드 컴퓨팅 | - |
 
 ---
 
