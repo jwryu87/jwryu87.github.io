@@ -7,6 +7,34 @@ nav_order: 99
 permalink: /docs/ds/exam
 ---
 
+<style>
+/* 이 페이지만 전체 너비로 확장 */
+.main-content {
+  max-width: 100% !important;
+}
+.main-content-wrap {
+  max-width: 100% !important;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+/* 테이블 가독성 개선 */
+table {
+  width: 100%;
+  font-size: 0.9rem;
+}
+table th, table td {
+  white-space: nowrap;
+}
+table td:nth-child(4) {
+  white-space: normal;
+  min-width: 300px;
+}
+table td:nth-child(6) {
+  font-family: monospace;
+  font-size: 0.8rem;
+}
+</style>
+
 # DS 기출문제
 {: .fs-9 }
 
@@ -75,7 +103,7 @@ DS(Digital Service) 관련 기출문제 모음입니다.
 
 | 정/컴 | 교시 | 번호 | 문제 | 관련토픽 | 암기법 |
 |:------|:----:|:----:|:-----|:---------|:------|
-| 관리 | 1 | 1 | REST API(REpresentational State Transfer Application Programming Interface)에 대하여 설명하시오 | Open API | - |
+| 관리 | 1 | 1 | [REST API(REpresentational State Transfer API)]({{ site.baseurl }}/docs/ds/exam/133-1-1-rest-api) | Open API | `자행표` `클무캐유계코` |
 | 관리 | 1 | 12 | 쿠버네티스(Kubernetes) | 도커 | - |
 | 관리 | 2 | 2 | '디지털 정부서비스 UI/UX 가이드라인'(2024.2, 행정안전부)은 디지털 서비스를 구성하는 사용자 인터페이스(UI)와 사용자 경험(UX) 품질에 큰 영향을 주는 요소에 대하여 행정기관 및 공공기관이 준수해야 할 세부사항을 제시한다. 이와 관련하여 다음을 설명하시오.<br>가. 목적 및 주요특징<br>나. 가이드라인의 구조(구성요소)<br>다. 적용대상 및 기준<br>라. 가이드라인의 활용방법 | UI/UX | - |
 | 관리 | 3 | 3 | 슈퍼앱에 대하여 다음을 설명하시오.<br>가. 슈퍼앱의 정의와 주요요소<br>나. 슈퍼앱과 멀티앱의 비교<br>다. 슈퍼앱상 구동 서비스 미니앱<br>라. 슈퍼앱의 사례와 전망 및 이슈사항 | 모바일 콘텐츠 | - |
