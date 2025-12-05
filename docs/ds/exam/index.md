@@ -7,136 +7,344 @@ nav_order: 99
 permalink: /docs/ds/exam
 ---
 
+<!-- DataTables CSS -->
+<link rel="stylesheet" href="https://cdn.datatables.net/1.13.7/css/jquery.dataTables.min.css">
+<link rel="stylesheet" href="https://cdn.datatables.net/searchpanes/2.2.0/css/searchPanes.dataTables.min.css">
+<link rel="stylesheet" href="https://cdn.datatables.net/select/1.7.0/css/select.dataTables.min.css">
+
 <style>
-/* 이 페이지만 전체 너비로 확장 */
+/* 페이지 전체 너비 확장 */
 .main-content {
   max-width: 100% !important;
 }
 .main-content-wrap {
   max-width: 100% !important;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
-/* 테이블 가독성 개선 */
-table {
-  width: 100%;
-  font-size: 0.9rem;
+
+/* 테이블 스타일 */
+#examTable {
+  width: 100% !important;
+  font-size: 0.85rem;
 }
-table th, table td {
+#examTable th {
+  background-color: #f8f9fa;
   white-space: nowrap;
+  text-align: center;
 }
-table td:nth-child(4) {
+#examTable td {
+  vertical-align: middle;
+}
+/* 문제 컬럼 */
+#examTable td:nth-child(5) {
   white-space: normal;
   min-width: 300px;
+  max-width: 500px;
 }
-table td:nth-child(6) {
-  font-family: monospace;
+/* 암기법 컬럼 */
+#examTable td:nth-child(7) {
+  font-family: 'Consolas', 'Monaco', monospace;
+  font-size: 0.75rem;
+  color: #d63384;
+}
+
+/* 학습완료 행 스타일 */
+.completed {
+  background-color: #d4edda !important;
+}
+
+/* 필터 버튼 스타일 */
+.filter-buttons {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.filter-btn {
+  padding: 0.4rem 0.8rem;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  background: #fff;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: all 0.2s;
+}
+.filter-btn:hover {
+  background: #e9ecef;
+}
+.filter-btn.active {
+  background: #0d6efd;
+  color: white;
+  border-color: #0d6efd;
+}
+
+/* 통계 카드 */
+.stats-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+.stat-card {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  min-width: 120px;
+  text-align: center;
+}
+.stat-card.green {
+  background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+}
+.stat-card.orange {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+}
+.stat-number {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.stat-label {
   font-size: 0.8rem;
+  opacity: 0.9;
+}
+
+/* DataTables 커스텀 */
+.dataTables_wrapper .dataTables_filter input {
+  padding: 0.5rem 1rem;
+  border: 2px solid #dee2e6;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  width: 250px;
+}
+.dataTables_wrapper .dataTables_filter input:focus {
+  border-color: #0d6efd;
+  outline: none;
+}
+.dataTables_wrapper .dataTables_length select {
+  padding: 0.3rem;
+  border-radius: 4px;
+}
+
+/* 링크 스타일 */
+#examTable a {
+  color: #0d6efd;
+  text-decoration: none;
+}
+#examTable a:hover {
+  text-decoration: underline;
+}
+
+/* 학습 페이지 있는 행 표시 */
+tr.has-page td:first-child::before {
+  content: "✅ ";
 }
 </style>
 
 # DS 기출문제
 {: .fs-9 }
 
-DS(Digital Service) 관련 기출문제 모음입니다.
+DS(Digital Service) 관련 기출문제 모음입니다. **검색, 정렬, 필터링**이 가능합니다.
 {: .fs-6 .fw-300 }
-
----
-
-## 137회
-
-| 정/컴 | 교시 | 번호 | 문제 | 관련토픽 | 암기법 |
-|:------|:----:|:----:|:-----|:---------|:------|
-| 관리 | 1 | 1 | [멀티미디어 스트리밍 프로토콜의 종류]({{ site.baseurl }}/docs/ds/exam/137-1-1-streaming-protocol) | 스트리밍기술 | `RT-P/CP/SP` `H-D-C-LL` |
-| 관리 | 1 | 3 | [MODBUS 프로토콜을 설명하시오]({{ site.baseurl }}/docs/ds/exam/137-1-3-modbus) | 스마트 그리드 | `R-A-T-O` `C-D-I-H` |
-| 관리 | 1 | 9 | [A/B 테스팅을 설명하시오]({{ site.baseurl }}/docs/ds/exam/137-1-9-ab-testing) | 모바일 마케팅 | `C-V-R-S` `C-C-A-R` |
-| 관리 | 4 | 3 | [쿠버네티스(Kubernetes)]({{ site.baseurl }}/docs/ds/exam/137-4-3-kubernetes)<br>가. 개념 및 특징<br>나. 주요 컴포넌트<br>다. HPA | 도커 | `A-S-C-E` `P-K-K-C` `클상배서` |
-| 컴시응 | 1 | 3 | [지능형 엣지 컴퓨팅]({{ site.baseurl }}/docs/ds/exam/137-1-3-intelligent-edge-computing) | 클라우드 컴퓨팅 | `디게서네클` `디전지클앱` |
-| 컴시응 | 3 | 1 | [클라우드 컴퓨팅 서비스 유형]({{ site.baseurl }}/docs/ds/exam/137-3-1-cloud-service-types)<br>가. IaaS 나. PaaS 다. SaaS 라. FaaS | XaaS | `물확비유` `개다소` `타유` `이서자` |
-| 컴시응 | 4 | 1 | [영상압축기법]({{ site.baseurl }}/docs/ds/exam/137-4-1-video-compression)<br>가. 무손실 나. 손실 다. 혼합 | 압축기술 | `R-H-A-L` `D-I-V-W` `J-J-M-H` |
-| 컴시응 | 4 | 2 | [AIaaS(AI as a Service)]({{ site.baseurl }}/docs/ds/exam/137-4-2-aiaas) | XaaS | `응엑요클학` `온복통API` `기빌운업` |
-
----
-
-## 136회
-
-| 정/컴 | 교시 | 번호 | 문제 | 관련토픽 | 암기법 |
-|:------|:----:|:----:|:-----|:---------|:------|
-| 관리 | 1 | 9 | [서버리스 컴퓨팅(Serverless Computing)]({{ site.baseurl }}/docs/ds/exam/136-1-9-serverless-computing) | XaaS | `S-W-A-R` `B-C-F-E` |
-
----
-
-## 135회
-
-| 정/컴 | 교시 | 번호 | 문제 | 관련토픽 | 암기법 |
-|:------|:----:|:----:|:-----|:---------|:------|
-| 관리 | 2 | 6 | AI디지털교과서에 대하여 다음을 설명하시오.<br>가. 개념 및 특징<br>나. 플랫폼 구조<br>다. 기능 및 핵심 서비스 | e-pub | - |
-| 관리 | 3 | 3 | [멀티클라우드(MultiCloud)]({{ site.baseurl }}/docs/ds/exam/135-3-3-multicloud)<br>가. 개념 및 필요성<br>나. 시스템 요구사항<br>다. 주요 기술 | 클라우드 컴퓨팅 | `단벤페서` `인서앱통개` |
-| 컴시응 | 1 | 1 | [지식재산권의 종류]({{ site.baseurl }}/docs/ds/exam/135-1-1-intellectual-property-rights) | 지식재산권 | `특실디상` `반영데컴` |
-| 컴시응 | 1 | 2 | [SOAP vs REST 비교]({{ site.baseurl }}/docs/ds/exam/135-1-2-soap-rest) | Open API | `유기데보대캐페` `R-S-W-U-W` |
-| 컴시응 | 1 | 6 | [멀티클라우드(Multicloud)]({{ site.baseurl }}/docs/ds/exam/135-1-6-multicloud) | 클라우드 컴퓨팅 | `인서앱통` `개CLI웹` |
-| 컴시응 | 2 | 2 | [지속 가능한 스마트시티(Smart City)]({{ site.baseurl }}/docs/ds/exam/135-2-2-smart-city) | 스마트시티 | `주에교환인` `데컴센드` `재데표윤` |
-| 컴시응 | 3 | 1 | 데이터처리의 효율성과 속도를 높이기 위한 엣지 컴퓨팅(Edge Computing)에 대하여 아래 사항을 설명하시오.<br>가. 클라우드 환경에서의 엣지 컴퓨팅<br>나. 엣지 컴퓨팅을 활용한 자율 주행 차량 아키텍처<br>다. 해양 자율이동체에서의 엣지 컴퓨터 | 클라우드 컴퓨팅 | - |
-| 컴시응 | 3 | 2 | 『안티드론 시스템 프레임워크(정보통신단체표준, TTAK,KO-10.1460)」에 대하여 아래 사항을 설명하시오.<br>가. 안티드론 시스템 참조구조<br>나. 기술적 조치 참조구조 | 드론 | - |
-| 컴시응 | 3 | 5 | 블록체인(Blockchain)의 네트워크 종류와 차이점에 대하여 설명하시오 | 블록체인 | - |
-| 컴시응 | 4 | 1 | 중앙은행 디지털 화폐(CBDC, Central Bank Digital Currency) 설계를 위한 고려 사항에 대하여 설명하시오 | 블록체인 | - |
-| 컴시응 | 4 | 2 | 스마트시티 데이터 거버넌스(Smart City Data Governance)에 대하여 설명하시오 | 스마트시티 | - |
-
----
-
-## 134회
-
-| 정/컴 | 교시 | 번호 | 문제 | 관련토픽 | 암기법 |
-|:------|:----:|:----:|:-----|:---------|:------|
-| 관리 | 1 | 9 | [인터미턴트 컴퓨팅(Intermittent Computing)]({{ site.baseurl }}/docs/ds/exam/134-1-9-intermittent-computing) | IoT | `에메인프` `초에비비` |
-| 관리 | 1 | 10 | [스토리지 가상화(Storage Virtualization) 유형별 특징]({{ site.baseurl }}/docs/ds/exam/134-1-10-storage-virtualization) | 가상화 | `블파오` `F-S-H` |
-| 관리 | 2 | 1 | 국가기관, 지방자치단체 및 공공기관이 안전하고 효율적으로 SaaS(Software as a Service)를 이용하기 위해 공공부문 SaaS 이용 가이드라인을 발표하였다. 다음에 대하여 설명하시오.<br>가. 클라우드 서비스 위험 관리원칙 및 기준<br>나. 보안대책 수립 및 보안성 검토<br>다. 서비스 수준 협약 | XaaS | - |
-| 관리 | 2 | 4 | 대규모 AI 서비스를 위한 데이터센터 구축 기술에 대하여 설명하시오.<br>가. 저지연 기술과 스케일링 확보 기술<br>나. DCI(Data Center Interconnect) 기술 | 컨버지드 인프라 | - |
-| 관리 | 3 | 6 | 일부 오픈소스 라이선스가 개방형(예: MIT, BSD 등)에서 폐쇄형(예: SSPL, BSL 등)으로 변화하고 있다. 이러한 오픈소스 라이선스 정책 변경의 배경 및 소프트웨어 산업에 미치는 영향에 대하여 설명하시오 | OSS | - |
-| 관리 | 4 | 4 | 개방형 API(Open API)에 대하여 설명하시오.<br>가. 정의 및 특징<br>나. SOAP 및 REST 구성요소<br>다. 취약점 및 대응 방안 | Open API | - |
-| 컴시응 | 1 | 4 | [촉각 인터넷(Tactile Internet)]({{ site.baseurl }}/docs/ds/exam/134-1-4-tactile-internet) | IoT | `5G엣SDN` `햅AR로AI` |
-| 컴시응 | 1 | 10 | [「클라우드 컴퓨팅 서비스 이용 기준 및 안전성 확보 고시」의 서비스 운영 분야 안전성 검토 항목]({{ site.baseurl }}/docs/ds/exam/134-1-10-cloud-service-safety) | 클라우드 컴퓨팅 | `자비실장계` |
-
----
-
-## 133회
-
-| 정/컴 | 교시 | 번호 | 문제 | 관련토픽 | 암기법 |
-|:------|:----:|:----:|:-----|:---------|:------|
-| 관리 | 1 | 1 | [REST API(REpresentational State Transfer API)]({{ site.baseurl }}/docs/ds/exam/133-1-1-rest-api) | Open API | `자행표` `클무캐유계코` |
-| 관리 | 1 | 12 | [쿠버네티스(Kubernetes)]({{ site.baseurl }}/docs/ds/exam/133-1-12-kubernetes) | 도커 | `A-S-C-E` `P-K-K-C` |
-| 관리 | 2 | 2 | '디지털 정부서비스 UI/UX 가이드라인'(2024.2, 행정안전부)은 디지털 서비스를 구성하는 사용자 인터페이스(UI)와 사용자 경험(UX) 품질에 큰 영향을 주는 요소에 대하여 행정기관 및 공공기관이 준수해야 할 세부사항을 제시한다. 이와 관련하여 다음을 설명하시오.<br>가. 목적 및 주요특징<br>나. 가이드라인의 구조(구성요소)<br>다. 적용대상 및 기준<br>라. 가이드라인의 활용방법 | UI/UX | - |
-| 관리 | 3 | 3 | 슈퍼앱에 대하여 다음을 설명하시오.<br>가. 슈퍼앱의 정의와 주요요소<br>나. 슈퍼앱과 멀티앱의 비교<br>다. 슈퍼앱상 구동 서비스 미니앱<br>라. 슈퍼앱의 사례와 전망 및 이슈사항 | 모바일 콘텐츠 | - |
-| 관리 | 4 | 1 | 데이터 중심 사회에서 데이터의 프라이버시와 보안은 매우 중요한 이슈로 부상하고 있고, 이를 해결하기 위한 다양한 기술적 접근이 시도되고 있다. 그러한 시도 중에서 다자간 계산(Multi-Party Computation; MPC)에 대하여 다음을 설명하시오.<br>가. MPC 개념, 원리, 특징<br>나. MPC 기술 종류<br>다. MPC 기반 인증서비스 | 블록체인 | - |
-
----
-
-## 132회
-
-| 정/컴 | 교시 | 번호 | 문제 | 관련토픽 | 암기법 |
-|:------|:----:|:----:|:-----|:---------|:------|
-| 관리 | 1 | 12 | [블록스토리지, 파일스토리지, 오브젝트스토리지 데이터 접근방식]({{ site.baseurl }}/docs/ds/exam/132-1-12-storage-types) | 오픈스택 프로젝트 | `블파오` `FC-SMB-HTTP` |
-| 관리 | 3 | 2 | 클라우드 관리 플랫폼의 정의 및 필요성, 필수 기능, 플랫폼 선정기준, 기대효과를 설명하시오 | 클라우드 컴퓨팅 | - |
-| 컴시응 | 1 | 8 | [디지털 리터러시(Digital Literacy)]({{ site.baseurl }}/docs/ds/exam/132-1-8-digital-literacy) | 디지털 리터러시 | `연비창디의기` `윤능적` |
-| 컴시응 | 1 | 12 | [영지식 증명(Zero Knowledge Proof)]({{ site.baseurl }}/docs/ds/exam/132-1-12-zero-knowledge-proof) | 블록체인 | `완건영` `SNARK-STARK` |
-| 컴시응 | 1 | 13 | [슈퍼앱(Super APP)]({{ site.baseurl }}/docs/ds/exam/132-1-13-super-app) | 모바일 콘텐츠 | `검금주OTT` `F-B-D-A-C` |
-| 컴시응 | 2 | 2 | 사물인터넷은 일상생활에서 AI와 융합되어 지능형 IoT로 진화하고 있다. 이와 관련하여 아래 사항을 설명하시오.<br>가. AIoT(Artificial Intelligence of Things) 개념<br>나. AIoT의 보안 취약점<br>다. AIoT 디바이스 보안기술 3가지 | IoT | - |
-| 컴시응 | 3 | 1 | 앰비언트 컴퓨팅(Ambient Computing)은 인간의 개입이 없어도 시스템이 스스로 동작하는 기술이다. 이와 관련하여 아래 사항을 설명하시오.<br>가. 앰비언트 컴퓨팅의 개념<br>나. 개념도 및 기술요소<br>다. 앰비언트 컴퓨팅과 IoT(Internet of Things) 비교 | 핀테크 | - |
-| 컴시응 | 3 | 2 | 가상머신(Virtual Machine)과 컨테이너(Container)에 대하여 구체적으로 설명하고, 공통점과 차이점을 상세히 설명하시오 | 가상화 | - |
-| 컴시응 | 4 | 3 | 디지털 트윈 기술을 이용한 제조(정보통신단체표준, TTAK.KO-11.0284)에 대하여 아래 사항을 설명하시오.<br>가. 제조를 위한 디지털 트윈(digital twin) 기술 개념<br>나. 제조 디지털 트윈(digital twin) 프레임워크<br>다. 액터(actor) 정보 테이블의 항목 및 항목값 | 인더스트리 4.0 | - |
 
 ---
 
 ## 📊 통계
 
-| 회차 | 문제 수 |
-|:----:|:-------:|
-| 137회 | 8개 |
-| 136회 | 1개 |
-| 135회 | 12개 |
-| 134회 | 8개 |
-| 133회 | 5개 |
-| 132회 | 9개 |
-| **합계** | **43개** |
+<div class="stats-container">
+  <div class="stat-card">
+    <div class="stat-number" id="totalCount">43</div>
+    <div class="stat-label">전체 문제</div>
+  </div>
+  <div class="stat-card green">
+    <div class="stat-number" id="completedCount">0</div>
+    <div class="stat-label">학습 완료</div>
+  </div>
+  <div class="stat-card orange">
+    <div class="stat-number" id="filteredCount">43</div>
+    <div class="stat-label">필터된 문제</div>
+  </div>
+</div>
 
+---
 
+## 🔍 빠른 필터
+
+<div class="filter-buttons">
+  <button class="filter-btn active" data-filter="all">전체</button>
+  <button class="filter-btn" data-filter="1">1교시 (단답형)</button>
+  <button class="filter-btn" data-filter="2">2교시</button>
+  <button class="filter-btn" data-filter="3">3교시</button>
+  <button class="filter-btn" data-filter="4">4교시</button>
+  <button class="filter-btn" data-filter="has-page">📄 학습페이지 있음</button>
+  <button class="filter-btn" data-filter="has-mnemonic">🧠 암기법 있음</button>
+</div>
+
+---
+
+## 📋 기출문제 목록
+
+<table id="examTable" class="display compact">
+<thead>
+<tr>
+  <th>회차</th>
+  <th>정/컴</th>
+  <th>교시</th>
+  <th>번호</th>
+  <th>문제</th>
+  <th>관련토픽</th>
+  <th>암기법</th>
+</tr>
+</thead>
+<tbody>
+<!-- 137회 -->
+<tr class="has-page"><td>137</td><td>관리</td><td>1</td><td>1</td><td><a href="{{ site.baseurl }}/docs/ds/exam/137-1-1-streaming-protocol">멀티미디어 스트리밍 프로토콜의 종류</a></td><td>스트리밍기술</td><td>RT-P/CP/SP H-D-C-LL</td></tr>
+<tr class="has-page"><td>137</td><td>관리</td><td>1</td><td>3</td><td><a href="{{ site.baseurl }}/docs/ds/exam/137-1-3-modbus">MODBUS 프로토콜을 설명하시오</a></td><td>스마트 그리드</td><td>R-A-T-O C-D-I-H</td></tr>
+<tr class="has-page"><td>137</td><td>관리</td><td>1</td><td>9</td><td><a href="{{ site.baseurl }}/docs/ds/exam/137-1-9-ab-testing">A/B 테스팅을 설명하시오</a></td><td>모바일 마케팅</td><td>C-V-R-S C-C-A-R</td></tr>
+<tr class="has-page"><td>137</td><td>관리</td><td>4</td><td>3</td><td><a href="{{ site.baseurl }}/docs/ds/exam/137-4-3-kubernetes">쿠버네티스(Kubernetes) 가. 개념 및 특징 나. 주요 컴포넌트 다. HPA</a></td><td>도커</td><td>A-S-C-E P-K-K-C 클상배서</td></tr>
+<tr class="has-page"><td>137</td><td>컴시응</td><td>1</td><td>3</td><td><a href="{{ site.baseurl }}/docs/ds/exam/137-1-3-intelligent-edge-computing">지능형 엣지 컴퓨팅</a></td><td>클라우드 컴퓨팅</td><td>디게서네클 디전지클앱</td></tr>
+<tr class="has-page"><td>137</td><td>컴시응</td><td>3</td><td>1</td><td><a href="{{ site.baseurl }}/docs/ds/exam/137-3-1-cloud-service-types">클라우드 컴퓨팅 서비스 유형 가. IaaS 나. PaaS 다. SaaS 라. FaaS</a></td><td>XaaS</td><td>물확비유 개다소 타유 이서자</td></tr>
+<tr class="has-page"><td>137</td><td>컴시응</td><td>4</td><td>1</td><td><a href="{{ site.baseurl }}/docs/ds/exam/137-4-1-video-compression">영상압축기법 가. 무손실 나. 손실 다. 혼합</a></td><td>압축기술</td><td>R-H-A-L D-I-V-W J-J-M-H</td></tr>
+<tr class="has-page"><td>137</td><td>컴시응</td><td>4</td><td>2</td><td><a href="{{ site.baseurl }}/docs/ds/exam/137-4-2-aiaas">AIaaS(AI as a Service)</a></td><td>XaaS</td><td>응엑요클학 온복통API 기빌운업</td></tr>
+
+<!-- 136회 -->
+<tr class="has-page"><td>136</td><td>관리</td><td>1</td><td>9</td><td><a href="{{ site.baseurl }}/docs/ds/exam/136-1-9-serverless-computing">서버리스 컴퓨팅(Serverless Computing)</a></td><td>XaaS</td><td>S-W-A-R B-C-F-E</td></tr>
+
+<!-- 135회 -->
+<tr><td>135</td><td>관리</td><td>2</td><td>6</td><td>AI디지털교과서에 대하여 다음을 설명하시오. 가. 개념 및 특징 나. 플랫폼 구조 다. 기능 및 핵심 서비스</td><td>e-pub</td><td>-</td></tr>
+<tr class="has-page"><td>135</td><td>관리</td><td>3</td><td>3</td><td><a href="{{ site.baseurl }}/docs/ds/exam/135-3-3-multicloud">멀티클라우드(MultiCloud) 가. 개념 및 필요성 나. 시스템 요구사항 다. 주요 기술</a></td><td>클라우드 컴퓨팅</td><td>단벤페서 인서앱통개</td></tr>
+<tr class="has-page"><td>135</td><td>컴시응</td><td>1</td><td>1</td><td><a href="{{ site.baseurl }}/docs/ds/exam/135-1-1-intellectual-property-rights">지식재산권의 종류</a></td><td>지식재산권</td><td>특실디상 반영데컴</td></tr>
+<tr class="has-page"><td>135</td><td>컴시응</td><td>1</td><td>2</td><td><a href="{{ site.baseurl }}/docs/ds/exam/135-1-2-soap-rest">SOAP vs REST 비교</a></td><td>Open API</td><td>유기데보대캐페 R-S-W-U-W</td></tr>
+<tr class="has-page"><td>135</td><td>컴시응</td><td>1</td><td>6</td><td><a href="{{ site.baseurl }}/docs/ds/exam/135-1-6-multicloud">멀티클라우드(Multicloud)</a></td><td>클라우드 컴퓨팅</td><td>인서앱통 개CLI웹</td></tr>
+<tr class="has-page"><td>135</td><td>컴시응</td><td>2</td><td>2</td><td><a href="{{ site.baseurl }}/docs/ds/exam/135-2-2-smart-city">지속 가능한 스마트시티(Smart City)</a></td><td>스마트시티</td><td>주에교환인 데컴센드 재데표윤</td></tr>
+<tr><td>135</td><td>컴시응</td><td>3</td><td>1</td><td>데이터처리의 효율성과 속도를 높이기 위한 엣지 컴퓨팅(Edge Computing)에 대하여 아래 사항을 설명하시오. 가. 클라우드 환경에서의 엣지 컴퓨팅 나. 엣지 컴퓨팅을 활용한 자율 주행 차량 아키텍처 다. 해양 자율이동체에서의 엣지 컴퓨터</td><td>클라우드 컴퓨팅</td><td>-</td></tr>
+<tr><td>135</td><td>컴시응</td><td>3</td><td>2</td><td>『안티드론 시스템 프레임워크(정보통신단체표준, TTAK,KO-10.1460)」에 대하여 아래 사항을 설명하시오. 가. 안티드론 시스템 참조구조 나. 기술적 조치 참조구조</td><td>드론</td><td>-</td></tr>
+<tr><td>135</td><td>컴시응</td><td>3</td><td>5</td><td>블록체인(Blockchain)의 네트워크 종류와 차이점에 대하여 설명하시오</td><td>블록체인</td><td>-</td></tr>
+<tr><td>135</td><td>컴시응</td><td>4</td><td>1</td><td>중앙은행 디지털 화폐(CBDC, Central Bank Digital Currency) 설계를 위한 고려 사항에 대하여 설명하시오</td><td>블록체인</td><td>-</td></tr>
+<tr><td>135</td><td>컴시응</td><td>4</td><td>2</td><td>스마트시티 데이터 거버넌스(Smart City Data Governance)에 대하여 설명하시오</td><td>스마트시티</td><td>-</td></tr>
+
+<!-- 134회 -->
+<tr class="has-page"><td>134</td><td>관리</td><td>1</td><td>9</td><td><a href="{{ site.baseurl }}/docs/ds/exam/134-1-9-intermittent-computing">인터미턴트 컴퓨팅(Intermittent Computing)</a></td><td>IoT</td><td>에메인프 초에비비</td></tr>
+<tr class="has-page"><td>134</td><td>관리</td><td>1</td><td>10</td><td><a href="{{ site.baseurl }}/docs/ds/exam/134-1-10-storage-virtualization">스토리지 가상화(Storage Virtualization) 유형별 특징</a></td><td>가상화</td><td>블파오 F-S-H</td></tr>
+<tr><td>134</td><td>관리</td><td>2</td><td>1</td><td>국가기관, 지방자치단체 및 공공기관이 안전하고 효율적으로 SaaS를 이용하기 위해 공공부문 SaaS 이용 가이드라인을 발표하였다. 가. 클라우드 서비스 위험 관리원칙 및 기준 나. 보안대책 수립 및 보안성 검토 다. 서비스 수준 협약</td><td>XaaS</td><td>-</td></tr>
+<tr><td>134</td><td>관리</td><td>2</td><td>4</td><td>대규모 AI 서비스를 위한 데이터센터 구축 기술에 대하여 설명하시오. 가. 저지연 기술과 스케일링 확보 기술 나. DCI(Data Center Interconnect) 기술</td><td>컨버지드 인프라</td><td>-</td></tr>
+<tr><td>134</td><td>관리</td><td>3</td><td>6</td><td>일부 오픈소스 라이선스가 개방형(예: MIT, BSD 등)에서 폐쇄형(예: SSPL, BSL 등)으로 변화하고 있다. 이러한 오픈소스 라이선스 정책 변경의 배경 및 소프트웨어 산업에 미치는 영향에 대하여 설명하시오</td><td>OSS</td><td>-</td></tr>
+<tr><td>134</td><td>관리</td><td>4</td><td>4</td><td>개방형 API(Open API)에 대하여 설명하시오. 가. 정의 및 특징 나. SOAP 및 REST 구성요소 다. 취약점 및 대응 방안</td><td>Open API</td><td>-</td></tr>
+<tr class="has-page"><td>134</td><td>컴시응</td><td>1</td><td>4</td><td><a href="{{ site.baseurl }}/docs/ds/exam/134-1-4-tactile-internet">촉각 인터넷(Tactile Internet)</a></td><td>IoT</td><td>5G엣SDN 햅AR로AI</td></tr>
+<tr class="has-page"><td>134</td><td>컴시응</td><td>1</td><td>10</td><td><a href="{{ site.baseurl }}/docs/ds/exam/134-1-10-cloud-service-safety">「클라우드 컴퓨팅 서비스 이용 기준 및 안전성 확보 고시」의 서비스 운영 분야 안전성 검토 항목</a></td><td>클라우드 컴퓨팅</td><td>자비실장계</td></tr>
+
+<!-- 133회 -->
+<tr class="has-page"><td>133</td><td>관리</td><td>1</td><td>1</td><td><a href="{{ site.baseurl }}/docs/ds/exam/133-1-1-rest-api">REST API(REpresentational State Transfer API)</a></td><td>Open API</td><td>자행표 클무캐유계코</td></tr>
+<tr class="has-page"><td>133</td><td>관리</td><td>1</td><td>12</td><td><a href="{{ site.baseurl }}/docs/ds/exam/133-1-12-kubernetes">쿠버네티스(Kubernetes)</a></td><td>도커</td><td>A-S-C-E P-K-K-C</td></tr>
+<tr><td>133</td><td>관리</td><td>2</td><td>2</td><td>'디지털 정부서비스 UI/UX 가이드라인'(2024.2, 행정안전부)에 대하여 설명하시오. 가. 목적 및 주요특징 나. 가이드라인의 구조(구성요소) 다. 적용대상 및 기준 라. 가이드라인의 활용방법</td><td>UI/UX</td><td>-</td></tr>
+<tr><td>133</td><td>관리</td><td>3</td><td>3</td><td>슈퍼앱에 대하여 다음을 설명하시오. 가. 슈퍼앱의 정의와 주요요소 나. 슈퍼앱과 멀티앱의 비교 다. 슈퍼앱상 구동 서비스 미니앱 라. 슈퍼앱의 사례와 전망 및 이슈사항</td><td>모바일 콘텐츠</td><td>-</td></tr>
+<tr><td>133</td><td>관리</td><td>4</td><td>1</td><td>다자간 계산(Multi-Party Computation; MPC)에 대하여 설명하시오. 가. MPC 개념, 원리, 특징 나. MPC 기술 종류 다. MPC 기반 인증서비스</td><td>블록체인</td><td>-</td></tr>
+
+<!-- 132회 -->
+<tr class="has-page"><td>132</td><td>관리</td><td>1</td><td>12</td><td><a href="{{ site.baseurl }}/docs/ds/exam/132-1-12-storage-types">블록스토리지, 파일스토리지, 오브젝트스토리지 데이터 접근방식</a></td><td>오픈스택 프로젝트</td><td>블파오 FC-SMB-HTTP</td></tr>
+<tr><td>132</td><td>관리</td><td>3</td><td>2</td><td>클라우드 관리 플랫폼의 정의 및 필요성, 필수 기능, 플랫폼 선정기준, 기대효과를 설명하시오</td><td>클라우드 컴퓨팅</td><td>-</td></tr>
+<tr class="has-page"><td>132</td><td>컴시응</td><td>1</td><td>8</td><td><a href="{{ site.baseurl }}/docs/ds/exam/132-1-8-digital-literacy">디지털 리터러시(Digital Literacy)</a></td><td>디지털 리터러시</td><td>연비창디의기 윤능적</td></tr>
+<tr class="has-page"><td>132</td><td>컴시응</td><td>1</td><td>12</td><td><a href="{{ site.baseurl }}/docs/ds/exam/132-1-12-zero-knowledge-proof">영지식 증명(Zero Knowledge Proof)</a></td><td>블록체인</td><td>완건영 SNARK-STARK</td></tr>
+<tr class="has-page"><td>132</td><td>컴시응</td><td>1</td><td>13</td><td><a href="{{ site.baseurl }}/docs/ds/exam/132-1-13-super-app">슈퍼앱(Super APP)</a></td><td>모바일 콘텐츠</td><td>검금주OTT F-B-D-A-C</td></tr>
+<tr><td>132</td><td>컴시응</td><td>2</td><td>2</td><td>사물인터넷은 일상생활에서 AI와 융합되어 지능형 IoT로 진화하고 있다. 가. AIoT 개념 나. AIoT의 보안 취약점 다. AIoT 디바이스 보안기술 3가지</td><td>IoT</td><td>-</td></tr>
+<tr><td>132</td><td>컴시응</td><td>3</td><td>1</td><td>앰비언트 컴퓨팅(Ambient Computing)에 대하여 설명하시오. 가. 앰비언트 컴퓨팅의 개념 나. 개념도 및 기술요소 다. 앰비언트 컴퓨팅과 IoT 비교</td><td>핀테크</td><td>-</td></tr>
+<tr><td>132</td><td>컴시응</td><td>3</td><td>2</td><td>가상머신(Virtual Machine)과 컨테이너(Container)에 대하여 구체적으로 설명하고, 공통점과 차이점을 상세히 설명하시오</td><td>가상화</td><td>-</td></tr>
+<tr><td>132</td><td>컴시응</td><td>4</td><td>3</td><td>디지털 트윈 기술을 이용한 제조에 대하여 설명하시오. 가. 제조를 위한 디지털 트윈 기술 개념 나. 제조 디지털 트윈 프레임워크 다. 액터 정보 테이블의 항목 및 항목값</td><td>인더스트리 4.0</td><td>-</td></tr>
+</tbody>
+</table>
+
+---
+
+## 💡 사용 팁
+
+- **검색**: 상단 검색창에 키워드 입력 (예: "쿠버네티스", "블록체인", "1교시")
+- **정렬**: 각 컬럼 헤더 클릭하여 오름차순/내림차순 정렬
+- **필터**: 빠른 필터 버튼으로 교시별, 학습페이지 유무 등 필터링
+- **1교시형 모아보기**: "1교시 (단답형)" 버튼 클릭
+
+---
+
+<!-- jQuery & DataTables JS -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
+
+<script>
+$(document).ready(function() {
+    // DataTables 초기화
+    var table = $('#examTable').DataTable({
+        pageLength: 50,
+        lengthMenu: [[25, 50, 100, -1], [25, 50, 100, "전체"]],
+        order: [[0, 'desc'], [2, 'asc'], [3, 'asc']], // 회차 내림차순, 교시 오름차순, 번호 오름차순
+        language: {
+            search: "🔍 검색:",
+            lengthMenu: "_MENU_ 개씩 보기",
+            info: "총 _TOTAL_개 중 _START_ - _END_",
+            infoEmpty: "데이터 없음",
+            infoFiltered: "(전체 _MAX_개에서 필터됨)",
+            paginate: {
+                first: "처음",
+                last: "마지막",
+                next: "다음",
+                previous: "이전"
+            },
+            zeroRecords: "일치하는 결과가 없습니다"
+        },
+        columnDefs: [
+            { orderable: true, targets: [0,1,2,3,5,6] },
+            { orderable: false, targets: [4] } // 문제 컬럼은 정렬 제외
+        ],
+        drawCallback: function() {
+            // 필터된 문제 수 업데이트
+            $('#filteredCount').text(this.api().rows({filter:'applied'}).count());
+        }
+    });
+
+    // 학습 완료 페이지 수 계산
+    var completedCount = $('.has-page').length;
+    $('#completedCount').text(completedCount);
+
+    // 빠른 필터 버튼 이벤트
+    $('.filter-btn').click(function() {
+        $('.filter-btn').removeClass('active');
+        $(this).addClass('active');
+        
+        var filter = $(this).data('filter');
+        
+        // 기존 검색 초기화
+        table.search('').columns().search('').draw();
+        
+        if (filter === 'all') {
+            table.draw();
+        } else if (filter === 'has-page') {
+            // 학습페이지 있는 항목만 (링크가 있는 행)
+            $.fn.dataTable.ext.search.push(function(settings, data, dataIndex) {
+                return $(table.row(dataIndex).node()).hasClass('has-page');
+            });
+            table.draw();
+            $.fn.dataTable.ext.search.pop();
+        } else if (filter === 'has-mnemonic') {
+            // 암기법 있는 항목만
+            table.column(6).search('^(?!-$).*$', true, false).draw();
+        } else {
+            // 교시 필터 (1, 2, 3, 4)
+            table.column(2).search('^' + filter + '$', true, false).draw();
+        }
+    });
+
+    // 학습페이지 있는 행 필터를 위한 커스텀 필터 (has-page 버튼용)
+    var hasPageFilter = false;
+    
+    $('.filter-btn[data-filter="has-page"]').click(function() {
+        $('.filter-btn').removeClass('active');
+        $(this).addClass('active');
+        
+        table.search('').columns().search('').draw();
+        
+        $.fn.dataTable.ext.search.push(function(settings, data, dataIndex) {
+            return $(table.row(dataIndex).node()).hasClass('has-page');
+        });
+        table.draw();
+        $.fn.dataTable.ext.search.pop();
+    });
+});
+</script>
