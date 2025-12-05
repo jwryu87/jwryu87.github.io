@@ -45,7 +45,7 @@ DS(Digital Service) 관련 기출문제 모음입니다.
 | 관리 | 2 | 6 | AI디지털교과서에 대하여 다음을 설명하시오.<br>가. 개념 및 특징<br>나. 플랫폼 구조<br>다. 기능 및 핵심 서비스 | e-pub | - |
 | 관리 | 3 | 3 | [멀티클라우드(MultiCloud)]({{ site.baseurl }}/docs/ds/exam/135-3-3-multicloud)<br>가. 개념 및 필요성<br>나. 시스템 요구사항<br>다. 주요 기술 | 클라우드 컴퓨팅 | `단벤페서` `인서앱통개` |
 | 컴시응 | 1 | 1 | 지식재산권의 종류 | 특허 | - |
-| 컴시응 | 1 | 2 | SOAP(Simple Object Access Protocol)와 REST(Representational State Transfer)를 비교 설명하시오 | Open API | - |
+| 컴시응 | 1 | 2 | [SOAP vs REST 비교]({{ site.baseurl }}/docs/ds/exam/135-1-2-soap-rest) | Open API | `유기데보대캐페` `R-S-W-U-W` |
 | 컴시응 | 1 | 6 | [멀티클라우드(Multicloud)]({{ site.baseurl }}/docs/ds/exam/135-1-6-multicloud) | 클라우드 컴퓨팅 | `인서앱통` `개CLI웹` |
 | 컴시응 | 2 | 2 | [지속 가능한 스마트시티(Smart City)]({{ site.baseurl }}/docs/ds/exam/135-2-2-smart-city) | 스마트시티 | `주에교환인` `데컴센드` `재데표윤` |
 | 컴시응 | 3 | 1 | 데이터처리의 효율성과 속도를 높이기 위한 엣지 컴퓨팅(Edge Computing)에 대하여 아래 사항을 설명하시오.<br>가. 클라우드 환경에서의 엣지 컴퓨팅<br>나. 엣지 컴퓨팅을 활용한 자율 주행 차량 아키텍처<br>다. 해양 자율이동체에서의 엣지 컴퓨터 | 클라우드 컴퓨팅 | - |
