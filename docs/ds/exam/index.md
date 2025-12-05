@@ -192,7 +192,7 @@ DS(Digital Service) 관련 기출문제 모음입니다. **검색, 정렬, 필�
 <tr class="has-page"><td>135</td><td>컴시응</td><td>2</td><td>2</td><td><a href="{{ site.baseurl }}/docs/ds/exam/135-2-2-smart-city">지속 가능한 스마트시티(Smart City)</a></td><td>스마트시티</td><td>주에교환인 데컴센드 재데표윤</td></tr>
 <tr><td>135</td><td>컴시응</td><td>3</td><td>1</td><td>데이터처리의 효율성과 속도를 높이기 위한 엣지 컴퓨팅(Edge Computing)에 대하여 아래 사항을 설명하시오. 가. 클라우드 환경에서의 엣지 컴퓨팅 나. 엣지 컴퓨팅을 활용한 자율 주행 차량 아키텍처 다. 해양 자율이동체에서의 엣지 컴퓨터</td><td>클라우드 컴퓨팅</td><td>-</td></tr>
 <tr><td>135</td><td>컴시응</td><td>3</td><td>2</td><td>『안티드론 시스템 프레임워크(정보통신단체표준, TTAK,KO-10.1460)」에 대하여 아래 사항을 설명하시오. 가. 안티드론 시스템 참조구조 나. 기술적 조치 참조구조</td><td>드론</td><td>-</td></tr>
-<tr><td>135</td><td>컴시응</td><td>3</td><td>5</td><td>블록체인(Blockchain)의 네트워크 종류와 차이점에 대하여 설명하시오</td><td>블록체인</td><td>-</td></tr>
+<tr class="has-page"><td>135</td><td>컴시응</td><td>3</td><td>5</td><td><a href="{{ site.baseurl }}/docs/ds/exam/135-3-5-blockchain-network-types">블록체인(Blockchain)의 네트워크 종류와 차이점</a></td><td>블록체인</td><td>퍼프컨 관참거속익</td></tr>
 <tr><td>135</td><td>컴시응</td><td>4</td><td>1</td><td>중앙은행 디지털 화폐(CBDC, Central Bank Digital Currency) 설계를 위한 고려 사항에 대하여 설명하시오</td><td>블록체인</td><td>-</td></tr>
 <tr><td>135</td><td>컴시응</td><td>4</td><td>2</td><td>스마트시티 데이터 거버넌스(Smart City Data Governance)에 대하여 설명하시오</td><td>스마트시티</td><td>-</td></tr>
 
