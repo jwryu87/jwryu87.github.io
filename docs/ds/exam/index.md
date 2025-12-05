@@ -26,7 +26,7 @@ DS(Digital Service) 관련 기출문제 모음입니다.
 | 컴시응 | 1 | 3 | [지능형 엣지 컴퓨팅]({{ site.baseurl }}/docs/ds/exam/137-1-3-intelligent-edge-computing) | 클라우드 컴퓨팅 | `디게서네클` `디전지클앱` |
 | 컴시응 | 3 | 1 | [클라우드 컴퓨팅 서비스 유형]({{ site.baseurl }}/docs/ds/exam/137-3-1-cloud-service-types)<br>가. IaaS 나. PaaS 다. SaaS 라. FaaS | XaaS | `물확비유` `개다소` `타유` `이서자` |
 | 컴시응 | 4 | 1 | [영상압축기법]({{ site.baseurl }}/docs/ds/exam/137-4-1-video-compression)<br>가. 무손실 나. 손실 다. 혼합 | 압축기술 | `R-H-A-L` `D-I-V-W` `J-J-M-H` |
-| 컴시응 | 4 | 2 | AIaaS(AI as a Service) | XaaS | - |
+| 컴시응 | 4 | 2 | [AIaaS(AI as a Service)]({{ site.baseurl }}/docs/ds/exam/137-4-2-aiaas) | XaaS | `응엑요클학` `온복통API` `기빌운업` |
 
 ---
 
