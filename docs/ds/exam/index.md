@@ -32,9 +32,9 @@ DS(Digital Service) 관련 기출문제 모음입니다.
 
 ## 136회
 
-| 정/컴 | 교시 | 번호 | 문제 | 관련토픽 |
-|:------|:----:|:----:|:-----|:---------|
-| 관리 | 1 | 9 | 서버리스 컴퓨팅(Serverless Computing) | XaaS |
+| 정/컴 | 교시 | 번호 | 문제 | 관련토픽 | 암기법 |
+|:------|:----:|:----:|:-----|:---------|:------|
+| 관리 | 1 | 9 | [서버리스 컴퓨팅(Serverless Computing)]({{ site.baseurl }}/docs/ds/exam/136-1-9-serverless-computing) | XaaS | `S-W-A-R` `B-C-F-E` |
 
 ---
 
