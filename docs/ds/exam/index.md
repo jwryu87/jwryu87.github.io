@@ -48,7 +48,8 @@ permalink: /docs/ds/exam
   width: 1%;
   white-space: nowrap;
   text-align: center;
-  padding: 0.3rem 0.5rem;
+  padding: 0.2rem 0.25rem;
+  font-size: 0.8rem;
 }
 /* 문제 컬럼 */
 #examTable td:nth-child(5) {
