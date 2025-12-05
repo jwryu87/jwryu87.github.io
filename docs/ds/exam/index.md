@@ -215,7 +215,7 @@ DS(Digital Service) 관련 기출문제 모음입니다. **검색, 정렬, 필�
 
 <!-- 132회 -->
 <tr class="has-page"><td>132</td><td>관리</td><td>1</td><td>12</td><td><a href="{{ site.baseurl }}/docs/ds/exam/132-1-12-storage-types">블록스토리지, 파일스토리지, 오브젝트스토리지 데이터 접근방식</a></td><td>오픈스택 프로젝트</td><td>블파오 FC-SMB-HTTP</td></tr>
-<tr><td>132</td><td>관리</td><td>3</td><td>2</td><td>클라우드 관리 플랫폼의 정의 및 필요성, 필수 기능, 플랫폼 선정기준, 기대효과를 설명하시오</td><td>클라우드 컴퓨팅</td><td>-</td></tr>
+<tr class="has-page"><td>132</td><td>관리</td><td>3</td><td>2</td><td><a href="{{ site.baseurl }}/docs/ds/exam/132-3-2-cloud-management-platform">클라우드 관리 플랫폼의 정의 및 필요성, 필수기능, 선정기준, 기대효과</a></td><td>클라우드 컴퓨팅</td><td>정필선기 인운인클자인 표자거워지</td></tr>
 <tr class="has-page"><td>132</td><td>컴시응</td><td>1</td><td>8</td><td><a href="{{ site.baseurl }}/docs/ds/exam/132-1-8-digital-literacy">디지털 리터러시(Digital Literacy)</a></td><td>디지털 리터러시</td><td>연비창디의기 윤능적</td></tr>
 <tr class="has-page"><td>132</td><td>컴시응</td><td>1</td><td>12</td><td><a href="{{ site.baseurl }}/docs/ds/exam/132-1-12-zero-knowledge-proof">영지식 증명(Zero Knowledge Proof)</a></td><td>블록체인</td><td>완건영 SNARK-STARK</td></tr>
 <tr class="has-page"><td>132</td><td>컴시응</td><td>1</td><td>13</td><td><a href="{{ site.baseurl }}/docs/ds/exam/132-1-13-super-app">슈퍼앱(Super APP)</a></td><td>모바일 콘텐츠</td><td>검금주OTT F-B-D-A-C</td></tr>
