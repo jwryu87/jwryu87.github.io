@@ -48,8 +48,8 @@ permalink: /
 | [TOP 카페](https://cafe.naver.com/strnd){:target="_blank"} | 스터디 카페 |
 | [TOP 15기 점수 입력](https://docs.google.com/spreadsheets/d/1EguflVc3Ndt-7h2I9_CHBmA9fnkLUsyr/edit?gid=1622875262#gid=1622875262){:target="_blank"} | 점수 입력 스프레드시트 |
 
-<details>
-<summary>📚 더보기</summary>
+<details markdown="1">
+<summary>더보기</summary>
 
 ###### ITPE
 [온라인강의](https://itpe.co.kr/mypage/main.do){:target="_blank"} | [ITPE 카페](https://cafe.naver.com/81th?iframe_url=/MyCafeIntro.nhn%3Fclubid=12409209){:target="_blank"} | [제인스 서브노트](https://docs.google.com/spreadsheets/d/1zVG3gtJVNiG65rVvsaVVgQcKCGp7ikCgwmB1Ky_0fP0/edit?gid=1129232147#gid=1129232147){:target="_blank"} | [공부기록](https://docs.google.com/spreadsheets/d/1JOI_iJWZHMGW02z1qPtWEYYOpJ2cxa7aFkeBmzxysHU/edit?gid=366531422#gid=366531422){:target="_blank"}
