@@ -47,8 +47,8 @@ permalink: /docs/sec/exam
   width: 1%;
   white-space: nowrap;
   text-align: center;
-  padding: 0.2rem 0.25rem;
-  font-size: 0.8rem;
+  padding: 0.1rem 0.1rem;
+  font-size: 0.7rem;
 }
 #examTable td:nth-child(5) {
   white-space: normal;
