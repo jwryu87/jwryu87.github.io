@@ -1,14 +1,11 @@
 ---
 layout: default
-title: Bookmark
+title: 도덕적 Hey 와 책임 Happy
 permalink: /work/bookmark/
 ---
 
-# Bookmark
+# 도덕적 Hey 와 책임 Happy
 {: .no_toc }
-
-**도덕적 Hey 와 책임 Happy**
-{: .fs-5 .text-grey-dk-100 }
 
 ---
 
@@ -23,47 +20,27 @@ permalink: /work/bookmark/
 
 ## 🏢 Company
 
-### woowa gw
-
-| 카테고리 | 링크 |
-|:--------|:-----|
-| **업무** | [우아한오피스](https://office.woowa.in/Website/Portal/Main.aspx){: target="_blank"} \| [DH okta](https://deliveryhero.okta.com/login/login.htm?fromURI=%2Fapp%2FUserHome){: target="_blank"} \| [우아한스마트오피스](https://smartoffice.woowa.in/usc/mtg/selectUscMtgResveDayList.do){: target="_blank"} \| [백오피스](https://auth-admin.baemin.in/projects/54/authority-requests/93457){: target="_blank"} |
-| **학습/복지** | [우아한러닝](https://woowa.live/){: target="_blank"} \| [우아한사전](https://wiki.woowa.in/pages/viewpage.action?pageId=161781109){: target="_blank"} \| [우아한복지몰](https://baemin.ezwel.com/cuser/main.ez){: target="_blank"} |
-| **커뮤니케이션** | [팀 zoom](https://woowahan.zoom.us/j/92056058685?pwd=OFIwZ1VMSFBNMU1YdnhMbFM5M1FQdz09#success){: target="_blank"} \| [개인 zoom](https://woowahan.zoom.us/j/81999161218?pwd=dEw0U3ZieXoyWTBvNEJpOUpUTmtodz09#success){: target="_blank"} \| [레몬베이스](https://lemonbase.com/app/home){: target="_blank"} \| [조직도](https://office.woowa.in/WebSite/Extension/Search/Search.aspx?system=Board&alias=Board.KeywordSearch&SearchKeyword=%EB%A5%98%EC%9E%AC%EC%9A%B0){: target="_blank"} |
-| **참고** | [DE 온보딩](https://wiki.woowa.in/pages/viewpage.action?pageId=384833969){: target="_blank"} \| [우아한형제들 기술블로그](https://techblog.woowahan.com/){: target="_blank"} |
-| **생산성** | [업무 생산성](https://cloud.wiki.woowa.in/wiki/spaces/~jaewoo.ryu/pages/696783692/2025){: target="_blank"} \| [Gmail](https://mail.google.com/mail/u/1/#inbox){: target="_blank"} \| [Google Calendar](https://calendar.google.com/calendar/u/1/r){: target="_blank"} |
-
-### woowa dev
-
-| 카테고리 | 링크 |
-|:--------|:-----|
-| **JIRA/WIKI** | [JIRA](https://cloud.jira.woowa.in/jira/your-work){: target="_blank"} \| [JIRA Sprint](https://cloud.jira.woowa.in/jira/software/c/projects/DATAENG/boards/368?useStoredSettings=true){: target="_blank"} \| [개인 WIKI](https://cloud.wiki.woowa.in/wiki/spaces/~jaewoo.ryu/pages/218432060){: target="_blank"} \| [팀 WIKI](https://cloud.wiki.woowa.in/wiki/spaces/BITEAM/overview){: target="_blank"} |
-| **모니터링** | [dataeng-schema](https://docs.google.com/spreadsheets/d/1dkI222MImqF6GuewiUd251tJXmpuJ93ozSgAJfaVDqw/edit#gid=0){: target="_blank"} \| [Tableau 모니터링](https://tableau.woowa.in/#/views/airflow_16681385632990/sheet0?:iid=1){: target="_blank"} \| [배치 운영 모니터링](https://superset.woowa.in/superset/dashboard/a9438bea-d644-4765-aef4-2fc50f8ee75a/?native_filters_key=OhzePM1CltE){: target="_blank"} |
-| **문서** | [제플린 지원 서비스 안내](https://cloud.wiki.woowa.in/wiki/spaces/BITEAM/pages/503153723){: target="_blank"} \| [관리용 테이블](https://cloud.wiki.woowa.in/wiki/x/cFixIQ){: target="_blank"} \| [MR 리뷰어 체크리스트](https://cloud.wiki.woowa.in/wiki/x/iIz9HQ){: target="_blank"} \| [braze-dashboard](https://dashboard-01.braze.com/){: target="_blank"} |
-
-### 개발 플랫폼
-
-| 카테고리 | 링크 |
-|:--------|:-----|
-| **데이터 관리** | [데이터 카탈로그](https://datacatalog.woowa.in/main){: target="_blank"} \| [Ranger](https://ranger-admin.ds.woowa.in/){: target="_blank"} \| [Hue](https://hue.ds.woowa.in/hue/accounts/login?next=/){: target="_blank"} \| [QueryPie](https://qp.woowa.in/dashboard){: target="_blank"} |
-| **운영** | [Opsgenie](https://woowabros.app.opsgenie.com/auth/login?targetUri=%2Falert%2Flist){: target="_blank"} \| [Logchecker](https://logchecker.woowa.in/dashboard/search/){: target="_blank"} \| [Buds](https://buds.woowa.in/){: target="_blank"} \| [Biportal](https://biportal.woowa.in/#/home){: target="_blank"} \| [Diagrams](https://app.diagrams.net/){: target="_blank"} |
-| **인프라** | [Git](https://git.baemin.in/){: target="_blank"} \| [AWS](https://key.oneid.woowa.in/auth/realms/oneid/protocol/saml/clients/aws/){: target="_blank"} |
-| **클러스터** | [ds-daily-1](https://ds-daily-1.yarn.emr.ds.woowa.in/cluster/scheduler?openQueues=Queue:%20default){: target="_blank"} \| [ds-stage](https://ds-stage.yarn.emr.ds.woowa.in/cluster/scheduler?openQueues=Queue:%20default){: target="_blank"} \| [ds-realtime](https://ds-realtime.yarn.emr.ds.woowa.in/cluster/scheduler?openQueues=Queue:%20default){: target="_blank"} \| [ds-high](https://ds-high.yarn.emr.ds.woowa.in/cluster/scheduler){: target="_blank"} |
-| **Spark History** | [ds-daily-1.sparkhistory](https://eks.sparkhistory.emr.ds.woowa.in/){: target="_blank"} \| [ds-stage.sparkhistory](https://ds-stage.sparkhistory.emr.ds.woowa.in/){: target="_blank"} |
-
-| 플랫폼 | 링크 |
-|:------|:-----|
-| **Workflow** | [Airflow](https://airflow.woowa.in/home){: target="_blank"} \| [Airflow(operation)](https://airflow.operation.ds.woowa.in/){: target="_blank"} \| [Airflow(stage)](https://airflow.stage.ds.woowa.in/home){: target="_blank"} \| [Airflow(beta)](https://airflow.beta.woowa.in/home){: target="_blank"} \| [Azkaban](https://azkaban.stage.ds.woowa.in/index?all){: target="_blank"} |
-| **데이터분석** | [Zeppelin ds](https://zeppelin.ds.woowa.in/){: target="_blank"} \| [Zeppelin public-2023](https://zeppelin-2023.woowa.in/public/#/?ref=%2Fnotebook%2F2J126FD5J){: target="_blank"} \| [Zeppelin k8s](https://zeppelin-k8s.ds.woowa.in/){: target="_blank"} \| [Jupyterlab](https://jupyterlab.woowa.in/user/jaewoo.ryu/lab){: target="_blank"} \| [Jupyterlab wiki](https://wiki.woowa.in/pages/viewpage.action?pageId=175525228){: target="_blank"} |
-| **데이터시각화** | [Redash](https://redash.woowa.in/){: target="_blank"} \| [Redash wiki](https://wiki.woowa.in/pages/viewpage.action?pageId=109937849){: target="_blank"} \| [Tableau](https://tableau.woowa.in/){: target="_blank"} |
-| **DW** | [DW 주제 영역별 가이드](https://cloud.wiki.woowa.in/wiki/spaces/BITEAM/pages/785372461/DW){: target="_blank"} |
-| **센트럴 전송** | [DH 전송 대시보드 wiki](https://cloud.wiki.woowa.in/wiki/spaces/BITEAM/pages/694170202/2.1+DH+-){: target="_blank"} \| [DH 전송 대시보드](https://superset.woowa.in/superset/dashboard/7371/?native_filters_key=Go0SBYIGtWg){: target="_blank"} |
-
-### 배민서비스 (web)
-
-| 서비스 | 링크 |
-|:------|:-----|
-| **배민** | [배민외식업광장](https://ceo.baemin.com/){: target="_blank"} \| [배민상회](https://mart.baemin.com/){: target="_blank"} \| [배민장부](https://note.baemin.com/){: target="_blank"} \| [배민문방구](https://brandstore.baemin.com/){: target="_blank"} \| [배민 선물하기](https://gift-pc.baemin.com/){: target="_blank"} |
+| 회사/플랫폼 | 카테고리 | 링크 |
+|:-----------|:---------|:-----|
+| **woowa gw** | 업무 | [우아한오피스](https://office.woowa.in/Website/Portal/Main.aspx){: target="_blank"} \| [DH okta](https://deliveryhero.okta.com/login/login.htm?fromURI=%2Fapp%2FUserHome){: target="_blank"} \| [우아한스마트오피스](https://smartoffice.woowa.in/usc/mtg/selectUscMtgResveDayList.do){: target="_blank"} \| [백오피스](https://auth-admin.baemin.in/projects/54/authority-requests/93457){: target="_blank"} |
+| **woowa gw** | 학습/복지 | [우아한러닝](https://woowa.live/){: target="_blank"} \| [우아한사전](https://wiki.woowa.in/pages/viewpage.action?pageId=161781109){: target="_blank"} \| [우아한복지몰](https://baemin.ezwel.com/cuser/main.ez){: target="_blank"} |
+| **woowa gw** | 커뮤니케이션 | [팀 zoom](https://woowahan.zoom.us/j/92056058685?pwd=OFIwZ1VMSFBNMU1YdnhMbFM5M1FQdz09#success){: target="_blank"} \| [개인 zoom](https://woowahan.zoom.us/j/81999161218?pwd=dEw0U3ZieXoyWTBvNEJpOUpUTmtodz09#success){: target="_blank"} \| [레몬베이스](https://lemonbase.com/app/home){: target="_blank"} \| [조직도](https://office.woowa.in/WebSite/Extension/Search/Search.aspx?system=Board&alias=Board.KeywordSearch&SearchKeyword=%EB%A5%98%EC%9E%AC%EC%9A%B0){: target="_blank"} |
+| **woowa gw** | 참고 | [DE 온보딩](https://wiki.woowa.in/pages/viewpage.action?pageId=384833969){: target="_blank"} \| [우아한형제들 기술블로그](https://techblog.woowahan.com/){: target="_blank"} |
+| **woowa gw** | 생산성 | [업무 생산성](https://cloud.wiki.woowa.in/wiki/spaces/~jaewoo.ryu/pages/696783692/2025){: target="_blank"} \| [Gmail](https://mail.google.com/mail/u/1/#inbox){: target="_blank"} \| [Google Calendar](https://calendar.google.com/calendar/u/1/r){: target="_blank"} |
+| **woowa dev** | JIRA/WIKI | [JIRA](https://cloud.jira.woowa.in/jira/your-work){: target="_blank"} \| [JIRA Sprint](https://cloud.jira.woowa.in/jira/software/c/projects/DATAENG/boards/368?useStoredSettings=true){: target="_blank"} \| [개인 WIKI](https://cloud.wiki.woowa.in/wiki/spaces/~jaewoo.ryu/pages/218432060){: target="_blank"} \| [팀 WIKI](https://cloud.wiki.woowa.in/wiki/spaces/BITEAM/overview){: target="_blank"} |
+| **woowa dev** | 모니터링 | [dataeng-schema](https://docs.google.com/spreadsheets/d/1dkI222MImqF6GuewiUd251tJXmpuJ93ozSgAJfaVDqw/edit#gid=0){: target="_blank"} \| [Tableau 모니터링](https://tableau.woowa.in/#/views/airflow_16681385632990/sheet0?:iid=1){: target="_blank"} \| [배치 운영 모니터링](https://superset.woowa.in/superset/dashboard/a9438bea-d644-4765-aef4-2fc50f8ee75a/?native_filters_key=OhzePM1CltE){: target="_blank"} |
+| **woowa dev** | 문서 | [제플린 지원 서비스 안내](https://cloud.wiki.woowa.in/wiki/spaces/BITEAM/pages/503153723){: target="_blank"} \| [관리용 테이블](https://cloud.wiki.woowa.in/wiki/x/cFixIQ){: target="_blank"} \| [MR 리뷰어 체크리스트](https://cloud.wiki.woowa.in/wiki/x/iIz9HQ){: target="_blank"} \| [braze-dashboard](https://dashboard-01.braze.com/){: target="_blank"} |
+| **개발 플랫폼** | 데이터 관리 | [데이터 카탈로그](https://datacatalog.woowa.in/main){: target="_blank"} \| [Ranger](https://ranger-admin.ds.woowa.in/){: target="_blank"} \| [Hue](https://hue.ds.woowa.in/hue/accounts/login?next=/){: target="_blank"} \| [QueryPie](https://qp.woowa.in/dashboard){: target="_blank"} |
+| **개발 플랫폼** | 운영 | [Opsgenie](https://woowabros.app.opsgenie.com/auth/login?targetUri=%2Falert%2Flist){: target="_blank"} \| [Logchecker](https://logchecker.woowa.in/dashboard/search/){: target="_blank"} \| [Buds](https://buds.woowa.in/){: target="_blank"} \| [Biportal](https://biportal.woowa.in/#/home){: target="_blank"} \| [Diagrams](https://app.diagrams.net/){: target="_blank"} |
+| **개발 플랫폼** | 인프라 | [Git](https://git.baemin.in/){: target="_blank"} \| [AWS](https://key.oneid.woowa.in/auth/realms/oneid/protocol/saml/clients/aws/){: target="_blank"} |
+| **개발 플랫폼** | 클러스터 | [ds-daily-1](https://ds-daily-1.yarn.emr.ds.woowa.in/cluster/scheduler?openQueues=Queue:%20default){: target="_blank"} \| [ds-stage](https://ds-stage.yarn.emr.ds.woowa.in/cluster/scheduler?openQueues=Queue:%20default){: target="_blank"} \| [ds-realtime](https://ds-realtime.yarn.emr.ds.woowa.in/cluster/scheduler?openQueues=Queue:%20default){: target="_blank"} \| [ds-high](https://ds-high.yarn.emr.ds.woowa.in/cluster/scheduler){: target="_blank"} |
+| **개발 플랫폼** | Spark History | [ds-daily-1.sparkhistory](https://eks.sparkhistory.emr.ds.woowa.in/){: target="_blank"} \| [ds-stage.sparkhistory](https://ds-stage.sparkhistory.emr.ds.woowa.in/){: target="_blank"} |
+| **개발 플랫폼** | Workflow | [Airflow](https://airflow.woowa.in/home){: target="_blank"} \| [Airflow(operation)](https://airflow.operation.ds.woowa.in/){: target="_blank"} \| [Airflow(stage)](https://airflow.stage.ds.woowa.in/home){: target="_blank"} \| [Airflow(beta)](https://airflow.beta.woowa.in/home){: target="_blank"} \| [Azkaban](https://azkaban.stage.ds.woowa.in/index?all){: target="_blank"} |
+| **개발 플랫폼** | 데이터분석 | [Zeppelin ds](https://zeppelin.ds.woowa.in/){: target="_blank"} \| [Zeppelin public-2023](https://zeppelin-2023.woowa.in/public/#/?ref=%2Fnotebook%2F2J126FD5J){: target="_blank"} \| [Zeppelin k8s](https://zeppelin-k8s.ds.woowa.in/){: target="_blank"} \| [Jupyterlab](https://jupyterlab.woowa.in/user/jaewoo.ryu/lab){: target="_blank"} \| [Jupyterlab wiki](https://wiki.woowa.in/pages/viewpage.action?pageId=175525228){: target="_blank"} |
+| **개발 플랫폼** | 데이터시각화 | [Redash](https://redash.woowa.in/){: target="_blank"} \| [Redash wiki](https://wiki.woowa.in/pages/viewpage.action?pageId=109937849){: target="_blank"} \| [Tableau](https://tableau.woowa.in/){: target="_blank"} |
+| **개발 플랫폼** | DW | [DW 주제 영역별 가이드](https://cloud.wiki.woowa.in/wiki/spaces/BITEAM/pages/785372461/DW){: target="_blank"} |
+| **개발 플랫폼** | 센트럴 전송 | [DH 전송 대시보드 wiki](https://cloud.wiki.woowa.in/wiki/spaces/BITEAM/pages/694170202/2.1+DH+-){: target="_blank"} \| [DH 전송 대시보드](https://superset.woowa.in/superset/dashboard/7371/?native_filters_key=Go0SBYIGtWg){: target="_blank"} |
+| **배민서비스 (web)** | 배민 | [배민외식업광장](https://ceo.baemin.com/){: target="_blank"} \| [배민상회](https://mart.baemin.com/){: target="_blank"} \| [배민장부](https://note.baemin.com/){: target="_blank"} \| [배민문방구](https://brandstore.baemin.com/){: target="_blank"} \| [배민 선물하기](https://gift-pc.baemin.com/){: target="_blank"} |
 
 ---
 
