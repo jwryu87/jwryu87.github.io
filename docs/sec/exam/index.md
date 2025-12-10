@@ -174,7 +174,7 @@ SEC(정보보안) 관련 기출문제 모음입니다. **검색, 정렬, 필터�
 
 <!-- 135회 -->
 <tr class="has-page"><td>135</td><td>관리</td><td>1</td><td>5</td><td><a href="/docs/sec/exam/135-1-5-siem-soar-comparison">SIEM & SOAR 비교</a></td><td>ESM</td><td><code>목로그이사보자오통집분자유</code></td></tr>
-<tr><td>135</td><td>관리</td><td>1</td><td>7</td><td>개인정보 안심구역</td><td>디지털 발자국</td><td>-</td></tr>
+<tr class="has-page"><td>135</td><td>관리</td><td>1</td><td>7</td><td><a href="/docs/sec/exam/135-1-7-personal-info-safe-zone">개인정보 안심구역</a></td><td>디지털 발자국</td><td><code>안가P</code> <code>이심이안반이</code> <code>담공보</code></td></tr>
 <tr><td>135</td><td>관리</td><td>3</td><td>4</td><td>양자 암호 기술에 대하여 QKD, PQC, QKD와 PQC 비교를 설명하시오</td><td>양자암호화</td><td>-</td></tr>
 <tr><td>135</td><td>관리</td><td>3</td><td>6</td><td>딥페이크에 대하여 개념 및 핵심 기술, 문제점, 대응방안을 설명하시오</td><td>융합보안</td><td>-</td></tr>
 <tr><td>135</td><td>관리</td><td>4</td><td>6</td><td>경계 기반 보안과 제로 트러스트 성숙도모델 2.0 비교, 제로 트러스트 아키텍처 도입 시 고려사항을 설명하시오</td><td>보안모델</td><td>-</td></tr>
