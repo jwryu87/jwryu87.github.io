@@ -156,7 +156,7 @@ SEC(정보보안) 관련 기출문제 모음입니다. **검색, 정렬, 필터�
 <tr><td>137</td><td>관리</td><td>1</td><td>6</td><td><a href="/docs/sec/exam/137-1-6-ai-governance">AI 거버넌스(Artificial Intelligence Governance)를 설명하시오</a></td><td>디지털윤리</td><td><code>가조프검</code> <code>사편규</code></td></tr>
 <tr><td>137</td><td>관리</td><td>3</td><td>6</td><td>국가 망 보안체계(N2SF)에 대하여 개념, 적용 절차, 고려사항을 설명하시오</td><td>보안모델</td><td>-</td></tr>
 <tr><td>137</td><td>관리</td><td>4</td><td>1</td><td>BPFdoor 악성코드에 대하여 개념 및 기존 백도어와의 차이점, 위협 요소, 대응 방안을 설명하시오</td><td>APT</td><td>-</td></tr>
-<tr><td>137</td><td>컴시응</td><td>1</td><td>11</td><td>인공지능 시스템의 취약점</td><td>융합보안</td><td>-</td></tr>
+<tr><td>137</td><td>컴시응</td><td>1</td><td>11</td><td><a href="/docs/sec/exam/137-1-11-ai-vulnerability">인공지능 시스템의 취약점</a></td><td>융합보안</td><td><code>PEIM</code> <code>적결탐쿼D</code></td></tr>
 <tr><td>137</td><td>컴시응</td><td>1</td><td>12</td><td>클라우드 네이티브 보안</td><td>클라우드 보안</td><td>-</td></tr>
 <tr><td>137</td><td>컴시응</td><td>2</td><td>1</td><td>공공 마이데이터 활용 방안에 대하여 설명하시오</td><td>개인정보 비식별화</td><td>-</td></tr>
 <tr><td>137</td><td>컴시응</td><td>3</td><td>3</td><td>OPC UA에 대하여 등장배경, OPC와 비교, 활용분야를 설명하시오</td><td>산업제어시스템보안</td><td>-</td></tr>
