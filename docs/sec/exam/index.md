@@ -173,7 +173,7 @@ SEC(정보보안) 관련 기출문제 모음입니다. **검색, 정렬, 필터�
 <tr><td>136</td><td>관리</td><td>4</td><td>6</td><td>소프트웨어 보안 품질에 대하여 정의와 중요성, 자동화 기술과 도구, 구현방안, 기대효과를 설명하시오</td><td>시큐어 코딩</td><td>-</td></tr>
 
 <!-- 135회 -->
-<tr><td>135</td><td>관리</td><td>1</td><td>5</td><td>SIEM & SOAR 비교</td><td>ESM</td><td>-</td></tr>
+<tr class="has-page"><td>135</td><td>관리</td><td>1</td><td>5</td><td><a href="/docs/sec/exam/135-1-5-siem-soar-comparison">SIEM & SOAR 비교</a></td><td>ESM</td><td><code>목로그이사보자오통집분자유</code></td></tr>
 <tr><td>135</td><td>관리</td><td>1</td><td>7</td><td>개인정보 안심구역</td><td>디지털 발자국</td><td>-</td></tr>
 <tr><td>135</td><td>관리</td><td>3</td><td>4</td><td>양자 암호 기술에 대하여 QKD, PQC, QKD와 PQC 비교를 설명하시오</td><td>양자암호화</td><td>-</td></tr>
 <tr><td>135</td><td>관리</td><td>3</td><td>6</td><td>딥페이크에 대하여 개념 및 핵심 기술, 문제점, 대응방안을 설명하시오</td><td>융합보안</td><td>-</td></tr>
