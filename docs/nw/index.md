@@ -48,3 +48,7 @@ permalink: /docs/nw
 [위치측위]({{ site.baseurl }}/docs/nw/09-location){: .btn .btn-outline-cyan .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [NW기타]({{ site.baseurl }}/docs/nw/10-etc){: .btn .btn-outline-gray .fs-5 .mb-4 .mb-md-0 }
 
+---
+
+[📝 기출문제 (62문제)]({{ site.baseurl }}/docs/nw/exam){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 }
+

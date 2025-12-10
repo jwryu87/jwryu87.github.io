@@ -54,3 +54,7 @@ permalink: /docs/sec
 [DevSecOps]({{ site.baseurl }}/docs/sec/11-devsecops){: .btn .btn-outline-brown .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [보안트렌드]({{ site.baseurl }}/docs/sec/12-security-trends){: .btn .btn-outline-gray .fs-5 .mb-4 .mb-md-0 }
 
+---
+
+[📝 기출문제 (114문제)]({{ site.baseurl }}/docs/sec/exam){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 }
+
