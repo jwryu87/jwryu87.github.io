@@ -151,7 +151,7 @@ SEC(정보보안) 관련 기출문제 모음입니다. **검색, 정렬, 필터�
 </thead>
 <tbody>
 <!-- 137회 -->
-<tr><td>137</td><td>관리</td><td>1</td><td>2</td><td>디지털 포렌식에서 아트팩트(Artifact)를 설명하시오</td><td>디지털 포렌식</td><td>-</td></tr>
+<tr><td>137</td><td>관리</td><td>1</td><td>2</td><td><a href="/docs/sec/exam/137-1-2-artifact">디지털 포렌식에서 아트팩트(Artifact)를 설명하시오</a></td><td>디지털 포렌식</td><td><code>시응파메</code> <code>E-V-W-C</code></td></tr>
 <tr><td>137</td><td>관리</td><td>1</td><td>4</td><td>암호문 공격(Ciphertext Attack)을 설명하시오</td><td>암호화 알고리즘</td><td>-</td></tr>
 <tr><td>137</td><td>관리</td><td>1</td><td>6</td><td>AI 거버넌스(Artificial Intelligence Governance)를 설명하시오</td><td>디지털윤리</td><td>-</td></tr>
 <tr><td>137</td><td>관리</td><td>3</td><td>6</td><td>국가 망 보안체계(N2SF)에 대하여 개념, 적용 절차, 고려사항을 설명하시오</td><td>보안모델</td><td>-</td></tr>
