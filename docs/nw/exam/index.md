@@ -7,157 +7,265 @@ nav_order: 99
 permalink: /docs/nw/exam
 ---
 
+<!-- DataTables CSS -->
+<link rel="stylesheet" href="https://cdn.datatables.net/1.13.7/css/jquery.dataTables.min.css">
+<link rel="stylesheet" href="https://cdn.datatables.net/searchpanes/2.2.0/css/searchPanes.dataTables.min.css">
+<link rel="stylesheet" href="https://cdn.datatables.net/select/1.7.0/css/select.dataTables.min.css">
+
+<style>
+/* 페이지 전체 너비 확장 */
+.main-content {
+  max-width: 100% !important;
+}
+.main-content-wrap {
+  max-width: 100% !important;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* 테이블 스타일 */
+#examTable {
+  width: 100% !important;
+  font-size: 0.85rem;
+}
+#examTable th {
+  background-color: #f8f9fa;
+  white-space: nowrap;
+  text-align: center;
+}
+#examTable td {
+  vertical-align: middle;
+}
+/* 회차, 정/컴, 교시, 번호 컬럼 - 폭 최소화 */
+#examTable td:nth-child(1),
+#examTable td:nth-child(2),
+#examTable td:nth-child(3),
+#examTable td:nth-child(4),
+#examTable th:nth-child(1),
+#examTable th:nth-child(2),
+#examTable th:nth-child(3),
+#examTable th:nth-child(4) {
+  width: 1%;
+  white-space: nowrap;
+  text-align: center;
+  padding: 0.2rem 0.25rem;
+  font-size: 0.8rem;
+}
+/* 문제 컬럼 */
+#examTable td:nth-child(5) {
+  white-space: normal;
+  min-width: 300px;
+}
+/* 관련토픽 컬럼 */
+#examTable td:nth-child(6) {
+  white-space: nowrap;
+  width: 1%;
+}
+/* 암기법 컬럼 - 폭 넓게 */
+#examTable td:nth-child(7),
+#examTable th:nth-child(7) {
+  font-family: 'Consolas', 'Monaco', monospace;
+  font-size: 0.8rem;
+  color: #d63384;
+  min-width: 180px;
+  white-space: nowrap;
+}
+
+/* 학습완료 행 스타일 */
+.completed {
+  background-color: #d4edda !important;
+}
+
+/* 필터 버튼 스타일 */
+.filter-buttons {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.filter-btn {
+  padding: 0.4rem 0.8rem;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  background: #fff;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: all 0.2s;
+}
+.filter-btn:hover {
+  background: #e9ecef;
+}
+.filter-btn.active {
+  background: #0d6efd;
+  color: white;
+  border-color: #0d6efd;
+}
+
+/* DataTables 커스텀 */
+.dataTables_wrapper .dataTables_filter input {
+  padding: 0.5rem 1rem;
+  border: 2px solid #dee2e6;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  width: 250px;
+}
+.dataTables_wrapper .dataTables_filter input:focus {
+  border-color: #0d6efd;
+  outline: none;
+}
+.dataTables_wrapper .dataTables_length select {
+  padding: 0.3rem;
+  border-radius: 4px;
+}
+
+/* 링크 스타일 */
+#examTable a {
+  color: #0d6efd;
+  text-decoration: none;
+}
+#examTable a:hover {
+  text-decoration: underline;
+}
+
+/* 학습 페이지 있는 행 표시 */
+tr.has-page td:first-child::before {
+  content: "✅ ";
+}
+</style>
+
 # NW 기출문제
 {: .fs-9 }
 
-NW(네트워크) 관련 기출문제 모음입니다.
+NW(네트워크) 관련 기출문제 모음입니다. **검색, 정렬, 필터링**이 가능합니다.
 {: .fs-6 .fw-300 }
 
 ---
 
-## 137회
+## 🔍 빠른 필터
 
-| 정/컴 | 교시 | 번호 | 문제 | 관련토픽 |
-|:------|:----:|:----:|:-----|:---------|
-| 관리 | 1 | 1 | 동적 라우팅 프로토콜인 IGP(Interior Gateway Protocol)와 EGP(Exterior Gateway Protocol)를 설명하시오 | 라우팅 프로토콜 |
-| 관리 | 3 | 5 | 통신 프로토콜에 대하여 각 항목을 설명하시오.<br>가. 오류 제어, 혼잡 제어<br>나. 슬라이딩 윈도우(Sliding Window) 기법<br>다. 프로토콜 설계 시 고려 사항 | OSI 7 Layer |
-| 컴시응 | 4 | 4 | DNS(Domain Name System)에 대하여 다음 사항을 설명하시오.<br>가. DNS 개요<br>나. DNS 구성요소<br>다. DNS의 보안 취약점 및 대응 방안 | DNS |
-
----
-
-## 135회
-
-| 정/컴 | 교시 | 번호 | 문제 | 관련토픽 |
-|:------|:----:|:----:|:-----|:---------|
-| 관리 | 1 | 4 | IBN(Intent-Based Networking) | SDN |
-| 관리 | 1 | 10 | IEEE 802.11bn | 차세대무선랜 |
-| 관리 | 2 | 4 | 6G이동통신기술에 대하여 다음을 설명하시오.<br>가. 서비스 특징<br>나. 성능 요구사항<br>다. 주파수 동향 | 6G 이동통신기술 |
-| 컴시응 | 1 | 7 | 채널용량(샤논 제3정리, Information Capacity Theorem) | 전송기술 |
-| 컴시응 | 1 | 13 | ETSI의 Zero-touch network and Service Management(ZSM) | SDN |
-| 컴시응 | 2 | 5 | 트래픽 폴리싱(Traffic Policing)과 트래픽 쉐이핑(Traffic Shaping)에 대하여 설명하시오.<br>가. 개념<br>나. 구성요소<br>다. 구현 알고리즘<br>라. 트래픽 폴리싱과 트래픽 쉐이핑 비교 | OSI 7 Layer |
-| 컴시응 | 4 | 3 | 서버 이중화 구성 방안에 대하여 설명하시오.<br>가. L4스위치 기반 이중화 방안<br>나. 소프트웨어 기반 이중화 방안<br>다. L4 스위치 기반과 소프트웨어 기반 이중화 방안 비교 | Internetworking |
+<div class="filter-buttons">
+  <button class="filter-btn active" data-filter="all">전체</button>
+  <button class="filter-btn" data-filter="1">1교시 (단답형)</button>
+  <button class="filter-btn" data-filter="2">2교시</button>
+  <button class="filter-btn" data-filter="3">3교시</button>
+  <button class="filter-btn" data-filter="4">4교시</button>
+  <button class="filter-btn" data-filter="has-page">📄 학습페이지 있음</button>
+  <button class="filter-btn" data-filter="has-mnemonic">🧠 암기법 있음</button>
+</div>
 
 ---
 
-## 134회
+## 📋 기출문제 목록
 
-| 정/컴 | 교시 | 번호 | 문제 | 관련토픽 |
-|:------|:----:|:----:|:-----|:---------|
-| 관리 | 1 | 8 | RIP(Routing Information Protocol)와 OSPF(Open Shortest Path First) 비교 | 라우팅 프로토콜 |
-| 컴시응 | 1 | 1 | Wi-Fi 7 | 차세대무선랜 |
-| 컴시응 | 2 | 1 | PoE(Power of Ethernet)에 관하여 다음 사항을 설명하시오.<br>가. 개념<br>나. IEEE 표준<br>다. 국내 기술기준 | PoE |
-| 컴시응 | 2 | 6 | OSI 7 계층(Layer)에 대하여 계층 별 다음 사항을 설명하시오.<br>가. 기능<br>나. 프로토콜 종류<br>다. 데이터 종류<br>라. 주요 장비 | OSI 7 Layer |
-| 컴시응 | 3 | 3 | 디지털 계위(Digital Hierarchy)에 관한 다음 사항에 대하여 설명하시오.<br>가. PDH(Plesiochronous Digital Hierarchy)<br>나. SDH(Synchronous Digital Hierarchy)<br>다. SONET(Synchronous Optical NETwork) | 전송기술 |
-| 컴시응 | 3 | 5 | 네트워크 프로토콜에 대하여 다음을 설명하시오.<br>가. 프로토콜의 개념<br>나. 프로토콜의 3가지 요소<br>다. 프로토콜의 기능 | Internetworking |
-| 컴시응 | 4 | 5 | HDLC(High-level Data Link Control) 프로토콜의 다음 사항에 대하여 설명하시오.<br>가. 기능<br>나. 프레임 구조<br>다. 동작모드 | OSI 7 Layer |
+<table id="examTable" class="display compact">
+<thead>
+<tr>
+  <th>회차</th>
+  <th>정/컴</th>
+  <th>교시</th>
+  <th>번호</th>
+  <th>문제</th>
+  <th>관련토픽</th>
+  <th>암기법</th>
+</tr>
+</thead>
+<tbody>
+<!-- 137회 -->
+<tr><td>137</td><td>관리</td><td>1</td><td>1</td><td>동적 라우팅 프로토콜인 IGP(Interior Gateway Protocol)와 EGP(Exterior Gateway Protocol)를 설명하시오</td><td>라우팅 프로토콜</td><td>-</td></tr>
+<tr><td>137</td><td>관리</td><td>3</td><td>5</td><td>통신 프로토콜에 대하여 각 항목을 설명하시오. 가. 오류 제어, 혼잡 제어 나. 슬라이딩 윈도우 기법 다. 프로토콜 설계 시 고려 사항</td><td>OSI 7 Layer</td><td>-</td></tr>
+<tr><td>137</td><td>컴시응</td><td>4</td><td>4</td><td>DNS(Domain Name System)에 대하여 설명하시오. 가. DNS 개요 나. DNS 구성요소 다. DNS의 보안 취약점 및 대응 방안</td><td>DNS</td><td>-</td></tr>
+
+<!-- 135회 -->
+<tr><td>135</td><td>관리</td><td>1</td><td>4</td><td>IBN(Intent-Based Networking)</td><td>SDN</td><td>-</td></tr>
+<tr><td>135</td><td>관리</td><td>1</td><td>10</td><td>IEEE 802.11bn</td><td>차세대무선랜</td><td>-</td></tr>
+<tr><td>135</td><td>관리</td><td>2</td><td>4</td><td>6G이동통신기술에 대하여 설명하시오. 가. 서비스 특징 나. 성능 요구사항 다. 주파수 동향</td><td>6G 이동통신기술</td><td>-</td></tr>
+<tr><td>135</td><td>컴시응</td><td>1</td><td>7</td><td>채널용량(샤논 제3정리, Information Capacity Theorem)</td><td>전송기술</td><td>-</td></tr>
+<tr><td>135</td><td>컴시응</td><td>1</td><td>13</td><td>ETSI의 Zero-touch network and Service Management(ZSM)</td><td>SDN</td><td>-</td></tr>
+<tr><td>135</td><td>컴시응</td><td>2</td><td>5</td><td>트래픽 폴리싱과 트래픽 쉐이핑에 대하여 설명하시오. 가. 개념 나. 구성요소 다. 구현 알고리즘 라. 비교</td><td>OSI 7 Layer</td><td>-</td></tr>
+<tr><td>135</td><td>컴시응</td><td>4</td><td>3</td><td>서버 이중화 구성 방안에 대하여 설명하시오. 가. L4스위치 기반 나. 소프트웨어 기반 다. 비교</td><td>Internetworking</td><td>-</td></tr>
+
+<!-- 134회 -->
+<tr><td>134</td><td>관리</td><td>1</td><td>8</td><td>RIP와 OSPF 비교</td><td>라우팅 프로토콜</td><td>-</td></tr>
+<tr><td>134</td><td>컴시응</td><td>1</td><td>1</td><td>Wi-Fi 7</td><td>차세대무선랜</td><td>-</td></tr>
+<tr><td>134</td><td>컴시응</td><td>2</td><td>1</td><td>PoE(Power of Ethernet)에 관하여 설명하시오. 가. 개념 나. IEEE 표준 다. 국내 기술기준</td><td>PoE</td><td>-</td></tr>
+<tr><td>134</td><td>컴시응</td><td>2</td><td>6</td><td>OSI 7 계층에 대하여 계층별 기능, 프로토콜 종류, 데이터 종류, 주요 장비를 설명하시오</td><td>OSI 7 Layer</td><td>-</td></tr>
+<tr><td>134</td><td>컴시응</td><td>3</td><td>3</td><td>디지털 계위에 관하여 PDH, SDH, SONET을 설명하시오</td><td>전송기술</td><td>-</td></tr>
+<tr><td>134</td><td>컴시응</td><td>3</td><td>5</td><td>네트워크 프로토콜에 대하여 개념, 3가지 요소, 기능을 설명하시오</td><td>Internetworking</td><td>-</td></tr>
+<tr><td>134</td><td>컴시응</td><td>4</td><td>5</td><td>HDLC 프로토콜의 기능, 프레임 구조, 동작모드를 설명하시오</td><td>OSI 7 Layer</td><td>-</td></tr>
+
+<!-- 133회 -->
+<tr><td>133</td><td>관리</td><td>1</td><td>13</td><td>TCP 프로토콜의 3-way handshake와 4-way handshake를 설명하시오</td><td>TCP/IP</td><td>-</td></tr>
+<tr><td>133</td><td>관리</td><td>4</td><td>5</td><td>5G특화망을 위한 네트워크 구축 시 고려사항. 가. 안정성 및 신뢰성 확보 방안 나. 간섭회피 방안</td><td>5G</td><td>-</td></tr>
+
+<!-- 132회 -->
+<tr><td>132</td><td>관리</td><td>3</td><td>4</td><td>SCTP와 관련하여 개요와 특징, 프로토콜 구조 및 동작 방식을 설명하시오</td><td>SCTP</td><td>-</td></tr>
+<tr><td>132</td><td>컴시응</td><td>1</td><td>5</td><td>전송 제어 프로토콜(TCP)의 4-way handshake</td><td>TCP/IP</td><td>-</td></tr>
+<tr><td>132</td><td>컴시응</td><td>1</td><td>9</td><td>네트워크 실시간 측위(NRTK)</td><td>위치 측위 기술</td><td>-</td></tr>
+<tr><td>132</td><td>컴시응</td><td>2</td><td>3</td><td>ICMP와 IGMP를 비교하여 설명하시오</td><td>OSI 7 Layer</td><td>-</td></tr>
+<tr><td>132</td><td>컴시응</td><td>2</td><td>6</td><td>Open RAN에 대하여 개념, 구성요소, RAN과 비교를 설명하시오</td><td>5G</td><td>-</td></tr>
+<tr><td>132</td><td>컴시응</td><td>3</td><td>3</td><td>맨체스터 코딩에 대하여 개념, 인코딩/디코딩, 차등 맨체스터 코딩과 비교를 설명하시오</td><td>OSI 7 Layer</td><td>-</td></tr>
+<tr><td>132</td><td>컴시응</td><td>4</td><td>6</td><td>모바일 엣지 컴퓨팅에 대하여 개념, 플랫폼 구조 및 구성요소, 5G 적용 방안을 설명하시오</td><td>5G</td><td>-</td></tr>
+
+<!-- 131회 -->
+<tr><td>131</td><td>관리</td><td>2</td><td>5</td><td>소켓 통신과 관련하여 정의, 개념도 및 유형, TCP 소켓 및 Web 소켓 흐름, HTTP 통신 방식과 비교를 설명하시오</td><td>TCP/IP</td><td>-</td></tr>
+<tr><td>131</td><td>컴시응</td><td>2</td><td>4</td><td>네트워크 인프라에 SDN을 이용하여 머신러닝 기법을 적용하는 이유와 강화학습 적용방안을 설명하시오</td><td>SDN</td><td>-</td></tr>
+
+<!-- 130회 -->
+<tr><td>130</td><td>정</td><td>1</td><td>7</td><td>6G 이동통신</td><td>6G 이동통신기술</td><td>-</td></tr>
+<tr><td>130</td><td>정</td><td>1</td><td>8</td><td>VXLAN(Virtual eXtensible LAN)</td><td>VLAN</td><td>-</td></tr>
+<tr><td>130</td><td>정</td><td>2</td><td>3</td><td>네트워크 서브네팅과 관련하여 수퍼네팅/서브네팅 개념, 서브넷 분할 절차를 설명하시오</td><td>TCP/IP</td><td>-</td></tr>
+<tr><td>130</td><td>정</td><td>3</td><td>3</td><td>TCP 혼잡제어 메커니즘의 구성요소, 혼잡상황 감지, 혼잡상황 제어, 혼잡 윈도우 크기를 설명하시오</td><td>OSI 7 Layer</td><td>-</td></tr>
+
+<!-- 129회 -->
+<tr><td>129</td><td>정</td><td>1</td><td>12</td><td>비직교 다중접속(NOMA)</td><td>5G</td><td>-</td></tr>
+<tr><td>129</td><td>컴</td><td>1</td><td>8</td><td>전송 부호화 기법의 소스코딩과 채널코딩을 비교하여 설명하시오</td><td>OSI 7 Layer</td><td>-</td></tr>
+<tr><td>129</td><td>컴</td><td>3</td><td>2</td><td>네트워크 스위치와 관련하여 개요, OSI 레이어에 따른 스위치 유형, L4/L7 스위치 비교를 설명하시오</td><td>Internetworking</td><td>-</td></tr>
+<tr><td>129</td><td>컴</td><td>3</td><td>5</td><td>이더넷 표준에 대하여 정의 및 특징, IEEE 802.3 프레임 구조, 최소 크기가 64바이트인 이유를 설명하시오</td><td>Internetworking</td><td>-</td></tr>
+<tr><td>129</td><td>컴</td><td>4</td><td>1</td><td>TCP, UDP, SCTP에 대하여 설명하시오</td><td>SCTP</td><td>-</td></tr>
+<tr><td>129</td><td>컴</td><td>4</td><td>2</td><td>Ad-hoc 라우팅 프로토콜에 대하여 개요, 유형, AODV를 설명하시오</td><td>Ad hoc 네트워크</td><td>-</td></tr>
+
+<!-- 128회 -->
+<tr><td>128</td><td>정</td><td>4</td><td>3</td><td>6G 이동통신을 위한 위성-상공-지상 통합형 무선 네트워크(SATIN)를 설명하시오</td><td>6G 이동통신기술</td><td>-</td></tr>
+<tr><td>128</td><td>컴</td><td>2</td><td>1</td><td>네트워크에서 IP 주소, MAC 주소, Port 주소, 전자메일 주소의 개념과 구조를 설명하시오</td><td>OSI 7 Layer</td><td>-</td></tr>
+<tr><td>128</td><td>컴</td><td>3</td><td>1</td><td>계층구조의 통신 프로토콜 설계 시 오류 제어, 흐름 제어, 데이터 전달 방식을 설명하시오</td><td>OSI 7 Layer</td><td>-</td></tr>
+<tr><td>128</td><td>컴</td><td>3</td><td>2</td><td>TCP에 대하여 헤더, 제어 플래그의 종류를 설명하시오</td><td>TCP/IP</td><td>-</td></tr>
+<tr><td>128</td><td>컴</td><td>4</td><td>2</td><td>5G와 6G 이동통신에 대한 특징과 발전 동향을 설명하시오</td><td>6G 이동통신기술</td><td>-</td></tr>
+
+<!-- 127회 -->
+<tr><td>127</td><td>정</td><td>3</td><td>5</td><td>SDN에 대하여 SDN 제어 평면의 개요 및 구조의 특징, 오픈플로우 프로토콜을 설명하시오</td><td>SDN</td><td>-</td></tr>
+
+<!-- 126회 -->
+<tr><td>126</td><td>정</td><td>1</td><td>11</td><td>빅 엔디언과 리틀 엔디언</td><td>오류제어 알고리즘</td><td>-</td></tr>
+<tr><td>126</td><td>정</td><td>1</td><td>12</td><td>네트워크 스캐닝(Network Scanning)</td><td>Internetworking</td><td>-</td></tr>
+<tr><td>126</td><td>컴</td><td>1</td><td>1</td><td>FANET (Flying Ad-Hoc Network)</td><td>Ad hoc 네트워크</td><td>-</td></tr>
+<tr><td>126</td><td>컴</td><td>2</td><td>6</td><td>5G 특화망에 대하여 5G 이동통신과 비교, 네트워크 슬라이싱 기술, 활용분야를 설명하시오</td><td>5G</td><td>-</td></tr>
+<tr><td>126</td><td>컴</td><td>4</td><td>6</td><td>5G특화망 구축에 있어 MPLS-TP 및 IP-MPLS 기술 개념 및 비교, 백홀망 구축 방안을 설명하시오</td><td>MPLS</td><td>-</td></tr>
+
+<!-- 125회 -->
+<tr><td>125</td><td>정</td><td>1</td><td>10</td><td>WFQ(Weighted Fair Queuing)</td><td>QoS</td><td>-</td></tr>
+<tr><td>125</td><td>정</td><td>1</td><td>11</td><td>5G 특화망(지역 5G)</td><td>5G</td><td>-</td></tr>
+<tr><td>125</td><td>정</td><td>1</td><td>12</td><td>SDR(Software Defined Radio)</td><td>SDR</td><td>-</td></tr>
+<tr><td>125</td><td>정</td><td>3</td><td>3</td><td>QoS 방식인 DiffServ와 IntServ를 설명하시오</td><td>QoS</td><td>-</td></tr>
+<tr><td>125</td><td>정</td><td>4</td><td>2</td><td>정보이론과 샤논의 정리에 대하여 설명하시오</td><td>전송기술</td><td>-</td></tr>
+<tr><td>125</td><td>컴</td><td>1</td><td>1</td><td>IEEE 802.11ax와 IEEE 802.11be 비교</td><td>차세대무선랜</td><td>-</td></tr>
+<tr><td>125</td><td>컴</td><td>1</td><td>9</td><td>TCP wrapper</td><td>TCP/IP</td><td>-</td></tr>
+<tr><td>125</td><td>컴</td><td>2</td><td>2</td><td>해밍코드에 대하여 구성, 정정과정 및 정정방법, 활용 사례를 설명하시오</td><td>오류제어 알고리즘</td><td>-</td></tr>
+<tr><td>125</td><td>컴</td><td>3</td><td>1</td><td>전송계층 흐름제어에 대하여 개념, 개념도, Sliding Windows와 Slow Start 비교를 설명하시오</td><td>OSI 7 Layer</td><td>-</td></tr>
+<tr><td>125</td><td>컴</td><td>3</td><td>2</td><td>TCP 전송계층 프로토콜에 대하여 개념, 3-way/4-way handshake, TCP와 UDP 비교를 설명하시오</td><td>TCP/IP</td><td>-</td></tr>
+<tr><td>125</td><td>컴</td><td>4</td><td>1</td><td>CSMA/CD 개념과 동작원리, I-Persistent, P-Persistent, Non-Persistent 경합 프로토콜을 설명하시오</td><td>CSMA/CD</td><td>-</td></tr>
+<tr><td>125</td><td>컴</td><td>4</td><td>2</td><td>단말 간 직접통신(D2D)의 운용 시나리오와 활용분야를 설명하시오</td><td>무선 Lan</td><td>-</td></tr>
+<tr><td>125</td><td>컴</td><td>4</td><td>3</td><td>데이터링크 계층 오류제어에 대하여 개념과 종류, FEC와 ARQ 비교, ARQ 방식 3가지를 설명하시오</td><td>오류제어 알고리즘</td><td>-</td></tr>
+</tbody>
+</table>
 
 ---
 
-## 133회
+## 💡 사용 팁
 
-| 정/컴 | 교시 | 번호 | 문제 | 관련토픽 |
-|:------|:----:|:----:|:-----|:---------|
-| 관리 | 1 | 13 | TCP 프로토콜의 3-way handshake와 4-way handshake를 설명하시오. | TCP/IP |
-| 관리 | 4 | 5 | 5G특화망을 위한 네트워크를 구축할 때 고려되어야 할 사항에 대하여 다음을 설명하시오.<br>가. 안정성 및 신뢰성 확보 방안<br>나. 간섭회피 방안 | 5G |
-
----
-
-## 132회
-
-| 정/컴 | 교시 | 번호 | 문제 | 관련토픽 |
-|:------|:----:|:----:|:-----|:---------|
-| 관리 | 3 | 4 | SCTP(Stream Control Transmission Protocol)와 관련하여 다음을 설명하시오.<br>가. SCTP 개요와 특징<br>나. SCTP 프로토콜 구조 및 동작 방식 | SCTP |
-| 컴시응 | 1 | 5 | 전송 제어 프로토콜(TCP)의 4-way handshake | TCP/IP |
-| 컴시응 | 1 | 9 | 네트워크 실시간 측위(NRTK, Network RealTime Kinematic) | 위치 측위 기술 |
-| 컴시응 | 2 | 3 | 인터넷 제어 메시지 프로토콜(ICMP)과 인터넷 그룹 관리 프로토콜(IGMP)을 비교하여 설명하시오. | OSI 7 Layer |
-| 컴시응 | 2 | 6 | 개방형 무선 접속망 Open RAN에 대하여 설명하시오.<br>가. Open RAN의 개념<br>나. Open RAN의 구성요소<br>다. RAN과 Open RAN의 비교 | 5G |
-| 컴시응 | 3 | 3 | 맨체스터 코딩(Manchester Coding)에 대하여 설명하시오.<br>가. 맨체스터 코딩방식의 개념<br>나. 맨체스터 인코딩 및 디코딩<br>다. 맨체스터 코딩방식과 차등 맨체스터 코딩방식 비교 | OSI 7 Layer |
-| 컴시응 | 4 | 6 | 모바일 엣지 컴퓨팅(Mobile Edge Computing)에 대하여 설명하시오.<br>가. 모바일 엣지 컴퓨팅의 개념<br>나. 플랫폼 구조 및 구성요소<br>다. 모바일 5G에서 엣지 컴퓨팅 적용 방안 | 5G |
-
----
-
-## 131회
-
-| 정/컴 | 교시 | 번호 | 문제 | 관련토픽 |
-|:------|:----:|:----:|:-----|:---------|
-| 관리 | 2 | 5 | 소켓(Socket) 통신과 관련하여 다음을 설명하시오.<br>가. 소켓 통신 정의<br>나. 소켓 통신 방식 개념도 및 유형<br>다. TCP 소켓 및 Web 소켓 흐름 설명<br>라. 소켓 통신 방식과 HTTP 통신 방식 비교 | TCP/IP |
-| 컴시응 | 2 | 4 | 네트워크 인프라에 머신러닝 기법을 적용하는 것과 관련하여 설명하시오.<br>가. SDN을 이용하여 머신러닝 기법을 적용하는 이유<br>나. SDN에서 강화학습 적용방안 | SDN |
-
----
-
-## 130회
-
-| 정/컴 | 교시 | 번호 | 문제 | 관련토픽 |
-|:------|:----:|:----:|:-----|:---------|
-| 정 | 1 | 7 | 6G 이동통신 | 6G 이동통신기술 |
-| 정 | 1 | 8 | VXLAN(Virtual eXtensible LAN) | VLAN |
-| 정 | 2 | 3 | 네트워크 서브네팅(subnetting)과 관련하여 설명하시오.<br>1) 수퍼네팅과 서브네팅 개념<br>2) 192.168.100.0/24 네트워크를 4개 서브넷으로 분할하는 절차 | TCP/IP |
-| 정 | 3 | 3 | TCP 혼잡제어 메커니즘에 대하여 설명하시오.<br>1) 구성요소<br>2) 혼잡상황 감지<br>3) 혼잡상황 제어<br>4) 혼잡 윈도우 크기 | OSI 7 Layer |
-
----
-
-## 129회
-
-| 정/컴 | 교시 | 번호 | 문제 | 관련토픽 |
-|:------|:----:|:----:|:-----|:---------|
-| 정 | 1 | 12 | 비직교 다중접속(NOMA, Non-Orthogonal Multiple Access) | 5G |
-| 컴 | 1 | 8 | 전송 부호화 기법의 소스코딩과 채널코딩을 비교하여 설명하시오. | OSI 7 Layer |
-| 컴 | 3 | 2 | 네트워크 스위치와 관련하여 설명하시오.<br>(1) 스위치 개요<br>(2) OSI 레이어에 따른 스위치 유형<br>(3) L4 스위치와 L7 스위치 비교 | Internetworking |
-| 컴 | 3 | 5 | 이더넷(Ethernet) 표준에 대하여 설명하시오.<br>(1) 정의 및 특징<br>(2) IEEE 802.3 프레임 구조<br>(3) 전송 프레임의 최소 크기가 64바이트인 이유 | Internetworking |
-| 컴 | 4 | 1 | TCP, UDP, SCTP에 대하여 설명하시오. | SCTP |
-| 컴 | 4 | 2 | Ad-hoc 라우팅 프로토콜과 관련하여 설명하시오.<br>(1) 개요<br>(2) 유형<br>(3) AODV | Ad hoc 네트워크 |
-
----
-
-## 128회
-
-| 정/컴 | 교시 | 번호 | 문제 | 관련토픽 |
-|:------|:----:|:----:|:-----|:---------|
-| 정 | 4 | 3 | 6G 이동통신을 위한 위성-상공-지상 통합형 무선 네트워크(SATIN)에 대하여 설명하시오. | 6G 이동통신기술 |
-| 컴 | 2 | 1 | 네트워크에서 각 주소의 개념과 구조를 설명하시오.<br>가. IP 주소<br>나. MAC 주소<br>다. Port 주소<br>라. 전자메일 주소 | OSI 7 Layer |
-| 컴 | 3 | 1 | 계층구조의 통신 프로토콜 설계 시 고려해야 할 요소에 대하여 설명하시오.<br>가. 오류 제어<br>나. 흐름 제어<br>다. 데이터 전달 방식 | OSI 7 Layer |
-| 컴 | 3 | 2 | TCP에 대하여 다음을 설명하시오.<br>가. TCP 헤더<br>나. TCP 헤더에 포함된 제어 플래그의 종류 | TCP/IP |
-| 컴 | 4 | 2 | 5G와 6G 이동통신에 대한 특징과 발전 동향에 대하여 설명하시오. | 6G 이동통신기술 |
-
----
-
-## 127회
-
-| 정/컴 | 교시 | 번호 | 문제 | 관련토픽 |
-|:------|:----:|:----:|:-----|:---------|
-| 정 | 3 | 5 | 소프트웨어 정의 네트워크(SDN)에 대하여 설명하시오.<br>가. SDN 제어 평면의 개요 및 구조의 특징<br>나. 오픈플로우(OpenFlow) 프로토콜 | SDN |
-
----
-
-## 126회
-
-| 정/컴 | 교시 | 번호 | 문제 | 관련토픽 |
-|:------|:----:|:----:|:-----|:---------|
-| 정 | 1 | 11 | 빅 엔디언(Big Endian)과 리틀 엔디언(Little Endian) | 오류제어 알고리즘 |
-| 정 | 1 | 12 | 네트워크 스캐닝(Network Scanning) | Internetworking |
-| 컴 | 1 | 1 | FANET (Flying Ad-Hoc Network) | Ad hoc 네트워크 |
-| 컴 | 2 | 6 | 5G 특화망에 대하여 설명하시오.<br>가. 5G 이동통신과 5G 특화망 비교<br>나. 네트워크 슬라이싱 기술<br>다. 5G 특화망 활용분야 | 5G |
-| 컴 | 4 | 6 | 5G특화망 구축에 있어 네트워크 구축 기술방식에 대하여 설명하시오.<br>가. MPLS-TP 및 IP-MPLS 기술 개념 및 비교<br>나. MPLS-TP 기반 백홀망 구축 방안<br>다. IP-MPLS 기반 백홀망 구축 방안 | MPLS |
-
----
-
-## 125회
-
-| 정/컴 | 교시 | 번호 | 문제 | 관련토픽 |
-|:------|:----:|:----:|:-----|:---------|
-| 정 | 1 | 10 | WFQ(Weighted Fair Queuing) | QoS |
-| 정 | 1 | 11 | 5G 특화망(지역 5G) | 5G |
-| 정 | 1 | 12 | SDR(Software Defined Radio) | SDR |
-| 정 | 3 | 3 | QoS 방식인 DiffServ와 IntServ를 설명하시오. | QoS |
-| 정 | 4 | 2 | 정보이론(Information Theory)과 샤논(Shannon)의 정리에 대하여 설명하시오. | 전송기술 |
-| 컴 | 1 | 1 | IEEE 802.11ax와 IEEE 802.11be 비교 | 차세대무선랜 |
-| 컴 | 1 | 9 | TCP wrapper | TCP/IP |
-| 컴 | 2 | 2 | 해밍코드(Hamming Code)에 대하여 설명하시오.<br>가. 해밍코드의 구성<br>나. 해밍코드의 정정과정 및 정정방법<br>다. 해밍코드의 활용 사례 | 오류제어 알고리즘 |
-| 컴 | 3 | 1 | 전송계층 흐름제어(Flow Control)에 대하여 설명하시오.<br>가. 흐름제어 방식 개념<br>나. 흐름제어 방식의 개념도<br>다. Sliding Windows와 Slow Start 비교 | OSI 7 Layer |
-| 컴 | 3 | 2 | TCP 전송계층 프로토콜에 대하여 설명하시오.<br>가. TCP전송계층 개념<br>나. 3-way handshake와 4-way handshake 설명<br>다. TCP와 UDP비교 | TCP/IP |
-| 컴 | 4 | 1 | CSMA/CD 개념과 동작원리를 설명하고 I-Persistent, P-Persistent, Non-Persistent 경합 프로토콜을 설명하시오. | CSMA/CD |
-| 컴 | 4 | 2 | 단말 간 직접통신(Device to Device Communication)의 운용 시나리오와 활용분야를 설명하시오. | 무선 Lan |
-| 컴 | 4 | 3 | 데이터링크 계층 오류제어에 대하여 설명하시오.<br>가. 오류제어방식의 개념과 종류<br>나. FEC와 ARQ방식 비교<br>다. ARQ 방식 3가지 | 오류제어 알고리즘 |
+- **검색**: 상단 검색창에 키워드 입력 (예: "TCP", "5G", "1교시")
+- **정렬**: 각 컬럼 헤더 클릭하여 오름차순/내림차순 정렬
+- **필터**: 빠른 필터 버튼으로 교시별, 학습페이지 유무 등 필터링
+- **1교시형 모아보기**: "1교시 (단답형)" 버튼 클릭
 
 ---
 
@@ -179,3 +287,52 @@ NW(네트워크) 관련 기출문제 모음입니다.
 | 125회 | 13개 |
 | **합계** | **62개** |
 
+---
+
+<!-- jQuery & DataTables JS -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
+
+<script>
+$(document).ready(function() {
+    var table = $('#examTable').DataTable({
+        pageLength: 50,
+        lengthMenu: [[25, 50, 100, -1], [25, 50, 100, "전체"]],
+        order: [[0, 'desc'], [2, 'asc'], [3, 'asc']],
+        language: {
+            search: "🔍 검색:",
+            lengthMenu: "_MENU_ 개씩 보기",
+            info: "총 _TOTAL_개 중 _START_ - _END_",
+            infoEmpty: "데이터 없음",
+            infoFiltered: "(전체 _MAX_개에서 필터됨)",
+            paginate: { first: "처음", last: "마지막", next: "다음", previous: "이전" },
+            zeroRecords: "일치하는 결과가 없습니다"
+        },
+        columnDefs: [
+            { orderable: true, targets: [0,1,2,3,5,6] },
+            { orderable: false, targets: [4] }
+        ],
+    });
+
+    $('.filter-btn').click(function() {
+        $('.filter-btn').removeClass('active');
+        $(this).addClass('active');
+        var filter = $(this).data('filter');
+        table.search('').columns().search('').draw();
+        
+        if (filter === 'all') {
+            table.draw();
+        } else if (filter === 'has-page') {
+            $.fn.dataTable.ext.search.push(function(settings, data, dataIndex) {
+                return $(table.row(dataIndex).node()).hasClass('has-page');
+            });
+            table.draw();
+            $.fn.dataTable.ext.search.pop();
+        } else if (filter === 'has-mnemonic') {
+            table.column(6).search('^(?!-$).*$', true, false).draw();
+        } else {
+            table.column(2).search('^' + filter + '$', true, false).draw();
+        }
+    });
+});
+</script>
