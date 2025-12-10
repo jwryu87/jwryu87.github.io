@@ -165,7 +165,7 @@ SEC(정보보안) 관련 기출문제 모음입니다. **검색, 정렬, 필터�
 
 <!-- 136회 -->
 <tr><td>136</td><td>관리</td><td>1</td><td>10</td><td><a href="/docs/sec/exam/136-1-10-safe-zone-comparison">개인정보 안심구역과 데이터안심구역 비교</a></td><td>디지털 발자국</td><td><code>법운목대이보</code></td></tr>
-<tr><td>136</td><td>관리</td><td>1</td><td>11</td><td>CC(Common Criteria)</td><td>CC</td><td>-</td></tr>
+<tr><td>136</td><td>관리</td><td>1</td><td>11</td><td><a href="/docs/sec/exam/136-1-11-common-criteria">CC(Common Criteria)</a></td><td>CC</td><td><code>소기보</code> <code>정인평</code></td></tr>
 <tr><td>136</td><td>관리</td><td>1</td><td>12</td><td>타원곡선 암호(ECC)</td><td>암호화 알고리즘</td><td>-</td></tr>
 <tr><td>136</td><td>관리</td><td>2</td><td>6</td><td>TLS에 대하여 프로토콜 구조와 핸드셰이크 과정, TLS 1.2 취약점과 TLS 1.3 개선 사항을 설명하시오</td><td>SSL</td><td>-</td></tr>
 <tr><td>136</td><td>관리</td><td>4</td><td>4</td><td>공급망 보안을 설명하고, 제로트러스트 기반 공급망 보안 아키텍처를 설명하시오</td><td>보안모델</td><td>-</td></tr>
