@@ -82,5 +82,6 @@ permalink: /docs/ds
 
 ---
 
-[📝 기출문제 (43문제)]({{ site.baseurl }}/docs/ds/exam){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 }
+[📝 기출문제 (43문제)]({{ site.baseurl }}/docs/ds/exam){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[📚 학습노트]({{ site.baseurl }}/docs/ds/notes){: .btn .btn-outline .fs-5 .mb-4 .mb-md-0 }
 
