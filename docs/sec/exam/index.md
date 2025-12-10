@@ -186,7 +186,7 @@ SEC(정보보안) 관련 기출문제 모음입니다. **검색, 정렬, 필터�
 <tr><td>134</td><td>관리</td><td>2</td><td>2</td><td>다크패턴(Dark Pattern)의 세부 유형 및 대응 방안을 설명하시오</td><td>랜섬웨어</td><td>-</td></tr>
 <tr><td>134</td><td>관리</td><td>3</td><td>3</td><td>SBOM에 대하여 오픈소스 소프트웨어 취약점, SBOM 기반 관리 방안을 설명하시오</td><td>Hacking</td><td>-</td></tr>
 <tr><td>134</td><td>컴시응</td><td>1</td><td>2</td><td><a href="/docs/sec/exam/134-1-2-zero-day">제로데이(Zero Day) 취약점</a></td><td>Hacking</td><td><code>발분개배업</code> <code>최방필교</code></td></tr>
-<tr><td>134</td><td>컴시응</td><td>1</td><td>5</td><td>제로 트러스트(Zero Trust)</td><td>보안모델</td><td>-</td></tr>
+<tr><td>134</td><td>컴시응</td><td>1</td><td>5</td><td><a href="/docs/sec/exam/134-1-5-zero-trust">제로 트러스트(Zero Trust)</a></td><td>보안모델</td><td><code>제데</code> <code>PE-PA-PEP</code> <code>마소제</code></td></tr>
 <tr class="has-page"><td>134</td><td>컴시응</td><td>1</td><td>6</td><td><a href="/docs/sec/exam/134-1-6-dynamic-wep-key">동적 WEP 키(Dynamic WEP Key)</a></td><td>무선랜보안</td><td><code>인암</code> <code>공무키초</code> <code>인인암성</code></td></tr>
 <tr><td>134</td><td>컴시응</td><td>1</td><td>7</td><td>SBOM(Software Bill of Materials)</td><td>Hacking</td><td>-</td></tr>
 <tr><td>134</td><td>컴시응</td><td>2</td><td>3</td><td>ISMS-P 간편인증에 대하여 목적, 대상, 기준을 설명하시오</td><td>정보보호 인증제도</td><td>-</td></tr>
