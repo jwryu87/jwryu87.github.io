@@ -128,8 +128,8 @@ permalink: /docs/nw/exam
 }
 
 /* 학습 페이지 있는 행 표시 */
-tr.has-page td:first-child::before {
-  content: "✅ ";
+/* tr.has-page td:first-child::before {
+  content: ""; */
 }
 </style>
 

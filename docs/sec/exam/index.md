@@ -110,7 +110,7 @@ permalink: /docs/sec/exam
 #examTable a { color: #0d6efd; text-decoration: none; }
 #examTable a:hover { text-decoration: underline; }
 
-tr.has-page td:first-child::before { content: "✅ "; }
+/* tr.has-page td:first-child::before { content: ""; } */
 </style>
 
 # SEC 기출문제
