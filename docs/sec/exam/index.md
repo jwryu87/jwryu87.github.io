@@ -129,8 +129,8 @@ SEC(정보보안) 관련 기출문제 모음입니다. **검색, 정렬, 필터�
   <button class="filter-btn" data-filter="2">2교시</button>
   <button class="filter-btn" data-filter="3">3교시</button>
   <button class="filter-btn" data-filter="4">4교시</button>
-  <button class="filter-btn" data-filter="has-page">📄 학습페이지 있음</button>
-  <button class="filter-btn" data-filter="has-mnemonic">🧠 암기법 있음</button>
+  <button class="filter-btn" data-filter="has-page">학습페이지 있음</button>
+  <button class="filter-btn" data-filter="has-mnemonic">암기법 있음</button>
 </div>
 
 ---
@@ -335,7 +335,7 @@ $(document).ready(function() {
         lengthMenu: [[25, 50, 100, -1], [25, 50, 100, "전체"]],
         order: [[0, 'desc'], [2, 'asc'], [3, 'asc']],
         language: {
-            search: "🔍 검색:",
+            search: "검색:",
             lengthMenu: "_MENU_ 개씩 보기",
             info: "총 _TOTAL_개 중 _START_ - _END_",
             infoEmpty: "데이터 없음",
