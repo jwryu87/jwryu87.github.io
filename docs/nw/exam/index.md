@@ -42,15 +42,15 @@ permalink: /docs/nw/exam
   white-space: normal;
   min-width: 300px;
 }
-/* 2열: 암기법 (모노스페이스, 붉은 글씨) */
+/* 2열: 암기법 (모노스페이스) */
 #examTable td:nth-child(2),
 #examTable th:nth-child(2) {
   font-family: 'Consolas', 'Monaco', monospace;
   font-size: 0.8rem;
   color: #d63384;
-  min-width: 150px;
+  min-width: 180px;
 }
-/* 3-6열: 회차, 정/컴, 교시, 번호 (아주 좁게, 중앙정렬) */
+/* 3-6열: 회차, 정/컴, 교시, 번호 (좁게, 중앙정렬) */
 #examTable td:nth-child(3),
 #examTable td:nth-child(4),
 #examTable td:nth-child(5),
@@ -62,16 +62,14 @@ permalink: /docs/nw/exam
   width: 1%;
   white-space: nowrap;
   text-align: center;
-  padding: 0.05rem 0.15rem;
-  font-size: 0.7rem;
+  padding: 0.1rem 0.3rem;
+  font-size: 0.75rem;
 }
-/* 7열: 관련토픽 (아주 좁게) */
+/* 7열: 관련토픽 (좁게) */
 #examTable td:nth-child(7),
 #examTable th:nth-child(7) {
   white-space: nowrap;
   width: 1%;
-  font-size: 0.7rem;
-  padding: 0.05rem 0.15rem;
 }
 
 /* 학습완료 행 스타일 */
@@ -304,7 +302,7 @@ $(document).ready(function() {
     var table = $('#examTable').DataTable({
         pageLength: 50,
         lengthMenu: [[25, 50, 100, -1], [25, 50, 100, "전체"]],
-        order: [[2, 'desc'], [3, 'asc'], [4, 'asc'], [5, 'asc']],
+        order: [[0, 'desc'], [2, 'asc'], [3, 'asc']],
         language: {
             search: "🔍 검색:",
             lengthMenu: "_MENU_ 개씩 보기",
