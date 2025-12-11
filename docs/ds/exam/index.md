@@ -147,6 +147,7 @@ DS(Digital Service) 관련 기출문제 모음입니다. **검색, 정렬, 필�
 <div class="filter-buttons">
   <button class="filter-btn active" data-filter="all">전체</button>
   <button class="filter-btn" data-filter="1">1교시 (단답형)</button>
+  <button class="filter-btn" data-filter="essay">서술형 (2~4교시)</button>
   <button class="filter-btn" data-filter="2">2교시</button>
   <button class="filter-btn" data-filter="3">3교시</button>
   <button class="filter-btn" data-filter="4">4교시</button>
@@ -291,6 +292,9 @@ $(document).ready(function() {
         } else if (filter === 'has-mnemonic') {
             // 암기법 있는 항목만
             table.column(6).search('^(?!-$).*$', true, false).draw();
+        } else if (filter === 'essay') {
+            // 서술형 (2, 3, 4교시)
+            table.column(2).search('^[234]$', true, false).draw();
         } else {
             // 교시 필터 (1, 2, 3, 4)
             table.column(2).search('^' + filter + '$', true, false).draw();
