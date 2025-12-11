@@ -157,24 +157,24 @@ SEC(정보보안) 관련 기출문제 모음입니다. **검색, 정렬, 필터�
 <tr class="has-page has-mnemonic"><td><a href="/docs/sec/exam/137-1-6-ai-governance">AI 거버넌스(Artificial Intelligence Governance)를 설명하시오</a></td><td><code>(필요성) 사편규</code> <code>(구성요소) 가조프검</code> <code>(관리영역) 모편데투규리</code></td><td>137</td><td>관리</td><td>1</td><td>6</td><td>디지털윤리</td></tr>
 <tr class="has-page"><td>137</td><td>관리</td><td>3</td><td>6</td><td><a href="/docs/sec/exam/137-3-6-n2sf">국가 망 보안체계(N2SF)에 대하여 개념, 적용 절차, 고려사항을 설명하시오</a></td><td>보안모델</td><td><code>CSO차자점</code> <code>준등위보적</code> <code>기관</code></td></tr>
 <tr><td>137</td><td>관리</td><td>4</td><td>1</td><td><a href="/docs/sec/exam/137-4-1-bpfdoor">BPFdoor 악성코드에 대하여 개념 및 기존 백도어와의 차이점, 위협 요소, 대응 방안을 설명하시오</a></td><td>APT</td><td><code>스메보</code> <code>탐방은다APT</code></td></tr>
-<tr><td>137</td><td>컴시응</td><td>1</td><td>11</td><td><a href="/docs/sec/exam/137-1-11-ai-vulnerability">인공지능 시스템의 취약점</a></td><td>융합보안</td><td><code>PEIM</code> <code>적결탐쿼D</code></td></tr>
-<tr><td>137</td><td>컴시응</td><td>1</td><td>12</td><td><a href="/docs/sec/exam/137-1-12-cloud-native-security">클라우드 네이티브 보안</a></td><td>클라우드 보안</td><td><code>4C</code> <code>동Dev제</code> <code>3R</code></td></tr>
+<tr class="has-page has-mnemonic"><td><a href="/docs/sec/exam/137-1-11-ai-vulnerability">인공지능 시스템의 취약점</a></td><td><code>(개발단계) 요데모</code> <code>(적대적공격) PEIM</code> <code>(방어기법) 적결탐쿼D</code></td><td>137</td><td>컴시응</td><td>1</td><td>11</td><td>융합보안</td></tr>
+<tr class="has-page has-mnemonic"><td><a href="/docs/sec/exam/137-1-12-cloud-native-security">클라우드 네이티브 보안</a></td><td><code>(계층) 4C</code> <code>(특징) 동Dev제</code> <code>(원칙) 3R</code></td><td>137</td><td>컴시응</td><td>1</td><td>12</td><td>클라우드 보안</td></tr>
 <tr class="has-page"><td>137</td><td>컴시응</td><td>2</td><td>1</td><td><a href="/docs/sec/exam/137-2-1-public-mydata">공공 마이데이터 활용 방안에 대하여 설명하시오</a></td><td>개인정보 비식별화</td><td><code>정보본제</code> <code>맞행통취생</code> <code>금취헬생</code> <code>모스금유</code> <code>법기이정</code></td></tr>
 <tr class="has-page"><td>137</td><td>컴시응</td><td>3</td><td>3</td><td><a href="/docs/sec/exam/137-3-3-opc-ua">OPC UA에 대하여 등장배경, OPC와 비교, 활용분야를 설명하시오</a></td><td>산업제어시스템보안</td><td><code>윈암구→플보상</code> <code>운통H정방보플상</code> <code>공산에생품원스클</code></td></tr>
 <tr class="has-page"><td>137</td><td>컴시응</td><td>3</td><td>5</td><td><a href="/docs/sec/exam/137-3-5-sandbox-whitebox">샌드박스와 화이트박스의 목적, 적용 방법 및 예시를 설명하시오</a></td><td>Hacking</td><td><code>보격</code> <code>격행지</code> <code>품보</code> <code>로데보</code></td></tr>
 <tr class="has-page"><td>137</td><td>컴시응</td><td>4</td><td>5</td><td><a href="/docs/sec/exam/137-4-5-firewall-ids-ips-vpn">침입차단시스템(Firewall), IDS, IPS 및 VPN에 대하여 설명하시오</a></td><td>IDS/IPS</td><td><code>접사트트감프N</code> <code>경세실R</code> <code>정패이실</code> <code>인암무터키</code></td></tr>
 
 <!-- 136회 -->
-<tr><td>136</td><td>관리</td><td>1</td><td>10</td><td><a href="/docs/sec/exam/136-1-10-safe-zone-comparison">개인정보 안심구역과 데이터안심구역 비교</a></td><td>디지털 발자국</td><td><code>법운목대이보</code></td></tr>
-<tr><td>136</td><td>관리</td><td>1</td><td>11</td><td><a href="/docs/sec/exam/136-1-11-common-criteria">CC(Common Criteria)</a></td><td>CC</td><td><code>소기보</code> <code>정인평</code></td></tr>
-<tr><td>136</td><td>관리</td><td>1</td><td>12</td><td><a href="/docs/sec/exam/136-1-12-ecc">타원곡선 암호(ECC)</a></td><td>암호화 알고리즘</td><td><code>덧스무</code> <code>P=d×G</code></td></tr>
+<tr class="has-page has-mnemonic"><td><a href="/docs/sec/exam/136-1-10-safe-zone-comparison">개인정보 안심구역과 데이터안심구역 비교</a></td><td><code>(상세비교) 법운목대이보</code> <code>(추가비교) 시제데기인시정</code></td><td>136</td><td>관리</td><td>1</td><td>10</td><td>디지털 발자국</td></tr>
+<tr class="has-page has-mnemonic"><td><a href="/docs/sec/exam/136-1-11-common-criteria">CC(Common Criteria)</a></td><td><code>(구성) 소기보</code> <code>(용어) TOE-PP-ST-EAL</code> <code>(국내체계) 정인평</code></td><td>136</td><td>관리</td><td>1</td><td>11</td><td>CC</td></tr>
+<tr class="has-page has-mnemonic"><td><a href="/docs/sec/exam/136-1-12-ecc">타원곡선 암호(ECC)</a></td><td><code>(방정식) y²=x³+ax+b</code> <code>(연산) 덧스무</code> <code>(키생성) P=d×G</code></td><td>136</td><td>관리</td><td>1</td><td>12</td><td>암호화 알고리즘</td></tr>
 <tr><td>136</td><td>관리</td><td>2</td><td>6</td><td><a href="/docs/sec/exam/136-2-6-tls">TLS에 대하여 프로토콜 구조와 핸드셰이크 과정, TLS 1.2 취약점과 TLS 1.3 개선 사항</a></td><td>SSL</td><td><code>RHCA</code> <code>CS인CF</code></td></tr>
 <tr><td>136</td><td>관리</td><td>4</td><td>4</td><td><a href="/docs/sec/exam/136-4-4-supply-chain-security">공급망 보안을 설명하고, 제로트러스트 기반 공급망 보안 아키텍처</a></td><td>보안모델</td><td><code>외탐위</code> <code>PE-PA-PEP</code></td></tr>
 <tr class="has-page"><td>136</td><td>관리</td><td>4</td><td>5</td><td><a href="/docs/sec/exam/136-4-5-owasp-llm-top10">OWASP LLM Top 10에 대하여 배경과 주요 특징, 주요 보안 위협, 대응방안을 설명하시오</a></td><td>OWASP</td><td><code>인민공 대출과 프벡정무</code></td></tr>
 <tr class="has-page"><td>136</td><td>관리</td><td>4</td><td>6</td><td><a href="/docs/sec/exam/136-4-6-sw-security-quality">소프트웨어 보안 품질에 대하여 정의와 중요성, 자동화 기술과 도구, 구현방안, 기대효과를 설명하시오</a></td><td>시큐어 코딩</td><td><code>기무부책인</code> <code>정동구CI코</code> <code>요설개테배</code></td></tr>
 
 <!-- 135회 -->
-<tr class="has-page"><td>135</td><td>관리</td><td>1</td><td>5</td><td><a href="/docs/sec/exam/135-1-5-siem-soar-comparison">SIEM & SOAR 비교</a></td><td>ESM</td><td><code>목로그이사보자오통집분자유</code></td></tr>
+<tr class="has-page has-mnemonic"><td><a href="/docs/sec/exam/135-1-5-siem-soar-comparison">SIEM & SOAR 비교</a></td><td><code>(SIEM) 목로그이사보자</code> <code>(SOAR) 목자오사보자</code> <code>(비교) 목로그이사보자오통집분자유</code></td><td>135</td><td>관리</td><td>1</td><td>5</td><td>ESM</td></tr>
 <tr class="has-page"><td>135</td><td>관리</td><td>1</td><td>7</td><td><a href="/docs/sec/exam/135-1-7-personal-info-safe-zone">개인정보 안심구역</a></td><td>디지털 발자국</td><td><code>안가P</code> <code>이심이안반이</code> <code>담공보</code></td></tr>
 <tr><td>135</td><td>관리</td><td>3</td><td>4</td><td>양자 암호 기술에 대하여 QKD, PQC, QKD와 PQC 비교를 설명하시오</td><td>양자암호화</td><td>-</td></tr>
 <tr><td>135</td><td>관리</td><td>3</td><td>6</td><td>딥페이크에 대하여 개념 및 핵심 기술, 문제점, 대응방안을 설명하시오</td><td>융합보안</td><td>-</td></tr>
