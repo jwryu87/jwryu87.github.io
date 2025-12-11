@@ -36,25 +36,19 @@ main.main-content-wrap,
     margin-left: 280px;
     width: calc(100% - 280px) !important;
     max-width: none !important;
+    padding-left: 0 !important;
   }
   
   /* 사이드바-메인 컨텐츠 간격 완전 제거 */
-  .main-content-wrap {
-    padding-left: 0 !important;
-    padding-right: 2rem !important;
-    margin-left: 0 !important;
+  .main-content-wrap,
+  main.main-content-wrap {
+    padding: 2rem 2rem 2rem 0 !important;
+    margin: 0 !important;
   }
   
   .main-content {
-    padding-left: 0.5rem !important;  /* 최소 여백 */
-    padding-right: 1rem !important;
-    margin-left: 0 !important;
-  }
-  
-  /* 추가: 모든 내부 컨테이너 마진/패딩 제거 */
-  .main > *:first-child {
-    margin-left: 0 !important;
-    padding-left: 0 !important;
+    padding: 0 1rem 0 0 !important;
+    margin: 0 !important;
   }
 }
 
