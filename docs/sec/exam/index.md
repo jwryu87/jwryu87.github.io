@@ -195,7 +195,7 @@ SEC(정보보안) 관련 기출문제 모음입니다. **검색, 정렬, 필터�
 <tr><td>134</td><td>컴시응</td><td>4</td><td>4</td><td>PET에 대하여 개념, 주요 유형, 적용 사례를 설명하시오</td><td>PIA</td><td>-</td></tr>
 
 <!-- 133회 -->
-<tr><td>133</td><td>관리</td><td>1</td><td>4</td><td>전자봉투 생성절차와 개봉절차를 설명하시오</td><td>PKI</td><td>-</td></tr>
+<tr class="has-page"><td>133</td><td>관리</td><td>1</td><td>4</td><td><a href="/docs/sec/exam/133-1-4-digital-envelope">전자봉투 생성절차와 개봉절차를 설명하시오</a></td><td>PKI</td><td><code>메전비전전</code> <code>전암전무</code></td></tr>
 <tr><td>133</td><td>관리</td><td>1</td><td>5</td><td>동형암호의 동작원리와 유형을 설명하시오</td><td>암호화 알고리즘</td><td>-</td></tr>
 <tr><td>133</td><td>관리</td><td>1</td><td>10</td><td>딥페이크(Deepfake)에 대하여 설명하시오</td><td>융합보안</td><td>-</td></tr>
 <tr><td>133</td><td>관리</td><td>2</td><td>5</td><td>PbD(Privacy by Design)에 대하여 7대 원칙, 8대 전략, 개인정보보호법과의 비교를 설명하시오</td><td>개인정보보호법</td><td>-</td></tr>
