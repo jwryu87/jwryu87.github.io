@@ -182,7 +182,7 @@ NW(네트워크) 관련 기출문제 모음입니다. **검색, 정렬, 필터�
 <!-- 135회 -->
 <tr><td>135</td><td>관리</td><td>1</td><td>4</td><td>IBN(Intent-Based Networking)</td><td>SDN</td><td>-</td></tr>
 <tr><td>135</td><td>관리</td><td>1</td><td>10</td><td>IEEE 802.11bn</td><td>차세대무선랜</td><td>-</td></tr>
-<tr><td>135</td><td>관리</td><td>2</td><td>4</td><td>6G이동통신기술에 대하여 설명하시오. 가. 서비스 특징 나. 성능 요구사항 다. 주파수 동향</td><td>6G 이동통신기술</td><td>-</td></tr>
+<tr class="has-page"><td>135</td><td>관리</td><td>2</td><td>4</td><td><a href="/docs/nw/exam/135-2-4-6g">6G이동통신기술 서비스 특징, 성능 요구사항, 주파수 동향</a></td><td>6G 이동통신기술</td><td><code>지에프신</code> <code>초6</code></td></tr>
 <tr><td>135</td><td>컴시응</td><td>1</td><td>7</td><td>채널용량(샤논 제3정리, Information Capacity Theorem)</td><td>전송기술</td><td>-</td></tr>
 <tr><td>135</td><td>컴시응</td><td>1</td><td>13</td><td>ETSI의 Zero-touch network and Service Management(ZSM)</td><td>SDN</td><td>-</td></tr>
 <tr><td>135</td><td>컴시응</td><td>2</td><td>5</td><td>트래픽 폴리싱과 트래픽 쉐이핑에 대하여 설명하시오. 가. 개념 나. 구성요소 다. 구현 알고리즘 라. 비교</td><td>OSI 7 Layer</td><td>-</td></tr>
