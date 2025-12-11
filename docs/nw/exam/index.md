@@ -180,7 +180,7 @@ NW(네트워크) 관련 기출문제 모음입니다. **검색, 정렬, 필터�
 
 <!-- 135회 -->
 <tr class="has-page"><td>135</td><td>관리</td><td>1</td><td>4</td><td><a href="/docs/nw/exam/135-1-4-ibn">IBN(Intent-Based Networking)</a></td><td>SDN</td><td><code>5N</code> <code>명번적모검</code> <code>NLES</code> <code>모VFC</code></td></tr>
-<tr><td>135</td><td>관리</td><td>1</td><td>10</td><td>IEEE 802.11bn</td><td>차세대무선랜</td><td>-</td></tr>
+<tr class="has-page"><td>135</td><td>관리</td><td>1</td><td>10</td><td><a href="/docs/nw/exam/135-1-10-ieee-802-11bn">IEEE 802.11bn (Wi-Fi 8)</a></td><td>차세대무선랜</td><td><code>(특징) 적연전</code> <code>(PHY) DRU-UM-MCS</code> <code>(MAC) SR-MAC-NPCA-DPS</code></td></tr>
 <tr class="has-page"><td>135</td><td>관리</td><td>2</td><td>4</td><td><a href="/docs/nw/exam/135-2-4-6g">6G이동통신기술 서비스 특징, 성능 요구사항, 주파수 동향</a></td><td>6G 이동통신기술</td><td><code>지에프신</code> <code>초6</code></td></tr>
 <tr class="has-page"><td>135</td><td>컴시응</td><td>1</td><td>7</td><td><a href="/docs/nw/exam/135-1-7-shannon-capacity">채널용량(샤논 제3정리, Information Capacity Theorem)</a></td><td>전송기술</td><td><code>C=Blog₂(1+S/N)</code> <code>CBSN</code></td></tr>
 <tr class="has-page"><td>135</td><td>컴시응</td><td>1</td><td>13</td><td><a href="/docs/nw/exam/135-1-13-zsm">ETSI의 Zero-touch network and Service Management(ZSM)</a></td><td>SDN</td><td><code>(구성요소) 완E2AI</code> <code>(원칙) OICA</code> <code>(핵심기술) DNI</code></td></tr>
