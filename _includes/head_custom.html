@@ -2,3 +2,126 @@
 <meta name="robots" content="noindex, nofollow">
 <meta name="googlebot" content="noindex, nofollow">
 
+<!-- 커스텀 스타일: 풀 와이드 레이아웃 -->
+<style>
+/* ====================================
+   Just the Docs 풀 와이드 레이아웃
+   ==================================== */
+
+/* 메인 컨텐츠 최대 너비 제거 - 풀 와이드 */
+.main-content {
+  max-width: none !important;
+}
+
+/* 메인 컨텐츠 래퍼 풀 와이드 */
+.main-content-wrap {
+  max-width: none !important;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+/* 사이드바 고정 */
+@media (min-width: 66.5rem) {
+  .side-bar {
+    width: 280px;
+    min-width: 280px;
+  }
+  
+  .main {
+    margin-left: 280px;
+  }
+}
+
+/* 더 넓은 화면에서 여유 있는 패딩 */
+@media (min-width: 100rem) {
+  .main-content-wrap {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+
+/* 초대형 화면 */
+@media (min-width: 120rem) {
+  .main-content-wrap {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+/* ====================================
+   테이블 및 코드 블록 최적화
+   ==================================== */
+
+/* 테이블 너비 최대화 */
+.main-content table {
+  width: 100%;
+  max-width: 100%;
+}
+
+/* 코드 블록 너비 최대화 */
+.main-content pre {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+/* ====================================
+   기출문제 테이블 최적화
+   ==================================== */
+
+#examTable {
+  font-size: 0.9rem;
+  width: 100%;
+}
+
+#examTable th,
+#examTable td {
+  padding: 0.5rem 0.75rem;
+  white-space: nowrap;
+}
+
+/* 문제 컬럼은 줄바꿈 허용 */
+#examTable td:nth-child(5) {
+  white-space: normal;
+  min-width: 300px;
+}
+
+/* 암기법 컬럼도 줄바꿈 허용 */
+#examTable td:nth-child(7) {
+  white-space: normal;
+  min-width: 150px;
+}
+
+/* ====================================
+   상세 페이지 가독성 유지
+   ==================================== */
+
+/* 본문 텍스트는 적정 너비 유지 (가독성) */
+.main-content > p,
+.main-content > ul,
+.main-content > ol,
+.main-content > blockquote {
+  max-width: 900px;
+}
+
+/* 제목은 풀 와이드 */
+.main-content > h1,
+.main-content > h2,
+.main-content > h3,
+.main-content > h4 {
+  max-width: none;
+}
+
+/* 테이블, 코드블록, 다이어그램은 풀 와이드 */
+.main-content > table,
+.main-content > pre,
+.main-content > .highlight,
+.main-content > details {
+  max-width: none;
+}
+
+/* 하이라이트 박스 풀 와이드 */
+.main-content > .highlight-box,
+.main-content > [class*="highlight"] {
+  max-width: none;
+}
+</style>
