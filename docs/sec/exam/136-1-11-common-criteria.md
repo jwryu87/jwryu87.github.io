@@ -89,7 +89,7 @@ permalink: /docs/sec/exam/136-1-11-common-criteria
 {: #-기술사-수준-설명}
 
 {: .highlight }
-> **CC(Common Criteria)**: ISO/IEC 15408, CCRA, EAL
+> **CC(Common Criteria)**: ISO/IEC 15408, CCRA, EAL → IT 제품 보안성 평가·인증 제도
 > - (구성) `소기보` (Part1 소개, Part2 기능, Part3 보증)
 > - (용어) `TOE-PP-ST-EAL`
 > - (국내체계) `정인평` (정책-인증-평가)
