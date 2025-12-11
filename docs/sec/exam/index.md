@@ -154,13 +154,13 @@ SEC(정보보안) 관련 기출문제 모음입니다. **검색, 정렬, 필터�
 <tr><td>137</td><td>관리</td><td>1</td><td>2</td><td><a href="/docs/sec/exam/137-1-2-artifact">디지털 포렌식에서 아트팩트(Artifact)를 설명하시오</a></td><td>디지털 포렌식</td><td><code>시응파메</code> <code>E-V-W-C</code></td></tr>
 <tr><td>137</td><td>관리</td><td>1</td><td>4</td><td><a href="/docs/sec/exam/137-1-4-ciphertext-attack">암호문 공격(Ciphertext Attack)을 설명하시오</a></td><td>암호화 알고리즘</td><td><code>암알선선</code> <code>예탐대개</code></td></tr>
 <tr><td>137</td><td>관리</td><td>1</td><td>6</td><td><a href="/docs/sec/exam/137-1-6-ai-governance">AI 거버넌스(Artificial Intelligence Governance)를 설명하시오</a></td><td>디지털윤리</td><td><code>가조프검</code> <code>사편규</code></td></tr>
-<tr><td>137</td><td>관리</td><td>3</td><td>6</td><td>국가 망 보안체계(N2SF)에 대하여 개념, 적용 절차, 고려사항을 설명하시오</td><td>보안모델</td><td>-</td></tr>
+<tr class="has-page"><td>137</td><td>관리</td><td>3</td><td>6</td><td><a href="/docs/sec/exam/137-3-6-n2sf">국가 망 보안체계(N2SF)에 대하여 개념, 적용 절차, 고려사항을 설명하시오</a></td><td>보안모델</td><td><code>CSO차자점</code> <code>준등위보적</code> <code>기관</code></td></tr>
 <tr><td>137</td><td>관리</td><td>4</td><td>1</td><td>BPFdoor 악성코드에 대하여 개념 및 기존 백도어와의 차이점, 위협 요소, 대응 방안을 설명하시오</td><td>APT</td><td>-</td></tr>
 <tr><td>137</td><td>컴시응</td><td>1</td><td>11</td><td><a href="/docs/sec/exam/137-1-11-ai-vulnerability">인공지능 시스템의 취약점</a></td><td>융합보안</td><td><code>PEIM</code> <code>적결탐쿼D</code></td></tr>
 <tr><td>137</td><td>컴시응</td><td>1</td><td>12</td><td><a href="/docs/sec/exam/137-1-12-cloud-native-security">클라우드 네이티브 보안</a></td><td>클라우드 보안</td><td><code>4C</code> <code>동Dev제</code> <code>3R</code></td></tr>
 <tr class="has-page"><td>137</td><td>컴시응</td><td>2</td><td>1</td><td><a href="/docs/sec/exam/137-2-1-public-mydata">공공 마이데이터 활용 방안에 대하여 설명하시오</a></td><td>개인정보 비식별화</td><td><code>정보본제</code> <code>맞행통취생</code> <code>금취헬생</code> <code>모스금유</code> <code>법기이정</code></td></tr>
-<tr><td>137</td><td>컴시응</td><td>3</td><td>3</td><td>OPC UA에 대하여 등장배경, OPC와 비교, 활용분야를 설명하시오</td><td>산업제어시스템보안</td><td>-</td></tr>
-<tr><td>137</td><td>컴시응</td><td>3</td><td>5</td><td><a href="/docs/sec/exam/137-3-5-sandbox-whitebox">샌드박스와 화이트박스의 목적, 적용 방법 및 예시를 설명하시오</a></td><td>Hacking</td><td><code>동격운</code> <code>정투개</code></td></tr>
+<tr class="has-page"><td>137</td><td>컴시응</td><td>3</td><td>3</td><td><a href="/docs/sec/exam/137-3-3-opc-ua">OPC UA에 대하여 등장배경, OPC와 비교, 활용분야를 설명하시오</a></td><td>산업제어시스템보안</td><td><code>윈암구→플보상</code> <code>운통H정방보플상</code> <code>공산에생품원스클</code></td></tr>
+<tr><td>137</td><td>컴시응</td><td>3</td><td>5</td><td>샌드박스와 화이트박스의 목적, 적용 방법 및 예시를 설명하시오</td><td>Hacking</td><td>-</td></tr>
 <tr><td>137</td><td>컴시응</td><td>4</td><td>5</td><td>침입차단시스템(Firewall), IDS, IPS 및 VPN에 대하여 설명하시오</td><td>IDS/IPS</td><td>-</td></tr>
 
 <!-- 136회 -->
