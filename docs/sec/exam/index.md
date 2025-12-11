@@ -169,7 +169,7 @@ SEC(정보보안) 관련 기출문제 모음입니다. **검색, 정렬, 필터�
 <tr><td>136</td><td>관리</td><td>1</td><td>12</td><td><a href="/docs/sec/exam/136-1-12-ecc">타원곡선 암호(ECC)</a></td><td>암호화 알고리즘</td><td><code>덧스무</code> <code>P=d×G</code></td></tr>
 <tr><td>136</td><td>관리</td><td>2</td><td>6</td><td><a href="/docs/sec/exam/136-2-6-tls">TLS에 대하여 프로토콜 구조와 핸드셰이크 과정, TLS 1.2 취약점과 TLS 1.3 개선 사항</a></td><td>SSL</td><td><code>RHCA</code> <code>CS인CF</code></td></tr>
 <tr><td>136</td><td>관리</td><td>4</td><td>4</td><td><a href="/docs/sec/exam/136-4-4-supply-chain-security">공급망 보안을 설명하고, 제로트러스트 기반 공급망 보안 아키텍처</a></td><td>보안모델</td><td><code>외탐위</code> <code>PE-PA-PEP</code></td></tr>
-<tr><td>136</td><td>관리</td><td>4</td><td>5</td><td>OWASP LLM Top 10에 대하여 배경과 주요 특징, 주요 보안 위협, 대응방안을 설명하시오</td><td>OWASP</td><td>-</td></tr>
+<tr class="has-page"><td>136</td><td>관리</td><td>4</td><td>5</td><td><a href="/docs/sec/exam/136-4-5-owasp-llm-top10">OWASP LLM Top 10에 대하여 배경과 주요 특징, 주요 보안 위협, 대응방안을 설명하시오</a></td><td>OWASP</td><td><code>인민공 대출과 프벡정무</code></td></tr>
 <tr><td>136</td><td>관리</td><td>4</td><td>6</td><td>소프트웨어 보안 품질에 대하여 정의와 중요성, 자동화 기술과 도구, 구현방안, 기대효과를 설명하시오</td><td>시큐어 코딩</td><td>-</td></tr>
 
 <!-- 135회 -->
