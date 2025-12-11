@@ -2,6 +2,35 @@
 <meta name="robots" content="noindex, nofollow">
 <meta name="googlebot" content="noindex, nofollow">
 
+<!-- 사이드바 상단 퀵 버튼 -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // 사이드바의 사이트 제목 영역 찾기
+  var siteTitle = document.querySelector('.site-title');
+  if (siteTitle) {
+    // 퀵 버튼 컨테이너 생성
+    var quickBtns = document.createElement('div');
+    quickBtns.className = 'sidebar-quick-btns';
+    quickBtns.innerHTML = `
+      <div class="quick-btn-row">
+        <a href="{{ site.baseurl }}/docs/ds" class="qbtn qbtn-purple">DS</a>
+        <a href="{{ site.baseurl }}/docs/sw" class="qbtn qbtn-blue">SW</a>
+        <a href="{{ site.baseurl }}/docs/ai" class="qbtn qbtn-green">AI</a>
+        <a href="{{ site.baseurl }}/docs/sec" class="qbtn qbtn-red">SEC</a>
+      </div>
+      <div class="quick-btn-row">
+        <a href="{{ site.baseurl }}/docs/nw" class="qbtn qbtn-orange">NW</a>
+        <a href="{{ site.baseurl }}/docs/db" class="qbtn qbtn-teal">DB</a>
+        <a href="{{ site.baseurl }}/docs/biz" class="qbtn qbtn-pink">BIZ</a>
+        <a href="{{ site.baseurl }}/docs/caos" class="qbtn qbtn-gray">CAOS</a>
+      </div>
+    `;
+    // 사이트 제목 바로 뒤에 삽입
+    siteTitle.parentNode.insertBefore(quickBtns, siteTitle.nextSibling);
+  }
+});
+</script>
+
 <!-- 커스텀 스타일: 풀 와이드 레이아웃 -->
 <style>
 /* ====================================
@@ -148,5 +177,60 @@ div.dataTables_wrapper div.dataTables_filter {
 
 div.dataTables_wrapper div.dataTables_length {
   text-align: left;
+}
+
+/* ====================================
+   사이드바 상단 퀵 버튼
+   ==================================== */
+
+.sidebar-quick-btns {
+  padding: 0.5rem 1rem 0.75rem 1rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.quick-btn-row {
+  display: flex;
+  gap: 0.35rem;
+  margin-bottom: 0.35rem;
+}
+
+.quick-btn-row:last-child {
+  margin-bottom: 0;
+}
+
+.qbtn {
+  flex: 1;
+  text-align: center;
+  padding: 0.25rem 0.4rem;
+  font-size: 0.7rem;
+  font-weight: 600;
+  border-radius: 4px;
+  text-decoration: none !important;
+  transition: all 0.15s ease;
+}
+
+.qbtn-purple { color: #7253ed; border: 1px solid #7253ed; background: transparent; }
+.qbtn-purple:hover { color: white; background: #7253ed; }
+.qbtn-blue { color: #2869e6; border: 1px solid #2869e6; background: transparent; }
+.qbtn-blue:hover { color: white; background: #2869e6; }
+.qbtn-green { color: #1db954; border: 1px solid #1db954; background: transparent; }
+.qbtn-green:hover { color: white; background: #1db954; }
+.qbtn-red { color: #e05d44; border: 1px solid #e05d44; background: transparent; }
+.qbtn-red:hover { color: white; background: #e05d44; }
+.qbtn-orange { color: #f5a623; border: 1px solid #f5a623; background: transparent; }
+.qbtn-orange:hover { color: white; background: #f5a623; }
+.qbtn-teal { color: #17a2b8; border: 1px solid #17a2b8; background: transparent; }
+.qbtn-teal:hover { color: white; background: #17a2b8; }
+.qbtn-pink { color: #e83e8c; border: 1px solid #e83e8c; background: transparent; }
+.qbtn-pink:hover { color: white; background: #e83e8c; }
+.qbtn-gray { color: #6c757d; border: 1px solid #6c757d; background: transparent; }
+.qbtn-gray:hover { color: white; background: #6c757d; }
+
+/* 모바일에서는 숨김 (작은 화면) */
+@media (max-width: 50rem) {
+  .sidebar-quick-btns {
+    display: none;
+  }
 }
 </style>
