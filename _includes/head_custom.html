@@ -180,19 +180,22 @@ div.dataTables_wrapper div.dataTables_length {
 }
 
 /* ====================================
-   사이드바 상단 퀵 버튼
+   사이드바 상단 퀵 버튼 (Apple Style)
    ==================================== */
 
 .sidebar-quick-btns {
-  padding: 0.5rem 1rem 0.75rem 1rem;
-  margin-bottom: 0.5rem;
-  border-bottom: 1px solid #e6e6e6;
+  padding: 1rem;
+  margin: 0.5rem 0.75rem 1rem 0.75rem;
+  background: linear-gradient(135deg, #f8f9fa 0%, #f1f3f4 100%);
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
 }
 
 .quick-btn-row {
   display: flex;
-  gap: 0.35rem;
-  margin-bottom: 0.35rem;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 8px;
 }
 
 .quick-btn-row:last-child {
@@ -201,31 +204,62 @@ div.dataTables_wrapper div.dataTables_length {
 
 .qbtn {
   flex: 1;
+  max-width: 56px;
   text-align: center;
-  padding: 0.25rem 0.4rem;
-  font-size: 0.7rem;
+  padding: 8px 4px;
+  font-size: 11px;
   font-weight: 600;
-  border-radius: 4px;
+  letter-spacing: -0.2px;
+  border-radius: 12px;
   text-decoration: none !important;
-  transition: all 0.15s ease;
+  transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  border: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 
-.qbtn-purple { color: #7253ed; border: 1px solid #7253ed; background: transparent; }
-.qbtn-purple:hover { color: white; background: #7253ed; }
-.qbtn-blue { color: #2869e6; border: 1px solid #2869e6; background: transparent; }
-.qbtn-blue:hover { color: white; background: #2869e6; }
-.qbtn-green { color: #1db954; border: 1px solid #1db954; background: transparent; }
-.qbtn-green:hover { color: white; background: #1db954; }
-.qbtn-red { color: #e05d44; border: 1px solid #e05d44; background: transparent; }
-.qbtn-red:hover { color: white; background: #e05d44; }
-.qbtn-orange { color: #f5a623; border: 1px solid #f5a623; background: transparent; }
-.qbtn-orange:hover { color: white; background: #f5a623; }
-.qbtn-teal { color: #17a2b8; border: 1px solid #17a2b8; background: transparent; }
-.qbtn-teal:hover { color: white; background: #17a2b8; }
-.qbtn-pink { color: #e83e8c; border: 1px solid #e83e8c; background: transparent; }
-.qbtn-pink:hover { color: white; background: #e83e8c; }
-.qbtn-gray { color: #6c757d; border: 1px solid #6c757d; background: transparent; }
-.qbtn-gray:hover { color: white; background: #6c757d; }
+.qbtn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.qbtn:active {
+  transform: translateY(0);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* 애플 스타일 그라데이션 컬러 */
+.qbtn-purple { 
+  color: #fff; 
+  background: linear-gradient(135deg, #8B5CF6 0%, #7C3AED 100%);
+}
+.qbtn-blue { 
+  color: #fff; 
+  background: linear-gradient(135deg, #3B82F6 0%, #2563EB 100%);
+}
+.qbtn-green { 
+  color: #fff; 
+  background: linear-gradient(135deg, #22C55E 0%, #16A34A 100%);
+}
+.qbtn-red { 
+  color: #fff; 
+  background: linear-gradient(135deg, #EF4444 0%, #DC2626 100%);
+}
+.qbtn-orange { 
+  color: #fff; 
+  background: linear-gradient(135deg, #F97316 0%, #EA580C 100%);
+}
+.qbtn-teal { 
+  color: #fff; 
+  background: linear-gradient(135deg, #14B8A6 0%, #0D9488 100%);
+}
+.qbtn-pink { 
+  color: #fff; 
+  background: linear-gradient(135deg, #EC4899 0%, #DB2777 100%);
+}
+.qbtn-gray { 
+  color: #fff; 
+  background: linear-gradient(135deg, #6B7280 0%, #4B5563 100%);
+}
 
 /* 모바일에서는 숨김 (작은 화면) */
 @media (max-width: 50rem) {
