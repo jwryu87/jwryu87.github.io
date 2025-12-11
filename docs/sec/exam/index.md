@@ -188,6 +188,7 @@ SEC(정보보안) 관련 기출문제 모음입니다. **검색, 정렬, 필터�
 <tr class="has-page"><td>134</td><td>관리</td><td>1</td><td>11</td><td><a href="/docs/sec/exam/134-1-11-pet">개인정보 보호 강화기술(PET)</a></td><td>PIA</td><td><code>난암연책</code> <code>차합영</code> <code>동신안신</code> <code>연분</code> <code>책개</code></td></tr>
 <tr class="has-page"><td>134</td><td>관리</td><td>1</td><td>13</td><td><a href="/docs/sec/exam/134-1-13-zsm">ETSI ZSM</a></td><td>네트워크</td><td><code>완E2AI</code> <code>OICA</code> <code>DNI</code></td></tr>
 <tr><td>134</td><td>관리</td><td>2</td><td>2</td><td>다크패턴(Dark Pattern)의 세부 유형 및 대응 방안을 설명하시오</td><td>랜섬웨어</td><td>-</td></tr>
+<tr class="has-page"><td>134</td><td>관리</td><td>2</td><td>5</td><td><a href="/docs/sec/exam/134-2-5-traffic-policing-shaping">트래픽 폴리싱과 트래픽 쉐이핑</a></td><td>네트워크</td><td><code>MMD</code> <code>CCEE</code> <code>LTH</code></td></tr>
 <tr><td>134</td><td>관리</td><td>3</td><td>3</td><td>SBOM에 대하여 오픈소스 소프트웨어 취약점, SBOM 기반 관리 방안을 설명하시오</td><td>Hacking</td><td>-</td></tr>
 <tr><td>134</td><td>컴시응</td><td>1</td><td>2</td><td><a href="/docs/sec/exam/134-1-2-zero-day">제로데이(Zero Day) 취약점</a></td><td>Hacking</td><td><code>발분개배업</code> <code>최방필교</code></td></tr>
 <tr><td>134</td><td>컴시응</td><td>1</td><td>5</td><td><a href="/docs/sec/exam/134-1-5-zero-trust">제로 트러스트(Zero Trust)</a></td><td>보안모델</td><td><code>제데</code> <code>PE-PA-PEP</code> <code>마소제</code></td></tr>
