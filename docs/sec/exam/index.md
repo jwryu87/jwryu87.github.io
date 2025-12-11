@@ -197,7 +197,7 @@ SEC(정보보안) 관련 기출문제 모음입니다. **검색, 정렬, 필터�
 <!-- 133회 -->
 <tr class="has-page"><td>133</td><td>관리</td><td>1</td><td>4</td><td><a href="/docs/sec/exam/133-1-4-digital-envelope">전자봉투 생성절차와 개봉절차를 설명하시오</a></td><td>PKI</td><td><code>메전비전전</code> <code>전암전무</code></td></tr>
 <tr class="has-page"><td>133</td><td>관리</td><td>1</td><td>5</td><td><a href="/docs/sec/exam/133-1-5-homomorphic-encryption">동형암호의 동작원리와 유형을 설명하시오</a></td><td>암호화 알고리즘</td><td><code>부준완</code> <code>스부서다</code> <code>S-H-혜</code></td></tr>
-<tr><td>133</td><td>관리</td><td>1</td><td>10</td><td>딥페이크(Deepfake)에 대하여 설명하시오</td><td>융합보안</td><td>-</td></tr>
+<tr class="has-page"><td>133</td><td>관리</td><td>1</td><td>10</td><td><a href="/docs/sec/exam/133-1-10-deepfake">딥페이크(Deepfake)에 대하여 설명하시오</a></td><td>융합보안</td><td><code>수학프합</code> <code>생판미내</code> <code>L-A</code></td></tr>
 <tr><td>133</td><td>관리</td><td>2</td><td>5</td><td>PbD(Privacy by Design)에 대하여 7대 원칙, 8대 전략, 개인정보보호법과의 비교를 설명하시오</td><td>개인정보보호법</td><td>-</td></tr>
 <tr><td>133</td><td>관리</td><td>3</td><td>1</td><td>안티포렌식에 대하여 배경 및 기술, 컴플라이언스 시스템의 구축 프로세스를 설명하시오</td><td>디지털 포렌식</td><td>-</td></tr>
 <tr><td>133</td><td>관리</td><td>4</td><td>3</td><td>접근제어에 대하여 개념과 정책, 절차, 구현 매커니즘을 설명하시오</td><td>보안모델</td><td>-</td></tr>
