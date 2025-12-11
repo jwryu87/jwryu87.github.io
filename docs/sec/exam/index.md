@@ -154,7 +154,7 @@ SEC(정보보안) 관련 기출문제 모음입니다. **검색, 정렬, 필터�
 <!-- 137회 -->
 <tr><td>137</td><td>관리</td><td>1</td><td>2</td><td><a href="/docs/sec/exam/137-1-2-artifact">디지털 포렌식에서 아트팩트(Artifact)를 설명하시오</a></td><td>디지털 포렌식</td><td><code>(절차) 식우수무문</code> <code>(유형) 시응파메</code> <code>(기술) 수보분</code> <code>(도구) E-V-W-C</code></td></tr>
 <tr><td>137</td><td>관리</td><td>1</td><td>4</td><td><a href="/docs/sec/exam/137-1-4-ciphertext-attack">암호문 공격(Ciphertext Attack)을 설명하시오</a></td><td>암호화 알고리즘</td><td><code>(특징) 제패고현</code> <code>(공격) 빈패통기</code> <code>(대응) 강암패적</code></td></tr>
-<tr><td>137</td><td>관리</td><td>1</td><td>6</td><td><a href="/docs/sec/exam/137-1-6-ai-governance">AI 거버넌스(Artificial Intelligence Governance)를 설명하시오</a></td><td>디지털윤리</td><td><code>가조프검</code> <code>사편규</code></td></tr>
+<tr class="has-page has-mnemonic"><td><a href="/docs/sec/exam/137-1-6-ai-governance">AI 거버넌스(Artificial Intelligence Governance)를 설명하시오</a></td><td><code>(필요성) 사편규</code> <code>(구성요소) 가조프검</code> <code>(관리영역) 모편데투규리</code></td><td>137</td><td>관리</td><td>1</td><td>6</td><td>디지털윤리</td></tr>
 <tr class="has-page"><td>137</td><td>관리</td><td>3</td><td>6</td><td><a href="/docs/sec/exam/137-3-6-n2sf">국가 망 보안체계(N2SF)에 대하여 개념, 적용 절차, 고려사항을 설명하시오</a></td><td>보안모델</td><td><code>CSO차자점</code> <code>준등위보적</code> <code>기관</code></td></tr>
 <tr><td>137</td><td>관리</td><td>4</td><td>1</td><td><a href="/docs/sec/exam/137-4-1-bpfdoor">BPFdoor 악성코드에 대하여 개념 및 기존 백도어와의 차이점, 위협 요소, 대응 방안을 설명하시오</a></td><td>APT</td><td><code>스메보</code> <code>탐방은다APT</code></td></tr>
 <tr><td>137</td><td>컴시응</td><td>1</td><td>11</td><td><a href="/docs/sec/exam/137-1-11-ai-vulnerability">인공지능 시스템의 취약점</a></td><td>융합보안</td><td><code>PEIM</code> <code>적결탐쿼D</code></td></tr>
