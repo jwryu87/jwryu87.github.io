@@ -6,18 +6,22 @@
 <style>
 /* ====================================
    Just the Docs 풀 와이드 레이아웃
+   모든 컨테이너 너비 제한 제거
    ==================================== */
 
-/* 메인 컨텐츠 최대 너비 제거 - 풀 와이드 */
-.main-content {
+/* 모든 컨텐츠 컨테이너 너비 제한 제거 */
+.main-content,
+.main-content-wrap,
+main.main-content-wrap,
+.main .main-content-wrap,
+.main .main-content {
   max-width: none !important;
+  width: 100% !important;
 }
 
-/* 메인 컨텐츠 래퍼 풀 와이드 */
-.main-content-wrap {
+/* 메인 영역 전체 */
+.main {
   max-width: none !important;
-  padding-left: 3rem;
-  padding-right: 3rem;
 }
 
 /* 사이드바 고정 */
@@ -25,52 +29,58 @@
   .side-bar {
     width: 280px;
     min-width: 280px;
+    flex-shrink: 0;
   }
   
   .main {
     margin-left: 280px;
+    width: calc(100% - 280px) !important;
+    max-width: none !important;
+  }
+  
+  .main-content-wrap {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  
+  .main-content {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
 
-/* 더 넓은 화면에서 여유 있는 패딩 */
+/* 더 넓은 화면 */
 @media (min-width: 100rem) {
   .main-content-wrap {
-    padding-left: 4rem;
-    padding-right: 4rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
 }
 
 /* 초대형 화면 */
 @media (min-width: 120rem) {
   .main-content-wrap {
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
   }
 }
 
 /* ====================================
-   테이블 및 코드 블록 최적화
+   테이블 풀 와이드
    ==================================== */
 
-/* 테이블 너비 최대화 */
 .main-content table {
-  width: 100%;
-  max-width: 100%;
+  width: 100% !important;
+  max-width: none !important;
+  display: table !important;
 }
 
-/* 코드 블록 너비 최대화 */
-.main-content pre {
-  max-width: 100%;
-  overflow-x: auto;
-}
-
-/* ====================================
-   기출문제 테이블 최적화
-   ==================================== */
-
+/* 기출문제 테이블 */
 #examTable {
+  width: 100% !important;
+  max-width: none !important;
   font-size: 0.9rem;
-  width: 100%;
+  table-layout: auto;
 }
 
 #examTable th,
@@ -79,49 +89,61 @@
   white-space: nowrap;
 }
 
-/* 문제 컬럼은 줄바꿈 허용 */
-#examTable td:nth-child(5) {
+/* 문제 컬럼은 줄바꿈 허용, 넓게 */
+#examTable td:nth-child(5),
+#examTable th:nth-child(5) {
   white-space: normal;
-  min-width: 300px;
+  min-width: 400px;
+  width: auto;
 }
 
 /* 암기법 컬럼도 줄바꿈 허용 */
-#examTable td:nth-child(7) {
+#examTable td:nth-child(7),
+#examTable th:nth-child(7) {
   white-space: normal;
-  min-width: 150px;
+  min-width: 200px;
 }
 
 /* ====================================
-   상세 페이지 가독성 유지
+   코드 블록 풀 와이드
    ==================================== */
 
-/* 본문 텍스트는 적정 너비 유지 (가독성) */
+.main-content pre,
+.main-content .highlight {
+  max-width: none !important;
+  width: 100% !important;
+  overflow-x: auto;
+}
+
+/* ====================================
+   상세 페이지 본문 가독성
+   ==================================== */
+
+/* 본문 텍스트는 적정 너비 유지 (선택적) */
+/* 주석 해제하면 본문만 900px로 제한됨 */
+/*
 .main-content > p,
 .main-content > ul,
 .main-content > ol,
 .main-content > blockquote {
   max-width: 900px;
 }
+*/
 
-/* 제목은 풀 와이드 */
-.main-content > h1,
-.main-content > h2,
-.main-content > h3,
-.main-content > h4 {
-  max-width: none;
+/* ====================================
+   DataTables 스타일 오버라이드
+   ==================================== */
+
+.dataTables_wrapper {
+  width: 100% !important;
+  max-width: none !important;
 }
 
-/* 테이블, 코드블록, 다이어그램은 풀 와이드 */
-.main-content > table,
-.main-content > pre,
-.main-content > .highlight,
-.main-content > details {
-  max-width: none;
+div.dataTables_wrapper div.dataTables_filter {
+  text-align: right;
 }
 
-/* 하이라이트 박스 풀 와이드 */
-.main-content > .highlight-box,
-.main-content > [class*="highlight"] {
-  max-width: none;
+div.dataTables_wrapper div.dataTables_length {
+  text-align: left;
 }
 </style>
