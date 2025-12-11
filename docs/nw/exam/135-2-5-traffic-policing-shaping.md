@@ -1,16 +1,16 @@
 ---
 layout: default
-title: 134회-2교시-5번 트래픽 폴리싱과 트래픽 쉐이핑
+title: 135회-2교시-5번 트래픽 폴리싱과 트래픽 쉐이핑
 parent: 📝 기출문제
-grand_parent: SEC (정보보안)
-nav_order: 134025
-permalink: /docs/sec/exam/134-2-5-traffic-policing-shaping
+grand_parent: NW (네트워크)
+nav_order: 135205
+permalink: /docs/nw/exam/135-2-5-traffic-policing-shaping
 ---
 
 # 트래픽 폴리싱(Traffic Policing)과 트래픽 쉐이핑(Traffic Shaping)
 {: .no_toc }
 
-134회 정보관리기술사 2교시 5번
+135회 정보관리기술사 2교시 5번
 {: .label .label-blue }
 
 네트워크 / 난이도: 중

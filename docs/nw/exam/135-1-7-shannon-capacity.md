@@ -1,16 +1,16 @@
 ---
 layout: default
-title: 134회-1교시-7번 채널용량(샤논 제3정리)
+title: 135회-1교시-7번 채널용량(샤논 제3정리)
 parent: 📝 기출문제
-grand_parent: SEC (정보보안)
-nav_order: 134017
-permalink: /docs/sec/exam/134-1-7-shannon-capacity
+grand_parent: NW (네트워크)
+nav_order: 135107
+permalink: /docs/nw/exam/135-1-7-shannon-capacity
 ---
 
 # 채널용량 (샤논 제3정리, Information Capacity Theorem)
 {: .no_toc }
 
-134회 정보관리기술사 1교시 7번
+135회 정보관리기술사 1교시 7번
 {: .label .label-blue }
 
 네트워크 / 난이도: 중
