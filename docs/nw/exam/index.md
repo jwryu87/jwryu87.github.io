@@ -176,6 +176,9 @@ NW(네트워크) 관련 기출문제 모음입니다. **검색, 정렬, 필터�
 <tr><td>137</td><td>관리</td><td>3</td><td>5</td><td>통신 프로토콜에 대하여 각 항목을 설명하시오. 가. 오류 제어, 혼잡 제어 나. 슬라이딩 윈도우 기법 다. 프로토콜 설계 시 고려 사항</td><td>OSI 7 Layer</td><td>-</td></tr>
 <tr class="has-page"><td>137</td><td>컴시응</td><td>4</td><td>4</td><td><a href="/docs/nw/exam/137-4-4-dns">DNS(Domain Name System) 개요, 구성요소, 보안 취약점 및 대응 방안</a></td><td>DNS</td><td><code>도리존네리</code> <code>DNSSEC</code></td></tr>
 
+<!-- 136회 -->
+<tr class="has-page"><td>136</td><td>관리</td><td>2</td><td>5</td><td><a href="/docs/nw/exam/136-2-5-communication-protocol">통신 프로토콜 오류제어, 혼잡제어, 슬라이딩 윈도우, 설계 시 고려사항</a></td><td>OSI 7 Layer</td><td><code>FB</code> <code>SCFR</code> <code>호안성효</code></td></tr>
+
 <!-- 135회 -->
 <tr><td>135</td><td>관리</td><td>1</td><td>4</td><td>IBN(Intent-Based Networking)</td><td>SDN</td><td>-</td></tr>
 <tr><td>135</td><td>관리</td><td>1</td><td>10</td><td>IEEE 802.11bn</td><td>차세대무선랜</td><td>-</td></tr>

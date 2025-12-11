@@ -2,9 +2,9 @@
 layout: default
 title: 136회-2교시-5번 통신 프로토콜
 parent: 📝 기출문제
-grand_parent: SEC (정보보안)
-nav_order: 136025
-permalink: /docs/sec/exam/136-2-5-communication-protocol
+grand_parent: NW (네트워크)
+nav_order: 136205
+permalink: /docs/nw/exam/136-2-5-communication-protocol
 ---
 
 # 통신 프로토콜
