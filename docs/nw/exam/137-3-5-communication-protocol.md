@@ -1,15 +1,15 @@
 ---
 layout: default
-title: 136회-2교시-5번 통신 프로토콜
+title: 137회-3교시-5번 통신 프로토콜
 parent: 📝 기출문제
 grand_parent: NW (네트워크)
-nav_order: 136205
-permalink: /docs/nw/exam/136-2-5-communication-protocol
+nav_order: 137305
+permalink: /docs/nw/exam/137-3-5-communication-protocol
 ---
 
 # 통신 프로토콜
 
-136회 정보관리기술사 2교시 5번
+137회 정보관리기술사 3교시 5번
 {: .label .label-blue }
 
 NW / 난이도: 중
