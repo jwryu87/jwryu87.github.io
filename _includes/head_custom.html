@@ -5,9 +5,9 @@
 <!-- 사이드바 상단 퀵 버튼 -->
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  // 사이드바의 사이트 제목 영역 찾기
-  var siteTitle = document.querySelector('.site-title');
-  if (siteTitle) {
+  // 사이드바의 네비게이션 영역 찾기 (.site-nav 앞에 삽입)
+  var siteNav = document.querySelector('.site-nav');
+  if (siteNav) {
     // 퀵 버튼 컨테이너 생성
     var quickBtns = document.createElement('div');
     quickBtns.className = 'sidebar-quick-btns';
@@ -25,8 +25,8 @@ document.addEventListener('DOMContentLoaded', function() {
         <a href="{{ site.baseurl }}/docs/caos" class="qbtn qbtn-gray">CAOS</a>
       </div>
     `;
-    // 사이트 제목 바로 뒤에 삽입
-    siteTitle.parentNode.insertBefore(quickBtns, siteTitle.nextSibling);
+    // site-nav 바로 앞에 삽입 (제목 아래, Home 위)
+    siteNav.parentNode.insertBefore(quickBtns, siteNav);
   }
 });
 </script>
