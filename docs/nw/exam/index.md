@@ -172,7 +172,7 @@ NW(네트워크) 관련 기출문제 모음입니다. **검색, 정렬, 필터�
 </thead>
 <tbody>
 <!-- 137회 -->
-<tr><td>137</td><td>관리</td><td>1</td><td>1</td><td>동적 라우팅 프로토콜인 IGP(Interior Gateway Protocol)와 EGP(Exterior Gateway Protocol)를 설명하시오</td><td>라우팅 프로토콜</td><td>-</td></tr>
+<tr class="has-page"><td>137</td><td>관리</td><td>1</td><td>1</td><td><a href="/docs/nw/exam/137-1-1-igp-egp">동적 라우팅 프로토콜인 IGP와 EGP를 설명하시오</a></td><td>라우팅 프로토콜</td><td><code>RIP-OSPF-EIGRP</code> <code>BGP</code></td></tr>
 <tr><td>137</td><td>관리</td><td>3</td><td>5</td><td>통신 프로토콜에 대하여 각 항목을 설명하시오. 가. 오류 제어, 혼잡 제어 나. 슬라이딩 윈도우 기법 다. 프로토콜 설계 시 고려 사항</td><td>OSI 7 Layer</td><td>-</td></tr>
 <tr><td>137</td><td>컴시응</td><td>4</td><td>4</td><td>DNS(Domain Name System)에 대하여 설명하시오. 가. DNS 개요 나. DNS 구성요소 다. DNS의 보안 취약점 및 대응 방안</td><td>DNS</td><td>-</td></tr>
 
