@@ -89,7 +89,7 @@ permalink: /docs/sec/exam/137-1-12-cloud-native-security
 {: #-기술사-수준-설명}
 
 {: .highlight }
-> **클라우드 네이티브 보안**: 4C, DevSecOps, 제로트러스트
+> **클라우드 네이티브 보안**: 4C, DevSecOps, 제로트러스트 → 클라우드 네이티브 보안 전략
 > - (계층) `4C` (Cloud-Cluster-Container-Code)
 > - (특징) `동Dev제` (동적구조, DevSecOps, 제로트러스트)
 > - (원칙) `3R` (Rotate, Repair, Repave)

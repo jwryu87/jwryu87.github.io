@@ -70,7 +70,7 @@ permalink: /docs/sec/exam/137-4-1-bpfdoor
 ### 📌 핵심 암기 (Quick Reference)
 
 {: .highlight }
-> **BPFdoor**: 스텔스, 포트리스, 커널레벨
+> **BPFdoor**: 스텔스, 포트리스, 커널레벨 → BPF 기반 백도어 악성코드
 > - (특징) `스메보` (스텔스, 메모리상주, 보안우회)
 > - (위협) `탐방은다APT`
 > - (대응) `침로보위` + `정보위정`

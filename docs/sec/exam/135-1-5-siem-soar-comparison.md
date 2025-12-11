@@ -91,7 +91,7 @@ permalink: /docs/sec/exam/135-1-5-siem-soar-comparison
 {: #-기술사-수준-설명}
 
 {: .highlight }
-> **SIEM vs SOAR**: 로그수집분석, 위협인텔리전스, 자동대응
+> **SIEM vs SOAR**: 로그수집분석, 위협인텔리전스, 자동대응 → 보안 관제 플랫폼
 > - (SIEM) `목로그이사보자`
 > - (SOAR) `목자오사보자`
 > - (비교항목) `목로그이사보자오통집분자유`

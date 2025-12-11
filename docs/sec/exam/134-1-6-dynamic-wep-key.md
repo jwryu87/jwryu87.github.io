@@ -88,7 +88,7 @@ permalink: /docs/sec/exam/134-1-6-dynamic-wep-key
 {: #-기술사-수준-설명}
 
 {: .highlight }
-> **동적 WEP 키**: 주기적키변경, EAP-TLS인증, RC4암호화
+> **동적 WEP 키**: 주기적키변경, EAP-TLS인증, RC4암호화 → 무선 보안 인증 기술
 > - (기술요소) `인암`
 > - (암호화과정) `공무키초`
 > - (인증절차) `인인암성`

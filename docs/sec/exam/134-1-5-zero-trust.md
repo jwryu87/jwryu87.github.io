@@ -90,7 +90,7 @@ permalink: /docs/sec/exam/134-1-5-zero-trust
 ### 📌 핵심 암기 (Quick Reference)
 
 {: .highlight }
-> **제로 트러스트**: Never Trust, Always Verify
+> **제로 트러스트**: Never Trust, Always Verify → 무신뢰 기반 보안 모델
 > - (플레인) `제데` (제어, 데이터)
 > - (정책) `PE-PA-PEP`
 > - (기술) `마소제` (마이크로세그, SDP, ZT프록시)
