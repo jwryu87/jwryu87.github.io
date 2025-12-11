@@ -160,7 +160,7 @@ SEC(정보보안) 관련 기출문제 모음입니다. **검색, 정렬, 필터�
 <tr><td>137</td><td>컴시응</td><td>1</td><td>12</td><td><a href="/docs/sec/exam/137-1-12-cloud-native-security">클라우드 네이티브 보안</a></td><td>클라우드 보안</td><td><code>4C</code> <code>동Dev제</code> <code>3R</code></td></tr>
 <tr class="has-page"><td>137</td><td>컴시응</td><td>2</td><td>1</td><td><a href="/docs/sec/exam/137-2-1-public-mydata">공공 마이데이터 활용 방안에 대하여 설명하시오</a></td><td>개인정보 비식별화</td><td><code>정보본제</code> <code>맞행통취생</code> <code>금취헬생</code> <code>모스금유</code> <code>법기이정</code></td></tr>
 <tr><td>137</td><td>컴시응</td><td>3</td><td>3</td><td>OPC UA에 대하여 등장배경, OPC와 비교, 활용분야를 설명하시오</td><td>산업제어시스템보안</td><td>-</td></tr>
-<tr><td>137</td><td>컴시응</td><td>3</td><td>5</td><td>샌드박스와 화이트박스의 목적, 적용 방법 및 예시를 설명하시오</td><td>Hacking</td><td>-</td></tr>
+<tr><td>137</td><td>컴시응</td><td>3</td><td>5</td><td><a href="/docs/sec/exam/137-3-5-sandbox-whitebox">샌드박스와 화이트박스의 목적, 적용 방법 및 예시를 설명하시오</a></td><td>Hacking</td><td><code>동격운</code> <code>정투개</code></td></tr>
 <tr><td>137</td><td>컴시응</td><td>4</td><td>5</td><td>침입차단시스템(Firewall), IDS, IPS 및 VPN에 대하여 설명하시오</td><td>IDS/IPS</td><td>-</td></tr>
 
 <!-- 136회 -->
