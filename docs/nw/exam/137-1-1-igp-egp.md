@@ -64,7 +64,7 @@ permalink: /docs/nw/exam/137-1-1-igp-egp
 ### 📌 핵심 암기 (Quick Reference)
 
 {: .highlight }
-> **IGP/EGP**: AS 기준 내부/외부 라우팅
+> **IGP/EGP**: AS 기준 내부/외부 라우팅 → 라우팅 프로토콜 분류
 > - (IGP 프로토콜) `RIP-IGRP-EIGRP-OSPF`
 > - (EGP 프로토콜) `BGP`
 > - (IGP 방식) `DV-LS-Hybrid`
